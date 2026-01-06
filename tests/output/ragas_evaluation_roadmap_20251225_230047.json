@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-12-25T23:00:47.962443",
+  "intent_filter": "roadmap",
+  "total_queries": 2,
+  "results": [
+    {
+      "question": "Học kỳ 1 ngành TTNT học những môn gì?",
+      "answer": "**Bảng Môn Học Học Kỳ 1 Ngành Trí Tuệ Nhân Tạo**\n\n| Mã MH | Tên môn học | Số TC | LT | TH |\n|---|---|---|---|---|\n| IT001 | Nhập môn Lập trình | 4 | 3 | 1 |\n| MA006 | Giải tích | 4 | 4 | 0 |\n| MA003 | Đại số tuyến tính | 3 | 3 | 0 |\n| AI001 | Giới thiệu ngành Trí tuệ nhân tạo | 1 | 1 | 0 |\n| ENG01 | Anh văn 1 | 4 | 4 | 0 |\n| SS004 | Kỹ năng nghề nghiệp | 2 | 2 | 0 |\n| SS006 | Pháp luật đại cương | 2 | 2 | 0 |\n| ME001 | Giáo dục quốc phòng | - | - | - |\n",
+      "contexts": [
+        "[Ngành Trí Tuệ Nhân Tạo > KẾ HOẠCH GIẢNG DẠY > Học kỳ 1]\n\n\n\n[Bảng 1] Bảng 9 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IT001, Tên môn học: Nhập môn Lập trình, TC: 4, LT: 3, TH: 1\nMã MH: MA006, Tên môn học: Giải tích, TC: 4, LT: 4, TH: 0\nMã MH: MA003, Tên môn học: Đại số tuyến tính, TC: 3, LT: 3, TH: 0\nMã MH: AI001, Tên môn học: Giới thiệu ngành Trí tuệ nhân tạo, TC: 1, LT: 1, TH: 0\nMã MH: ENG01, Tên môn học: Anh văn 1, TC: 4, LT: 4, TH: 0\nMã MH: SS004, Tên môn học: Kỹ năng nghề nghiệp, TC: 2, LT: 2, TH: 0\nMã MH: SS006, Tên môn học: Pháp luật đại cương, TC: 2, LT: 2, TH: 0\nMã MH: ME001, Tên môn học: Giáo dục quốc phòng\nMã MH: Tổng số tín chỉ Học kỳ 1, TC: 20, LT: 19, TH: 1..."
+      ],
+      "ground_truth": "",
+      "expected_intent": "roadmap",
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": null,
+        "num_sources": 1,
+        "total_time_ms": 45612.876653671265,
+        "major": null
+      },
+      "sources": [
+        {
+          "section_id": "da92b87f2b4d",
+          "title": "Học kỳ 1",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > KẾ HOẠCH GIẢNG DẠY > Học kỳ 1",
+          "text_preview": "[Ngành Trí Tuệ Nhân Tạo > KẾ HOẠCH GIẢNG DẠY > Học kỳ 1]\n\n\n\n[Bảng 1] Bảng 9 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IT001, Tên môn học: Nhập môn Lập trình, TC: 4, LT: 3, TH: 1\nMã MH: MA006, Tên môn học: Giải tích, TC: 4, LT: 4, TH: 0\nMã MH: MA003, Tên môn học: Đại số tuyến tính, TC: 3, LT: 3, TH: 0\nMã MH: AI001, Tên môn học: Giới thiệu ngành Trí tuệ nhân tạo, TC: 1, LT: 1, TH: 0\nMã MH: ENG01, Tên môn học: Anh văn 1, TC: 4, LT: 4, TH: 0\nMã MH: SS004, Tên môn học: Kỹ năng nghề nghiệp, TC: 2, LT: 2, TH: 0\nMã MH: SS006, Tên môn học: Pháp luật đại cương, TC: 2, LT: 2, TH: 0\nMã MH: ME001, Tên môn học: Giáo dục quốc phòng\nMã MH: Tổng số tín chỉ Học kỳ 1, TC: 20, LT: 19, TH: 1...",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "question": "Học kỳ 6 ngành CNTT học những môn gì?",
+      "answer": "ERROR: 'NoneType' object is not iterable",
+      "contexts": [],
+      "ground_truth": "",
+      "expected_intent": "roadmap",
+      "metadata": {
+        "error": "'NoneType' object is not iterable"
+      },
+      "sources": []
+    }
+  ]
+}

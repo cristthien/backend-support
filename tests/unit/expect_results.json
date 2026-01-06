@@ -1,0 +1,190 @@
+[
+  {
+    "original": "Ngành TTNT học những gì?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Tốt nghiệp ngành TTNT cần bao nhiêu tín chỉ?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Chuẩn đầu ra PLO của ngành AI là gì?",
+    "expected_intent": "outcomes"
+  },
+  {
+    "original": "Ngành CNTT có những chuẩn đầu ra nào?",
+    "expected_intent": "outcomes"
+  },
+  {
+    "original": "Học kỳ 1 ngành AI học những môn gì?",
+    "expected_intent": "roadmap"
+  },
+  {
+    "original": "Môn tự chọn ngành TTNT có những môn gì?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Chương trình tiên tiến HTTT tốt nghiệp như thế nào?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Môn chuyên đề TN ngành AI có gì?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Năm thứ 2 chương trình HTTT tiên tiến học gì?",
+    "expected_intent": "roadmap"
+  },
+  {
+    "original": "Lộ trình 4 năm ngành CNTT như thế nào?",
+    "expected_intent": "roadmap"
+  },
+  {
+    "original": "Khi nào học môn Máy học trong chương trình TTNT?",
+    "expected_intent": "roadmap"
+  },
+  {
+    "original": "Tốt nghiệp ngành TTNT có mấy cách?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Môn phân tích thống kê khác gì với môn xác suất thống kê?",
+    "expected_intent": "compare"
+  },
+  {
+    "original": "Khi nào phải học chuyên đề tốt nghiệp?",
+    "expected_intent": "roadmap"
+  },
+  {
+    "original": "Công nghệ thông tin khác Khoa học máy tính như thế nào?",
+    "expected_intent": "compare"
+  },
+  {
+    "original": "So sánh HTTT thường và HTTT tiên tiến",
+    "expected_intent": "compare"
+  },
+  {
+    "original": "Năm thứ 2 HTTT tiên tiến học gì?",
+    "expected_intent": "roadmap"
+  },
+  {
+    "original": "Lộ trình 4 năm ngành CNTT như thế nào?",
+    "expected_intent": "roadmap"
+  },
+  {
+    "original": "Ngành HTTT tiên tiến ra làm gì?",
+    "expected_intent": "outcomes"
+  },
+  {
+    "original": "Tốt nghiệp ngành TTNT có mấy cách?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "So sánh HTTT thường và HTTT tiên tiến",
+    "expected_intent": "compare"
+  },
+  {
+    "original": "3 ngành phù hợp với ai?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Ngành Trí Tuệ Nhân Tạo yêu cầu tối thiểu bao nhiêu tín chỉ để tốt nghiệp?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Thời gian đào tạo ngành CNTT kéo dài bao nhiêu năm?",
+    "expected_intent": "roadmap"
+  },
+  {
+    "original": "Khối kiến thức giáo dục đại cương của ngành Trí Tuệ Nhân Tạo gồm bao nhiêu tín chỉ?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Môn Nhập Môn Lập Trình thuộc nhóm kiến thức nào và bao nhiêu tín chỉ?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Khóa luận tốt nghiệp ngành Trí Tuệ Nhân Tạo có bao nhiêu tín chỉ?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Học kỳ 1 ngành Trí Tuệ Nhân Tạo có tổng cộng bao nhiêu tín chỉ?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Ngành Trí Tuệ Nhân Tạo yêu cầu bao nhiêu tín chỉ ngoại ngữ?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Ngành CNTT yêu cầu tổng cộng bao nhiêu tín chỉ để tốt nghiệp?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Có bao nhiêu hình thức tốt nghiệp trong ngành Trí Tuệ Nhân Tạo?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Tự chọn chuyên ngành ngành Trí Tuệ Nhân Tạo yêu cầu tối thiểu bao nhiêu tín chỉ?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Chuyên Ngành Công Nghệ Thông Tin có mấy hướng chính?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Chuyên Ngành Khoa học thông tin thì nên học những môn nào?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Liệt kê các môn bắt buộc chính trong khối cơ sở ngành Trí Tuệ Nhân Tạo và tín chỉ tương ứng.",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Ngành Công Nghệ Thông Tin học những gì?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Ngành Trí Tuệ Nhân Tạo gồm những mảng chính nào?",
+    "expected_intent": "overview"
+  },
+  {
+    "original": "Ngành Trí Tuệ Nhân Tạo có đòi hỏi phải học Mật Mã Học không?",
+    "expected_intent": "prerequisite"
+  },
+  {
+    "original": "Môn Dữ Liệu Lớn học bao nhiêu tín chỉ?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Có Tài liệu tham khảo cho môn Dữ Liệu Lớn không?",
+    "expected_intent": "factual"
+  },
+  {
+    "original": "Chuẩn TOEIC để tốt nghiệp chương trình chuẩn là bao nhiêu?",
+    "expected_intent": "policy"
+  },
+  {
+    "original": "Quy định miễn học môn tiếng Anh như thế nào?",
+    "expected_intent": "policy"
+  },
+  {
+    "original": "Điều kiện nhận học bổng khuyến khích học tập là gì?",
+    "expected_intent": "policy"
+  },
+  {
+    "original": "Các loại học bổng ngoài ngân sách gồm những gì?",
+    "expected_intent": "policy"
+  },
+  {
+    "original": "Quy trình xét học bổng ngoài ngân sách như thế nào?",
+    "expected_intent": "policy"
+  },
+  {
+    "original": "Sinh viên chương trình tiên tiến có học bổng gì?",
+    "expected_intent": "policy"
+  },
+  {
+    "original": "Mức học bổng khuyến khích học tập loại Khá là bao nhiêu?",
+    "expected_intent": "policy"
+  }
+]

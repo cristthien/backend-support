@@ -1,0 +1,1176 @@
+{
+  "pipeline": "naive",
+  "timestamp": "2025-12-25T18:12:55.685081",
+  "intent_filter": "structure",
+  "total_queries": 16,
+  "results": [
+    {
+      "question": "T có thể học 3 môn thay thế để tốt nghiệp đối với công nghệ thông tin được không",
+      "answer": "Không, sinh viên không thể học 3 môn thay thế để tốt nghiệp ngành Công nghệ Thông tin.\n\nDựa trên thông tin được cung cấp, sinh viên ngành Công nghệ Thông tin có thể tích lũy tối đa 10 tín chỉ thay thế Khóa luận tốt nghiệp thông qua các hình thức:\n\n*   **Hình thức 2: Chuyên đề tốt nghiệp và Đồ án tốt nghiệp**\n*   **Bảng 10: Danh sách nhóm môn học thay thế Khóa luận tốt nghiệp**\n\nTuy nhiên, tổng số tín chỉ tối thiểu để tốt nghiệp ngành Công nghệ Thông tin là 26 tín chỉ, bao gồm các môn bắt buộc và các môn tự chọn (tối thiểu 6 tín chỉ và tối đa 10 tín chỉ).",
+      "contexts": [
+        "[Ngành Công Nghệ Thông Tin > Các khối kiến thức]\n\nKhông kể giáo dục thể chất và giáo dục quốc phòng.\n\n**(10TC)** | Chọn 1 trong 3 hình thức sau (\\*\\*): | | | 8 |\n\n**Lưu ý:**\n\n\\- (\\*) Sinh viên chọn cá",
+        "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học cơ sở ngành]\n\nghệ thông tin. **Tối thiểu19 tín chỉ**, sinh viên chọn học **5/6** môn học trong bảng sau:\n\n[Bảng 1] Bảng 8 hàng x 6 cột. Các cột: ",
+        "[Ngành Kỹ Thuật Máy Tính > ... > Mô tả các môn học mới và việc xét tương đương môn học]\n\nế) cho hai môn học gồm tự chọn chuyên ngành và đồ án chuyên ngành (tổng cộng 06 tín chỉ) trong nhóm môn học chu",
+        "[Ngành Công Nghệ Thông Tin > ... > Học kì 8]\n\n- Nếu chọn hình thức 1 hoặc 3: 10 TC- Nếu chọn hình thức 2: 6 TC | | **6-** **10** |   |   |\n\n[Bảng 1] Bảng 7 hàng x 5 cột. Các cột: Mã môn, Tên môn học, ",
+        "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học chuyên ngành]\n\nmột số môn thuộc 01 hướng sẽ được gom cụm. (Sinh viên có thể chọn các môn học thuộc cả 02 hướng, không nhất thiết cố định 01 hướng)",
+        "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức tốt nghiệp]\n\nSinh viên chọn một trong ba hình thức tốt nghiệp sau:\n\n1. **Hình thức 1: Khóa luận tốt nghiệp**\n\nSinh viên thực hiện **Khóa luận tốt nghi",
+        "[Ngành Kỹ Thuật Máy Tính > ... > Khối kiến thức tốt nghiệp]\n\n\\- Trong trường hợp sinh viên đủ điều kiện làm Khóa luận tốt nghiệp nhưng không muốn làm, hoặc sinh viên không đủ điều kiện làm Khóa luận t",
+        "[Chương trình Truyền Thông Đa Phương Tiện > Khối kiến thức chuyên ngành]\n\nSinh viên có thể đăng ký học các môn (tự chọn) chuyên ngành từ danh sách các môn học chuyên ngành trong Bảng 13, hoặc các môn "
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 8,
+        "total_time_ms": 20148.64492416382
+      },
+      "sources": [
+        {
+          "section_id": "4d3fa15f8c8e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > Các khối kiến thức]\n\nKhông kể giáo dục thể chất và giáo dục quốc phòng.\n\n**(10TC)** | Chọn 1 trong 3 hình thức sau (\\*\\*): | | | 8 |\n\n**Lưu ý:**\n\n\\- (\\*) Sinh viên chọn cá",
+          "score": 0.83855724
+        },
+        {
+          "section_id": "da6f67cc1b07",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học cơ sở ngành]\n\nghệ thông tin. **Tối thiểu19 tín chỉ**, sinh viên chọn học **5/6** môn học trong bảng sau:\n\n[Bảng 1] Bảng 8 hàng x 6 cột. Các cột: ",
+          "score": 0.83522224
+        },
+        {
+          "section_id": "63469d22ec7e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > ... > Mô tả các môn học mới và việc xét tương đương môn học]\n\nế) cho hai môn học gồm tự chọn chuyên ngành và đồ án chuyên ngành (tổng cộng 06 tín chỉ) trong nhóm môn học chu",
+          "score": 0.8332319
+        },
+        {
+          "section_id": "2c592591b7fc",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > ... > Học kì 8]\n\n- Nếu chọn hình thức 1 hoặc 3: 10 TC- Nếu chọn hình thức 2: 6 TC | | **6-** **10** |   |   |\n\n[Bảng 1] Bảng 7 hàng x 5 cột. Các cột: Mã môn, Tên môn học, ",
+          "score": 0.82965136
+        },
+        {
+          "section_id": "40be15102e72",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học chuyên ngành]\n\nmột số môn thuộc 01 hướng sẽ được gom cụm. (Sinh viên có thể chọn các môn học thuộc cả 02 hướng, không nhất thiết cố định 01 hướng)",
+          "score": 0.8280158
+        },
+        {
+          "section_id": "12140db0d251",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức tốt nghiệp]\n\nSinh viên chọn một trong ba hình thức tốt nghiệp sau:\n\n1. **Hình thức 1: Khóa luận tốt nghiệp**\n\nSinh viên thực hiện **Khóa luận tốt nghi",
+          "score": 0.8276472
+        },
+        {
+          "section_id": "1e361d658458",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > ... > Khối kiến thức tốt nghiệp]\n\n\\- Trong trường hợp sinh viên đủ điều kiện làm Khóa luận tốt nghiệp nhưng không muốn làm, hoặc sinh viên không đủ điều kiện làm Khóa luận t",
+          "score": 0.82577276
+        },
+        {
+          "section_id": "657b32694d34",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Truyền Thông Đa Phương Tiện > Khối kiến thức chuyên ngành]\n\nSinh viên có thể đăng ký học các môn (tự chọn) chuyên ngành từ danh sách các môn học chuyên ngành trong Bảng 13, hoặc các môn ",
+          "score": 0.82495403
+        }
+      ]
+    },
+    {
+      "question": "Chuẩn TOEIC để tốt nghiệp chương trình chính quy là bao nhiêu?",
+      "answer": "Dựa trên các thông tin được cung cấp, không có một chuẩn TOEIC cụ thể để tốt nghiệp chương trình chính quy. Tuy nhiên, có các mức điểm TOEIC được sử dụng để xét miễn hoặc xếp lớp đầu khóa, và sau 4 hoặc 6 học kỳ chính, sinh viên cần đạt các mức điểm sau:\n\n*   **Sau 4 học kỳ chính:** Mức điểm TOEIC nghe và đọc (Dạng thức TOEIC nghe và đọc) > 500\n*   **Sau 6 học kỳ chính:** Mức điểm TOEIC nghe và đọc (Dạng thức TOEIC nghe và đọc) > 400 - 445",
+      "contexts": [
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 9. Văn bằng, chứng chỉ/chứng nhận được sử dụng để công nhận đạt chuẩn x",
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 5. Xét miễn các môn học tiếng Anh]\n\n), : CTC/CTTN, : CTTT\nTOEIC: Nghe -",
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 4. Kiểm tra xếp lớp đầu khóa cho sinh viên thuộc CTC, CTTN, CTTT]\n\n2 (m",
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 8. Chuẩn quá trình về ngoại ngữ]\n\n2. Sau 4 học kỳ chính kể từ thời điểm"
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 4,
+        "total_time_ms": 16350.609064102173
+      },
+      "sources": [
+        {
+          "section_id": "64099188c0f4",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 9. Văn bằng, chứng chỉ/chứng nhận được sử dụng để công nhận đạt chuẩn x",
+          "score": 0.8594556
+        },
+        {
+          "section_id": "81b88ddb0482",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 5. Xét miễn các môn học tiếng Anh]\n\n), : CTC/CTTN, : CTTT\nTOEIC: Nghe -",
+          "score": 0.84517
+        },
+        {
+          "section_id": "deaff1680da8",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 4. Kiểm tra xếp lớp đầu khóa cho sinh viên thuộc CTC, CTTN, CTTT]\n\n2 (m",
+          "score": 0.8183541
+        },
+        {
+          "section_id": "ad03b542e65d",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 8. Chuẩn quá trình về ngoại ngữ]\n\n2. Sau 4 học kỳ chính kể từ thời điểm",
+          "score": 0.81239843
+        }
+      ]
+    },
+    {
+      "question": "Quy định miễn học môn tiếng Anh như thế nào?",
+      "answer": "Sinh viên được xét miễn học các môn tiếng Anh tương ứng nếu có một trong các chứng chỉ/chứng nhận đạt trình độ tối thiểu theo Bảng 3. Sinh viên được miễn môn học nào thì đồng thời được miễn những môn học ở cấp độ thấp hơn mà sinh viên chưa học hoặc chưa đạt.\n\nCác chứng chỉ và điểm số tương ứng để được miễn học như sau (từ cao xuống thấp):\n\n*   **TOEIC:** 555\n*   **TOEFL iBT:** 180\n*   **IELTS:** 60\n*   **VNU-EPT:** 5.5\n*   **VSTEP:** 251\n*   **Cambridge English (Tên cũ):** VSTEP bậc 4 trở lên - từ điểm 6 trở lên\n*   **Cambridge English (Tên mới):** PET (Distinction) FCE (Grade C) Business Preliminary (Distinction) Business Vantage (Grade C)\n*   **CTC/CTTN:** B1 Preliminary (Grade A) B2 First (Grade C) B1 Business Preliminary (Distinction) B2 Business Vantage (Grade C)\n*   **TOEIC:** 500\n*   **TOEFL iBT:** 160\n*   **IELTS:** 50\n*   **VNU-EPT:** 5.0\n*   **VSTEP:** 201\n*   **Cambridge English (Tên cũ):** VSTEP bậc 3 - từ điểm 5 đến cận 6, Cambridge English (Tên mới): PET (Me\n*   **Cambridge English (Tên mới):** PET (Pass) Business Preliminary (Pass), CTTT: A2 Key (Grade A) B1 Preliminary (Grade C) B1 Business Preliminary (Pass), CTTT: Anh văn 3 (mã môn ENG03)\n*   **TOEIC:** 450\n*   **TOEFL iBT:** 140\n*   **IELTS:** 45\n\nSinh viên được xét miễn trong vòng 4 học kỳ chính kể từ khi nhập học.",
+      "contexts": [
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 5. Xét miễn các môn học tiếng Anh]\n\n1. Sinh viên được xét miễn học các ",
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 3. Chương trình giảng dạy tiếng Anh]\n\ng chương trình đào tạo (CTĐT) đượ",
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 6. Xét miễn các môn học tiếng Nhật đối với sinh viên thuộc chương trình",
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 7. Thời điểm xét miễn, cách tính điểm miễn các môn học ngoại ngữ]\n\n1. T",
+        "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 4. Kiểm tra xếp lớp đầu khóa cho sinh viên thuộc CTC, CTTN, CTTT]\n\nvào "
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 5,
+        "total_time_ms": 24348.394632339478
+      },
+      "sources": [
+        {
+          "section_id": "81b88ddb0482",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 5. Xét miễn các môn học tiếng Anh]\n\n1. Sinh viên được xét miễn học các ",
+          "score": 0.8507838
+        },
+        {
+          "section_id": "b4a540bae4a1",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 3. Chương trình giảng dạy tiếng Anh]\n\ng chương trình đào tạo (CTĐT) đượ",
+          "score": 0.83024883
+        },
+        {
+          "section_id": "56bf2ae4fb72",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 6. Xét miễn các môn học tiếng Nhật đối với sinh viên thuộc chương trình",
+          "score": 0.8265071
+        },
+        {
+          "section_id": "e8166e5af493",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 7. Thời điểm xét miễn, cách tính điểm miễn các môn học ngoại ngữ]\n\n1. T",
+          "score": 0.8054719
+        },
+        {
+          "section_id": "deaff1680da8",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUYẾT ĐỊNH Ban hành quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường Đại học Công nghệ Thông tỉn > ... > Điều 4. Kiểm tra xếp lớp đầu khóa cho sinh viên thuộc CTC, CTTN, CTTT]\n\nvào ",
+          "score": 0.80406475
+        }
+      ]
+    },
+    {
+      "question": "Điều kiện nhận học bổng khuyến khích học tập là gì?",
+      "answer": "Để nhận học bổng khuyến khích học tập, sinh viên phải đáp ứng các điều kiện sau:\n\n*   Điểm trung bình học kỳ từ 8.0 trở lên.\n*   Điểm rèn luyện từ 70 trở lên.\n*   Không có học phần dưới 5.0.\n*   Không học quá thời gian thiết kế chương trình đào tạo.\n*   Phát sinh học phí học kỳ.\n*   Tham gia Bảo hiểm Y tế.\n*   Không bị kỷ luật từ mức khiển trách trở lên.\n\nNgoài ra, đối với học bổng dành cho sinh viên Chương trình Tiên tiến, sinh viên phải có điểm trung bình học kỳ từ 8.0 trở lên và điểm rèn luyện đạt loại Khá trở lên.",
+      "contexts": [
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 2. Các quy định chung]\n\nọc bổng khuyến khích học tập loại Khá thì Hội đồng sẽ xem xét và quyết định.\n\n5. Các điều kiện ràng buộc khác để nhận họ",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 2. Quy định chung]\n\nđiểm I.\n3. **Điều kiện xét học bổng:**\n\n   * Điểm trung bình học kỳ từ **8.0 trở lên**;\n   * Điểm rèn luyện từ **70 trở lên*",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 15. Học bổng]\n\niên có thành tích xuất sắc nhất của mỗi khóa**. Điều kiện xét gồm: điểm trung bình học kỳ (ĐTBHK) từ **8.0 trở lên**, điểm rèn lu",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Ban hành kèm theo Quyết định này “Quy định xét, cấp học bổng khuyến khích học tập cho sinh viên chính quy các chương trình đại trà, chất lượn",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 5. Hội đồng xét cấp học bổng khuyến khích học tập]\n\n1. Hội đồng do Hiệu trưởng quyết định thành lập, có nhiệm vụ xét và đề xuất cấp học bổng the",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 3. Xếp loại học bổng và mức học bổng]\n\nViệc xếp loại học bổng khuyến khích học tập (HBKKHT) được căn cứ vào **kết quả học tập** và **kết quả rèn",
+        "[Quy định liên quan đến học bổng sinh viên > Quy định xét cấp học bổng khuyến khích học tập cho sinh viên Đại học chính quy]\n\n**Số: …/QĐ-ĐHCNTT**\n\nTP. Hồ Chí Minh, ngày … tháng 4 năm 2022",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 6. Điều khoản thi hành]\n\nQuy định này có hiệu lực kể từ ngày ký và thay thế nội dung học bổng khuyến khích học tập tại Quyết định số **548/QĐ-ĐH",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Đối tượng và phạm vi áp dụng]\n\n4. Sinh viên thuộc diện hưởng chính sách, diện trợ cấp xã hội, diện chính sách ưu đãi theo quy định hiện hành "
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 9,
+        "total_time_ms": 12419.492959976196
+      },
+      "sources": [
+        {
+          "section_id": "75faca0bdbfc",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 2. Các quy định chung]\n\nọc bổng khuyến khích học tập loại Khá thì Hội đồng sẽ xem xét và quyết định.\n\n5. Các điều kiện ràng buộc khác để nhận họ",
+          "score": 0.84379053
+        },
+        {
+          "section_id": "361eddc561a2",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 2. Quy định chung]\n\nđiểm I.\n3. **Điều kiện xét học bổng:**\n\n   * Điểm trung bình học kỳ từ **8.0 trở lên**;\n   * Điểm rèn luyện từ **70 trở lên*",
+          "score": 0.84089994
+        },
+        {
+          "section_id": "20e7fad42770",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 15. Học bổng]\n\niên có thành tích xuất sắc nhất của mỗi khóa**. Điều kiện xét gồm: điểm trung bình học kỳ (ĐTBHK) từ **8.0 trở lên**, điểm rèn lu",
+          "score": 0.8348613
+        },
+        {
+          "section_id": "76841893d9e9",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Ban hành kèm theo Quyết định này “Quy định xét, cấp học bổng khuyến khích học tập cho sinh viên chính quy các chương trình đại trà, chất lượn",
+          "score": 0.8224292
+        },
+        {
+          "section_id": "b9103f97b39e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 5. Hội đồng xét cấp học bổng khuyến khích học tập]\n\n1. Hội đồng do Hiệu trưởng quyết định thành lập, có nhiệm vụ xét và đề xuất cấp học bổng the",
+          "score": 0.82198715
+        },
+        {
+          "section_id": "4b79d5653b71",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 3. Xếp loại học bổng và mức học bổng]\n\nViệc xếp loại học bổng khuyến khích học tập (HBKKHT) được căn cứ vào **kết quả học tập** và **kết quả rèn",
+          "score": 0.8205986
+        },
+        {
+          "section_id": "4254416cae13",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > Quy định xét cấp học bổng khuyến khích học tập cho sinh viên Đại học chính quy]\n\n**Số: …/QĐ-ĐHCNTT**\n\nTP. Hồ Chí Minh, ngày … tháng 4 năm 2022",
+          "score": 0.8189726
+        },
+        {
+          "section_id": "0f1853c407eb",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 6. Điều khoản thi hành]\n\nQuy định này có hiệu lực kể từ ngày ký và thay thế nội dung học bổng khuyến khích học tập tại Quyết định số **548/QĐ-ĐH",
+          "score": 0.8186989
+        },
+        {
+          "section_id": "ca885000c75e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Đối tượng và phạm vi áp dụng]\n\n4. Sinh viên thuộc diện hưởng chính sách, diện trợ cấp xã hội, diện chính sách ưu đãi theo quy định hiện hành ",
+          "score": 0.81833935
+        }
+      ]
+    },
+    {
+      "question": "Các loại học bổng ngoài ngân sách gồm những gì?",
+      "answer": "Học bổng ngoài ngân sách (HB NNS) là học bổng do các doanh nghiệp, tổ chức, cá nhân tài trợ cho Sinh viên hệ đại học chính quy của Trường Đại học Công nghệ Thông tin – Đại học Quốc gia TP.HCM.",
+      "contexts": [
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Đối tượng và phạm vi áp dụng]\n\n1. Văn bản này quy định về nguyên tắc, tiêu chuẩn chung và phương thức thực hiện xét duyệt và cấp học bổng ngo",
+        "[Quy định liên quan đến học bổng sinh viên > Quy định sinh viên được nhận học bổng Ngoài ngân sách]\n\n",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Về việc xét, cấp học bổng ngoài ngân sách cho Sinh viên]\n\n*(Ban hành kèm theo Quyết định số …/QĐ-ĐHCNTT ngày … tháng … năm 2022)*\n\nTrường Đại học Côn",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 3. Hội đồng xét học bổng ngoài ngân sách]\n\nHội đồng xét học bổng ngoài ngân sách gồm:\n\n* Hiệu trưởng hoặc Phó Hiệu trưởng phụ trách công tác Sin",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 2. Các quy định chung]\n\n1. Không cấp học bổng ngoài ngân sách đối với Sinh viên thuộc một trong các trường hợp sau:\n\n   * a) Học quá thời gian t",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 4. Quy trình xét học bổng ngoài ngân sách]\n\n",
+        "[Quy định liên quan đến học bổng sinh viên > ... > 1. Đối với học bổng ngoài ngân sách tài trợ trực tiếp cho Trường]\n\n* **Bước 2:** Khi tiếp nhận thông báo học bổng ngoài ngân sách, Phòng CTSV thông b",
+        "[Quy định liên quan đến học bổng sinh viên > ... > QUYẾT ĐỊNH]\n\n**Điều 1.** Ban hành kèm theo Quyết định này **“Quy định xét, cấp học bổng ngoài ngân sách cho Sinh viên”**.\n\n**Điều 2.** Quyết định này"
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 8,
+        "total_time_ms": 7290.820121765137
+      },
+      "sources": [
+        {
+          "section_id": "ca885000c75e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Đối tượng và phạm vi áp dụng]\n\n1. Văn bản này quy định về nguyên tắc, tiêu chuẩn chung và phương thức thực hiện xét duyệt và cấp học bổng ngo",
+          "score": 0.83901215
+        },
+        {
+          "section_id": "a06bfc7989ae",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > Quy định sinh viên được nhận học bổng Ngoài ngân sách]\n\n",
+          "score": 0.83537674
+        },
+        {
+          "section_id": "c7aa57928eb0",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Về việc xét, cấp học bổng ngoài ngân sách cho Sinh viên]\n\n*(Ban hành kèm theo Quyết định số …/QĐ-ĐHCNTT ngày … tháng … năm 2022)*\n\nTrường Đại học Côn",
+          "score": 0.8352685
+        },
+        {
+          "section_id": "9ccf3041d5ae",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 3. Hội đồng xét học bổng ngoài ngân sách]\n\nHội đồng xét học bổng ngoài ngân sách gồm:\n\n* Hiệu trưởng hoặc Phó Hiệu trưởng phụ trách công tác Sin",
+          "score": 0.82421684
+        },
+        {
+          "section_id": "75faca0bdbfc",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 2. Các quy định chung]\n\n1. Không cấp học bổng ngoài ngân sách đối với Sinh viên thuộc một trong các trường hợp sau:\n\n   * a) Học quá thời gian t",
+          "score": 0.8234725
+        },
+        {
+          "section_id": "42fa13f74a77",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 4. Quy trình xét học bổng ngoài ngân sách]\n\n",
+          "score": 0.822875
+        },
+        {
+          "section_id": "1edbbf478015",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > 1. Đối với học bổng ngoài ngân sách tài trợ trực tiếp cho Trường]\n\n* **Bước 2:** Khi tiếp nhận thông báo học bổng ngoài ngân sách, Phòng CTSV thông b",
+          "score": 0.819952
+        },
+        {
+          "section_id": "ec7dee57b13a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > QUYẾT ĐỊNH]\n\n**Điều 1.** Ban hành kèm theo Quyết định này **“Quy định xét, cấp học bổng ngoài ngân sách cho Sinh viên”**.\n\n**Điều 2.** Quyết định này",
+          "score": 0.8018513
+        }
+      ]
+    },
+    {
+      "question": "Quy trình xét học bổng ngoài ngân sách như thế nào?",
+      "answer": "Dựa trên các quy định được cung cấp, quy trình xét học bổng ngoài ngân sách như sau:\n\n**Bước 1: Thông báo và Tiếp nhận hồ sơ:**\n\n*   Phòng CTSV thông báo đến Sinh viên đủ điều kiện trên website/forum Trường.\n*   Sinh viên hoàn thiện hồ sơ và nộp về Phòng CTSV.\n\n**Bước 2: Kiểm tra hồ sơ và tổng hợp danh sách:**\n\n*   Phòng CTSV kiểm tra hồ sơ và tổng hợp danh sách gửi đơn vị cấp học bổng (nếu học bổng do đơn vị bên ngoài tổ chức).\n\n**Bước 3: Xét duyệt và Phỏng vấn (nếu cần):**\n\n*   Đơn vị cấp học bổng tiến hành xét duyệt và phỏng vấn (nếu có).\n\n**Bước 4: Thông báo và bổ sung hồ sơ (nếu cần):**\n\n*   Phòng CTSV thông báo qua email để xác nhận nguyện vọng cho Sinh viên phù hợp tiêu chuẩn.\n*   Sinh viên bổ sung hồ sơ theo yêu cầu (nếu có).\n\n**Bước 5: Xét cấp học bổng:**\n\n*   Hội đồng học bổng ngoài ngân sách tiến hành xét cấp học bổng.\n\n**Bước 6: Công khai kết quả:**\n\n*   Công khai kết quả xét học bổng trên forum Trường.\n\n**Bước 7: Cấp học bổng:**\n\n*   Phòng CTSV thực hiện thủ tục cấp học bổng.\n\nHy vọng thông tin này hữu ích cho bạn.",
+      "contexts": [
+        "[Quy định liên quan đến học bổng sinh viên > ... > 1. Đối với học bổng ngoài ngân sách tài trợ trực tiếp cho Trường]\n\n* **Bước 2:** Khi tiếp nhận thông báo học bổng ngoài ngân sách, Phòng CTSV thông b",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 4. Quy trình xét học bổng ngoài ngân sách]\n\n",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Đối tượng và phạm vi áp dụng]\n\n1. Văn bản này quy định về nguyên tắc, tiêu chuẩn chung và phương thức thực hiện xét duyệt và cấp học bổng ngo",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Về việc xét, cấp học bổng ngoài ngân sách cho Sinh viên]\n\n*(Ban hành kèm theo Quyết định số …/QĐ-ĐHCNTT ngày … tháng … năm 2022)*\n\nTrường Đại học Côn",
+        "[Quy định liên quan đến học bổng sinh viên > ... > 2. Đối với học bổng ngoài ngân sách do đơn vị bên ngoài tổ chức xét]\n\n* **Bước 4:** Đơn vị cấp học bổng tiến hành xét duyệt và phỏng vấn (nếu có).\n* ",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 3. Hội đồng xét học bổng ngoài ngân sách]\n\nHội đồng xét học bổng ngoài ngân sách gồm:\n\n* Hiệu trưởng hoặc Phó Hiệu trưởng phụ trách công tác Sin",
+        "[Quy định liên quan đến học bổng sinh viên > Quy định sinh viên được nhận học bổng Ngoài ngân sách]\n\n",
+        "[Quy định liên quan đến học bổng sinh viên > ... > QUYẾT ĐỊNH]\n\n**Điều 1.** Ban hành kèm theo Quyết định này **“Quy định xét, cấp học bổng ngoài ngân sách cho Sinh viên”**.\n\n**Điều 2.** Quyết định này"
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 8,
+        "total_time_ms": 18381.720781326294
+      },
+      "sources": [
+        {
+          "section_id": "1edbbf478015",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > 1. Đối với học bổng ngoài ngân sách tài trợ trực tiếp cho Trường]\n\n* **Bước 2:** Khi tiếp nhận thông báo học bổng ngoài ngân sách, Phòng CTSV thông b",
+          "score": 0.8588829
+        },
+        {
+          "section_id": "42fa13f74a77",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 4. Quy trình xét học bổng ngoài ngân sách]\n\n",
+          "score": 0.85749245
+        },
+        {
+          "section_id": "ca885000c75e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Đối tượng và phạm vi áp dụng]\n\n1. Văn bản này quy định về nguyên tắc, tiêu chuẩn chung và phương thức thực hiện xét duyệt và cấp học bổng ngo",
+          "score": 0.8485575
+        },
+        {
+          "section_id": "c7aa57928eb0",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Về việc xét, cấp học bổng ngoài ngân sách cho Sinh viên]\n\n*(Ban hành kèm theo Quyết định số …/QĐ-ĐHCNTT ngày … tháng … năm 2022)*\n\nTrường Đại học Côn",
+          "score": 0.8460908
+        },
+        {
+          "section_id": "ac7ff027a167",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > 2. Đối với học bổng ngoài ngân sách do đơn vị bên ngoài tổ chức xét]\n\n* **Bước 4:** Đơn vị cấp học bổng tiến hành xét duyệt và phỏng vấn (nếu có).\n* ",
+          "score": 0.8455901
+        },
+        {
+          "section_id": "9ccf3041d5ae",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 3. Hội đồng xét học bổng ngoài ngân sách]\n\nHội đồng xét học bổng ngoài ngân sách gồm:\n\n* Hiệu trưởng hoặc Phó Hiệu trưởng phụ trách công tác Sin",
+          "score": 0.84438515
+        },
+        {
+          "section_id": "a06bfc7989ae",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > Quy định sinh viên được nhận học bổng Ngoài ngân sách]\n\n",
+          "score": 0.8289728
+        },
+        {
+          "section_id": "ec7dee57b13a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > QUYẾT ĐỊNH]\n\n**Điều 1.** Ban hành kèm theo Quyết định này **“Quy định xét, cấp học bổng ngoài ngân sách cho Sinh viên”**.\n\n**Điều 2.** Quyết định này",
+          "score": 0.82847595
+        }
+      ]
+    },
+    {
+      "question": "Sinh viên chương trình tiên tiến có học bổng gì?",
+      "answer": "Sinh viên chương trình Tiên tiến được xét và hưởng học bổng khuyến khích học tập của Nhà nước, cùng với học bổng của Chương trình Tiên tiến, bao gồm học bổng học tập.",
+      "contexts": [
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 15. Học bổng]\n\n1. Sinh viên Chương trình Tiên tiến (CTTT) được xét và hưởng **học bổng khuyến khích học tập của Nhà nước** theo quy định của Trư",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 3. Mục tiêu đào tạo]\n\nChương trình Tiên tiến nhằm đào tạo sinh viên có trình độ chuyên môn vững vàng, tư duy sáng tạo, kỹ năng nghề nghiệp và tr",
+        "[Quy định liên quan đến học bổng sinh viên > Quy định cấp học bổng cho SV Chương trình Tiên tiến]\n\n",
+        "[Quy định liên quan đến học bổng sinh viên > Quy định cấp học bổng học tập cho SV Chương trình CLC, Chương trình Tiên tiến]\n\n",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Về việc xét, cấp học bổng học tập cho sinh viên Chương trình Chất lượng cao và Chương trình Tiên tiến]\n\n---",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Ban hành kèm theo Quyết định này “Quy định xét, cấp học bổng khuyến khích học tập cho sinh viên chính quy các chương trình đại trà, chất lượn",
+        "[Quy định liên quan đến học bổng sinh viên > ... > QUYẾT ĐỊNH]\n\n**Về việc ban hành Quy định xét cấp học bổng học tập cho sinh viên Chương trình Chất lượng cao và Chương trình Tiên tiến**\n\nTP. Hồ Chí M",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng]\n\n1. Quy định này áp dụng đối với giảng viên và sinh viên hệ đại học chính quy đào tạo theo Chương tr",
+        "[Quy định liên quan đến học bổng sinh viên > ... > Điều 13. Tốt nghiệp]\n\nSinh viên được xét công nhận tốt nghiệp khi hoàn thành đầy đủ các yêu cầu của chương trình đào tạo và được cấp bằng **Kỹ sư Chư"
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 9,
+        "total_time_ms": 7309.535980224609
+      },
+      "sources": [
+        {
+          "section_id": "20e7fad42770",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 15. Học bổng]\n\n1. Sinh viên Chương trình Tiên tiến (CTTT) được xét và hưởng **học bổng khuyến khích học tập của Nhà nước** theo quy định của Trư",
+          "score": 0.8715019
+        },
+        {
+          "section_id": "864247bbe58d",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 3. Mục tiêu đào tạo]\n\nChương trình Tiên tiến nhằm đào tạo sinh viên có trình độ chuyên môn vững vàng, tư duy sáng tạo, kỹ năng nghề nghiệp và tr",
+          "score": 0.8545594
+        },
+        {
+          "section_id": "992aa831cf9f",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > Quy định cấp học bổng cho SV Chương trình Tiên tiến]\n\n",
+          "score": 0.853148
+        },
+        {
+          "section_id": "628cea237711",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > Quy định cấp học bổng học tập cho SV Chương trình CLC, Chương trình Tiên tiến]\n\n",
+          "score": 0.8283119
+        },
+        {
+          "section_id": "7111995e1254",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Về việc xét, cấp học bổng học tập cho sinh viên Chương trình Chất lượng cao và Chương trình Tiên tiến]\n\n---",
+          "score": 0.8278475
+        },
+        {
+          "section_id": "76841893d9e9",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Ban hành kèm theo Quyết định này “Quy định xét, cấp học bổng khuyến khích học tập cho sinh viên chính quy các chương trình đại trà, chất lượn",
+          "score": 0.81817865
+        },
+        {
+          "section_id": "fef7577ce98e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > QUYẾT ĐỊNH]\n\n**Về việc ban hành Quy định xét cấp học bổng học tập cho sinh viên Chương trình Chất lượng cao và Chương trình Tiên tiến**\n\nTP. Hồ Chí M",
+          "score": 0.81622696
+        },
+        {
+          "section_id": "da86da127628",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng]\n\n1. Quy định này áp dụng đối với giảng viên và sinh viên hệ đại học chính quy đào tạo theo Chương tr",
+          "score": 0.80465126
+        },
+        {
+          "section_id": "adff32b8262a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Quy định liên quan đến học bổng sinh viên > ... > Điều 13. Tốt nghiệp]\n\nSinh viên được xét công nhận tốt nghiệp khi hoàn thành đầy đủ các yêu cầu của chương trình đào tạo và được cấp bằng **Kỹ sư Chư",
+          "score": 0.80455875
+        }
+      ]
+    },
+    {
+      "question": "Bố cục làm đồ án tốt nghiệp như nào nhỉ?",
+      "answer": "Dựa trên các thông tin được cung cấp, bố cục của đồ án tốt nghiệp bao gồm:\n\n*   **Bìa chính khóa luận**\n*   **Bìa phụ khóa luận**\n*   **Thông tin hội đồng chấm khóa luận tốt nghiệp**\n*   **Lời cảm ơn**\n*   **Mục lục**\n*   **Danh mục hình**\n*   **Danh mục bảng**\n*   **Danh mục từ viết tắt (Danh mục chữ viết tắt xếp theo thứ tự bảng chữ cái. Không viết tắt những cụm từ dài hoặc cụm từ ít xuất hiện trong khóa luận).**\n*   **Nội dung của khóa luận (_xem phần Bố cục_).**\n*   **Kết luận (Summary/Conclusion):** Trình bày những kết quả đạt được, những đóng góp mới và những đề xuất mới. Phần kết luận cần ngắn gọn, không có lời bàn và bình luận thêm.\n*   **Hướng phát triển (Future work):** Kiến nghị về những hướng nghiên cứu tiếp theo\n*   **Tài liệu tham khảo (References):** Chỉ bao gồm các tài liệu được trích dẫn, sử dụng và đề cập tới để bàn luận trong khoá luận.\n*   **Phụ lục (Appendices).**",
+      "contexts": [
+        "[HÌNH THỨC TRÌNH BÀY KHÓA LUẬN TỐT NGHIỆP > BỐ CỤC CỦA KHÓA LUẬN]\n\n* **MỞ ĐẦU (Problem Statement):** Trình bày lí do chọn đề tài, mục đích, đối tượng và phạm vi nghiên cứu.\n  * **TỔNG QUAN (Overview/L",
+        "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức tốt nghiệp]\n\nSinh viên thực hiện **Chuyên đề tốt nghiệp(4tín chỉ)**&#x76;à**Đồ án tốt nghiệp (6tín chỉ)**.\n\n3. **Hình thức 3: Đồ án tốt nghiệp tại doa",
+        "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 28. Thực tập cuối khóa và làm đồ án/khóa luận tốt nghiệp]\n\n* Đầu mỗi học kỳ cuối, Trường công bố danh sách sinh viên đủ điều kiện làm đồ án hoặc k",
+        "[IS401 -- KHÓA LUẬN TỐT NGHIỆP > MÔ TẢ MÔN HỌC (Course description)]\n\nKhóa luận tốt nghiệp là một trong các học phần quan trọng trong khối kiến thức tốt nghiệp của chương trình học ngành Hệ thống Thôn",
+        "[Chương trình Truyền Thông Đa Phương Tiện > Khối kiến thức tốt nghiệp]\n\n| 64  | MM504 | Đồ án tốt nghiệp<br><br>Capstone Project | tự chọn | 6   | 0   | 6   |     |\n| 65  | MM506 | Đồ án tốt nghiệp tạ",
+        "[Chương Trình Kỹ Thuật Phần Mềm > ... > Khối kiến thức tốt nghiệp]\n\nệp tại doanh nghiệp (10 TC) hoặc kết hợp Đồ án tốt nghiệp (6 TC) với tối thiểu một môn trong các môn chuyên đề tốt nghiệp.\n\nĐồ án tố",
+        "[HÌNH THỨC TRÌNH BÀY KHÓA LUẬN TỐT NGHIỆP > CẤU TRÚC CỦA KHOÁ LUẬN]\n\n* Bìa chính khóa luận\n* Bìa phụ khóa luận\n* Thông tin hội đồng chấm khóa luận tốt nghiệp\n* Lời cảm ơn\n* Mục lục\n* Danh mục hình\n* D",
+        "[Ngành Hệ Thống Thông Tin > Tỷ lệ các khối kiến thức]\n\n: Sinh viên chọn 1 trong 3 hình thức sau đây:o Khóa luận tốt nghiệp (Thesis - 10 tín chỉ)o Đồ án tốt nghiệp (Capstone Project - 06 tín ch",
+        "[Ngành Hệ Thống Thông Tin > ... > Khóa luận tốt nghiệp]\n\no Đồ án tốt nghiệp (IS407, Capstone Project - 06 tín chỉ) + học thêm 04 tín chỉ chuyên đề tốt nghiệp (SV chọn các môn chuyên đề tốt nghiệp thuộ"
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 9,
+        "total_time_ms": 14774.002075195312
+      },
+      "sources": [
+        {
+          "section_id": "091b4e90cadf",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[HÌNH THỨC TRÌNH BÀY KHÓA LUẬN TỐT NGHIỆP > BỐ CỤC CỦA KHÓA LUẬN]\n\n* **MỞ ĐẦU (Problem Statement):** Trình bày lí do chọn đề tài, mục đích, đối tượng và phạm vi nghiên cứu.\n  * **TỔNG QUAN (Overview/L",
+          "score": 0.81694984
+        },
+        {
+          "section_id": "12140db0d251",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức tốt nghiệp]\n\nSinh viên thực hiện **Chuyên đề tốt nghiệp(4tín chỉ)**&#x76;à**Đồ án tốt nghiệp (6tín chỉ)**.\n\n3. **Hình thức 3: Đồ án tốt nghiệp tại doa",
+          "score": 0.8141384
+        },
+        {
+          "section_id": "15edf23ff797",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 28. Thực tập cuối khóa và làm đồ án/khóa luận tốt nghiệp]\n\n* Đầu mỗi học kỳ cuối, Trường công bố danh sách sinh viên đủ điều kiện làm đồ án hoặc k",
+          "score": 0.8094139
+        },
+        {
+          "section_id": "34b520b64455",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS401 -- KHÓA LUẬN TỐT NGHIỆP > MÔ TẢ MÔN HỌC (Course description)]\n\nKhóa luận tốt nghiệp là một trong các học phần quan trọng trong khối kiến thức tốt nghiệp của chương trình học ngành Hệ thống Thôn",
+          "score": 0.8036275
+        },
+        {
+          "section_id": "4b6f8f96c03f",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Truyền Thông Đa Phương Tiện > Khối kiến thức tốt nghiệp]\n\n| 64  | MM504 | Đồ án tốt nghiệp<br><br>Capstone Project | tự chọn | 6   | 0   | 6   |     |\n| 65  | MM506 | Đồ án tốt nghiệp tạ",
+          "score": 0.80287313
+        },
+        {
+          "section_id": "c3cf6058086e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Kỹ Thuật Phần Mềm > ... > Khối kiến thức tốt nghiệp]\n\nệp tại doanh nghiệp (10 TC) hoặc kết hợp Đồ án tốt nghiệp (6 TC) với tối thiểu một môn trong các môn chuyên đề tốt nghiệp.\n\nĐồ án tố",
+          "score": 0.80177736
+        },
+        {
+          "section_id": "dcb63573a3f5",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[HÌNH THỨC TRÌNH BÀY KHÓA LUẬN TỐT NGHIỆP > CẤU TRÚC CỦA KHOÁ LUẬN]\n\n* Bìa chính khóa luận\n* Bìa phụ khóa luận\n* Thông tin hội đồng chấm khóa luận tốt nghiệp\n* Lời cảm ơn\n* Mục lục\n* Danh mục hình\n* D",
+          "score": 0.8017769
+        },
+        {
+          "section_id": "a31db4ea8ede",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Hệ Thống Thông Tin > Tỷ lệ các khối kiến thức]\n\n: Sinh viên chọn 1 trong 3 hình thức sau đây:o Khóa luận tốt nghiệp (Thesis - 10 tín chỉ)o Đồ án tốt nghiệp (Capstone Project - 06 tín ch",
+          "score": 0.79809666
+        },
+        {
+          "section_id": "711cb873d361",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Hệ Thống Thông Tin > ... > Khóa luận tốt nghiệp]\n\no Đồ án tốt nghiệp (IS407, Capstone Project - 06 tín chỉ) + học thêm 04 tín chỉ chuyên đề tốt nghiệp (SV chọn các môn chuyên đề tốt nghiệp thuộ",
+          "score": 0.7962518
+        }
+      ]
+    },
+    {
+      "question": "Làm sao để chuyển ngành trong trường?",
+      "answer": "Để chuyển ngành trong trường, sinh viên cần đáp ứng các điều kiện sau:\n\n*   Đạt điểm thi tuyển sinh cùng nhóm ngành hoặc khối thi tuyển sinh với điểm bằng hoặc cao hơn điểm chuẩn của ngành muốn chuyển đến.\n*   Được sự đồng ý của Hiệu trưởng.\n*   Đạt điều kiện trúng tuyển của ngành/chương trình đào tạo trong cùng khóa tuyển sinh.\n*   Không trong thời gian bị kỷ luật từ cảnh báo trở lên.\n*   Không thuộc năm nhất.\n*   Đạt số tín chỉ tích lũy tối thiểu quy định.\n*   Được sự chấp thuận của Trưởng khoa/Trưởng bộ môn quản lý ngành/chương trình đào tạo (nơi chuyển đến) và Trưởng khoa/Trưởng bộ môn quản lý ngành/chương trình đào tạo (nơi chuyển đi).\n*   Ngành/chương trình chuyển đến có đủ các điều kiện bảo đảm chất lượng, chưa vượt quá năng lực đào tạo đối với ngành/chương trình đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\nSinh viên cần viết đơn (mẫu 01 hoặc 02) và có xác nhận của gia đình, phòng Kế hoạch Tài chính, phòng Công tác SV.\n",
+      "contexts": [
+        "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 24. Chuyển ngành học]\n\n* Sinh viên được xem xét chuyển ngành nếu cùng nhóm ngành hoặc khối thi tuyển sinh, có điểm thi bằng hoặc cao hơn điểm chuẩ",
+        "[Một số quy trình dành cho sinh viên > 3. CHUYỂN NGÀNH]\n\n**+ SV được xem xét chuyển ngành học khác nếu có đủ các điều kiện sau:**\n\nSinh viên được xem xét chuyển ngành/chương trình nếu có đủ các điều k",
+        "[Một số quy trình dành cho sinh viên > 4. CHUYỂN TRƯỜNG]\n\n\\+ **SV được xem xét chuyển Trường nếu có đủ các điều kiện sau**:\n\n\\- SV đã tham dự kỳ thi tuyển sinh theo đề chung và có kết quả thi bằng hoặ",
+        "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 25. Chuyển trường]\n\n* Sinh viên được xét chuyển trường nếu không đang trong thời gian bị kỷ luật, không thuộc diện buộc thôi học và có sự đồng ý c",
+        "[Một số quy trình dành cho sinh viên > 17. CHUYỂN HÌNH THỨC CHÍNH QUY SANG TỪ XA]\n\n\\- Đối với chương trình đại trà, chương trình chuẩn, chương trình liên thông đại học, chương trình văn bằng thứ hai: "
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 5,
+        "total_time_ms": 19220.17002105713
+      },
+      "sources": [
+        {
+          "section_id": "a1a6707ae51f",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 24. Chuyển ngành học]\n\n* Sinh viên được xem xét chuyển ngành nếu cùng nhóm ngành hoặc khối thi tuyển sinh, có điểm thi bằng hoặc cao hơn điểm chuẩ",
+          "score": 0.84677505
+        },
+        {
+          "section_id": "f757cdf19765",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Một số quy trình dành cho sinh viên > 3. CHUYỂN NGÀNH]\n\n**+ SV được xem xét chuyển ngành học khác nếu có đủ các điều kiện sau:**\n\nSinh viên được xem xét chuyển ngành/chương trình nếu có đủ các điều k",
+          "score": 0.8323631
+        },
+        {
+          "section_id": "e9dfd19cacfe",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Một số quy trình dành cho sinh viên > 4. CHUYỂN TRƯỜNG]\n\n\\+ **SV được xem xét chuyển Trường nếu có đủ các điều kiện sau**:\n\n\\- SV đã tham dự kỳ thi tuyển sinh theo đề chung và có kết quả thi bằng hoặ",
+          "score": 0.8297157
+        },
+        {
+          "section_id": "76eecf7f7cd7",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 25. Chuyển trường]\n\n* Sinh viên được xét chuyển trường nếu không đang trong thời gian bị kỷ luật, không thuộc diện buộc thôi học và có sự đồng ý c",
+          "score": 0.8230543
+        },
+        {
+          "section_id": "6712dc40fc1b",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Một số quy trình dành cho sinh viên > 17. CHUYỂN HÌNH THỨC CHÍNH QUY SANG TỪ XA]\n\n\\- Đối với chương trình đại trà, chương trình chuẩn, chương trình liên thông đại học, chương trình văn bằng thứ hai: ",
+          "score": 0.7970753
+        }
+      ]
+    },
+    {
+      "question": "Bảo lưu thì làm như thế nào?",
+      "answer": "Dựa trên các thông tin được cung cấp, quy trình bảo lưu kết quả trúng tuyển như sau:\n\n**Các bước thực hiện bảo lưu kết quả trúng tuyển:**\n\n1.  **Nộp đơn xin bảo lưu:** Thí sinh nộp đơn xin bảo lưu (Mẫu 03) kèm theo các giấy tờ, chứng từ cần thiết (giấy nhập viện, giấy chứng nhận điều trị bệnh lâu dài, giấy xác nhận của địa phương…) tại Phòng ĐTĐH.\n2.  **Đơn được xét duyệt:** Phòng ĐTĐH xét duyệt đơn và trình Ban Giám hiệu ra quyết định bảo lưu nếu thí sinh đủ điều kiện.\n3.  **Thông báo kết quả:** Phòng ĐTĐH thông báo kết quả cho thí sinh qua email.\n4.  **Nhận quyết định:** Thí sinh nhận Quyết định bảo lưu tại Phòng ĐTĐH.\n\n**Lưu ý quan trọng:**\n\n*   Thời gian bảo lưu tối đa là 01 năm.\n*   Để nhập học lại, thí sinh phải làm đơn xin nhập học kèm theo quyết định bảo lưu nộp tại Phòng ĐTĐH ít nhất 1 tháng trước khi bắt đầu năm học mới.\n\nNếu có hoàn cảnh đặc biệt (bệnh tật, tai nạn, hoàn cảnh khó khăn), thí sinh cần nộp đơn xin bảo lưu càng sớm càng tốt, chậm nhất là 15 ngày kể từ ngày gọi nhập học. Quyết định bảo lưu phải được Hiệu trưởng chấp thuận.",
+      "contexts": [
+        "[Một số quy trình dành cho sinh viên > 5. BẢO LƯU KẾT QUẢ]\n\nuu_ket_qua_tuyen_sinh.doc)-bảo lưu kết quả tuyển sinh), đơn có đầy đủ chữ ký xác nhận của gia đình, địa phương, Khoa quản lý …).\n\n**Bước 2:&",
+        "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 9. Bảo lưu kết quả trúng tuyển]\n\n* Sau khi đã thi đậu ở kỳ thi tuyển sinh, do một số hoàn cảnh đặc biệt như bệnh tật, tai nạn, hoàn cảnh khó khăn ",
+        "[IS207 -- PHÁT TRIỂN ỨNG DỤNG WEB (2022-RUBRIC) > DANH SÁCH CÁC BÀI TẬP]\n\n- **BTLT5**: Hoàn thiện chức năng \"Tiếp tục mua hàng\", \"cập nhập\", \"Thanh toán\" ở bài BTLT4.\n\nDùng Session để lưu trữ gi",
+        "[HÌNH THỨC TRÌNH BÀY KHÓA LUẬN TỐT NGHIỆP > NỘP KHOÁ LUẬN]\n\n* **Nộp hai cuốn khoá luận cuối cùng (nộp sau khi bảo vệ)** phải đóng bìa cứng, in chữ nhũ vàng đủ dấu tiếng Việt trên bìa xanh nước biển (t",
+        "[IS335 -- AN TOÀN VÀ BẢO MẬT HỆ THỐNG THÔNG TIN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nhống thông tin và vận dụng các phương pháp phòng thủ thích hợp. + Xác định các rò rỉ, loại dữ liệu, "
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 5,
+        "total_time_ms": 22152.024745941162
+      },
+      "sources": [
+        {
+          "section_id": "97488708d2ff",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Một số quy trình dành cho sinh viên > 5. BẢO LƯU KẾT QUẢ]\n\nuu_ket_qua_tuyen_sinh.doc)-bảo lưu kết quả tuyển sinh), đơn có đầy đủ chữ ký xác nhận của gia đình, địa phương, Khoa quản lý …).\n\n**Bước 2:&",
+          "score": 0.8061905
+        },
+        {
+          "section_id": "92ee9a41fad1",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 9. Bảo lưu kết quả trúng tuyển]\n\n* Sau khi đã thi đậu ở kỳ thi tuyển sinh, do một số hoàn cảnh đặc biệt như bệnh tật, tai nạn, hoàn cảnh khó khăn ",
+          "score": 0.7894926
+        },
+        {
+          "section_id": "7076ec5c6f0c",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS207 -- PHÁT TRIỂN ỨNG DỤNG WEB (2022-RUBRIC) > DANH SÁCH CÁC BÀI TẬP]\n\n- **BTLT5**: Hoàn thiện chức năng \"Tiếp tục mua hàng\", \"cập nhập\", \"Thanh toán\" ở bài BTLT4.\n\nDùng Session để lưu trữ gi",
+          "score": 0.7697382
+        },
+        {
+          "section_id": "cc88558c9b75",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[HÌNH THỨC TRÌNH BÀY KHÓA LUẬN TỐT NGHIỆP > NỘP KHOÁ LUẬN]\n\n* **Nộp hai cuốn khoá luận cuối cùng (nộp sau khi bảo vệ)** phải đóng bìa cứng, in chữ nhũ vàng đủ dấu tiếng Việt trên bìa xanh nước biển (t",
+          "score": 0.76144505
+        },
+        {
+          "section_id": "310eca8c10d9",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS335 -- AN TOÀN VÀ BẢO MẬT HỆ THỐNG THÔNG TIN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nhống thông tin và vận dụng các phương pháp phòng thủ thích hợp. + Xác định các rò rỉ, loại dữ liệu, ",
+          "score": 0.757926
+        }
+      ]
+    },
+    {
+      "question": "Làm sao để đăng ký môn học trên hệ thống?",
+      "answer": "Để đăng ký môn học trên hệ thống, sinh viên cần thực hiện theo các bước sau:\n\n1.  **Đăng ký đợt 1 (đợt hiệu chỉnh):** Sinh viên vào trang web [dkhp.uit.edu.vn](https://dkhp.uit.edu.vn/) và đăng nhập bằng tài khoản và mật khẩu.\n2.  **Chọn “Đăng ký”** hoặc **“Hủy đăng ký”** (tùy thuộc vào nhu cầu).\n3.  **Chọn “Lớp”** tương ứng với môn học bạn muốn đăng ký. Mỗi mã lớp trên một dòng.\n4.  **Đăng ký đợt 2 (đợt hiệu chỉnh)**: Sinh viên điều chỉnh ĐKHP tại trang web [dkhp.uit.edu.vn](http://dkhp.uit.edu.vn/) (sử dụng tài khoản chứng thực) theo thời gian đã thông báo. Trong thời gian này, SV được điều chỉnh, thêm, bỏ học phần. SV có thể đăng ký thêm vào những lớp như sau:\n    *   Lớp được mở nhưng chưa đạt số lượng tối đa.\n\nLưu ý:\n\n*   Khối lượng đăng ký tối thiểu là 14 tín chỉ/học kỳ chính (trừ học kỳ cuối khóa).\n*   Khối lượng đăng ký tối đa là 25 tín chỉ/học kỳ chính.\n*   Đối với học kỳ phụ, tối đa 12 tín chỉ.\n*   Sinh viên nên liên hệ cố vấn học tập để được tư vấn.",
+      "contexts": [
+        "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 10. Đăng ký học tập]\n\n* Sinh viên phải đăng ký học phần qua hệ thống trực tuyến của Trường trước mỗi học kỳ theo đúng thời hạn thông báo.\n* **Khối",
+        "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 13. Đăng ký học tập]\n\nĐầu mỗi học kỳ, sinh viên phải tìm hiểu, nghiên cứu để nắm được chương trình giáo dục, các học phần được mở trong học kỳ và ",
+        "[Một số quy trình dành cho sinh viên > 13. QUY TRÌNH ĐIỀU CHỈNH ĐĂNG KÝ HỌC PHẦN]\n\n1\\. Quy trình gồm các bước (B) sau:\n**B1:&#x20;**&#x53;inh viên vào địa chỉ [DKHP.UIT.EDU.VN](https://dkhp.uit.edu.vn",
+        "[Ngành Kỹ Thuật Máy Tính > ... > Mô tả các môn học mới và việc xét tương đương môn học]\n\n\\- Đối với các môn học **Tự chọn chuyên ngành**, sinh viên có thể chọn đăng ký học các môn bất kỳ trong Bảng 8.",
+        "[Một số quy trình dành cho sinh viên > 2. ĐĂNG KÝ HỌC PHẦN]\n\ndoc)) và nộp tại P.ĐTĐH/VPCCTĐB để được xem xét giải quyết.\n\n\\- Chỉ được đăng ký tối đa 24 tín chỉ/ học kỳ (bao gồm cả các học phần đăng ký",
+        "[IS005 -- GIỚI THIỆU NGÀNH HỆ THỐNG THÔNG TIN > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Số tín chỉ:, Giới thiệu ngành Hệ thống Thông tin: 1 TC lý thuyết : 1 TC thực hành :0\nTên môn học (tiếng Việ",
+        "[Chương Trình Thiết Kế Vi Mạch > Mô tả các môn học mới và việc xét tương đương môn học]\n\n\\- Đối với các môn học **Tự chọn chuyên ngành**, sinh viên có thể chọn đăng ký học các môn bất kỳ trong Bảng 8."
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 7,
+        "total_time_ms": 22610.64600944519
+      },
+      "sources": [
+        {
+          "section_id": "ae88096c711e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 10. Đăng ký học tập]\n\n* Sinh viên phải đăng ký học phần qua hệ thống trực tuyến của Trường trước mỗi học kỳ theo đúng thời hạn thông báo.\n* **Khối",
+          "score": 0.8368678
+        },
+        {
+          "section_id": "f7cd03b3d399",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[QUY CHẾ ĐÀO TẠO ĐẠI HỌC THEO HỆ THỐNG TÍN CHỈ > Điều 13. Đăng ký học tập]\n\nĐầu mỗi học kỳ, sinh viên phải tìm hiểu, nghiên cứu để nắm được chương trình giáo dục, các học phần được mở trong học kỳ và ",
+          "score": 0.83211136
+        },
+        {
+          "section_id": "17fc6566c588",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Một số quy trình dành cho sinh viên > 13. QUY TRÌNH ĐIỀU CHỈNH ĐĂNG KÝ HỌC PHẦN]\n\n1\\. Quy trình gồm các bước (B) sau:\n**B1:&#x20;**&#x53;inh viên vào địa chỉ [DKHP.UIT.EDU.VN](https://dkhp.uit.edu.vn",
+          "score": 0.82774544
+        },
+        {
+          "section_id": "63469d22ec7e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > ... > Mô tả các môn học mới và việc xét tương đương môn học]\n\n\\- Đối với các môn học **Tự chọn chuyên ngành**, sinh viên có thể chọn đăng ký học các môn bất kỳ trong Bảng 8.",
+          "score": 0.82695055
+        },
+        {
+          "section_id": "38a93aabacb7",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Một số quy trình dành cho sinh viên > 2. ĐĂNG KÝ HỌC PHẦN]\n\ndoc)) và nộp tại P.ĐTĐH/VPCCTĐB để được xem xét giải quyết.\n\n\\- Chỉ được đăng ký tối đa 24 tín chỉ/ học kỳ (bao gồm cả các học phần đăng ký",
+          "score": 0.8267994
+        },
+        {
+          "section_id": "a0fdc13efe1a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS005 -- GIỚI THIỆU NGÀNH HỆ THỐNG THÔNG TIN > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Số tín chỉ:, Giới thiệu ngành Hệ thống Thông tin: 1 TC lý thuyết : 1 TC thực hành :0\nTên môn học (tiếng Việ",
+          "score": 0.8194566
+        },
+        {
+          "section_id": "21d91f5490e4",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Thiết Kế Vi Mạch > Mô tả các môn học mới và việc xét tương đương môn học]\n\n\\- Đối với các môn học **Tự chọn chuyên ngành**, sinh viên có thể chọn đăng ký học các môn bất kỳ trong Bảng 8.",
+          "score": 0.81677866
+        }
+      ]
+    },
+    {
+      "question": "Cách tính điểm môn Phân tích thiết kế HTTT?",
+      "answer": "Dựa trên các thông tin được cung cấp, môn Phân tích thiết kế Hệ thống Thông tin (IS201) có thành phần đánh giá như sau:\n\n*   **Thực hành:** 30% (Xây dựng ứng dụng HTTT hoàn chỉnh, tối thiểu 2 chức năng chính bằng ASP.NET MVC)\n*   **Cuối kỳ:** 50% (Thi tự luận)\n\nTôi không có đủ thông tin để cung cấp cách tính điểm cụ thể cho từng thành phần đánh giá.",
+      "contexts": [
+        "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\n: NT4\nCĐRMH: G2.1, LOs: 3.1, Mô tả CĐRMH: Hiểu và xác định được các dữ kiện: hiện trạng môi trường ứ",
+        "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Giảng viên tham gia giảng dạy: Các giảng viên Khoa HTTT\nTên môn học (tiếng Việt):: Số tín chỉ:, Phân tích",
+        "[IS220 -- XÂY DỰNG HTTT TRÊN FRAMEWORK (2022-RUBRIC) > ĐÁNH GIÁ MÔN HỌC (Course assessment)]\n\nThành phần đánh giá: A2. Thực hành, Nội dung: Xây dựng một ứng dụng HTTT hoàn chỉnh, tối thiểu 2 chức năng",
+        "[IS005 -- GIỚI THIỆU NGÀNH HỆ THỐNG THÔNG TIN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\n[Bảng 1] Bảng 3 hàng x 6 cột. Các cột: Rubric criteria/Mục tiêu môn học, Từ 0 đến <3, Từ 3 đến <5, ...\n: Rubric criteria/Mục",
+        "[Ngành Hệ Thống Thông Tin > ... > Học kỳ 8 (Chuyên ngành HTTT quản lý)]\n\n---\n\n[Bảng 1] Bảng 2 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IS401, ",
+        "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > NỘI DUNG CHI TIẾT]\n\n**Lý thuyết**\n\n**Thực hành**\n\n##\n\n[Bảng 1] Bảng 8 hàng x 5 cột. Các cột: Tuần/Thời lượng (4 tiết), Nội dung, Ghi chú/Mô tả hoạt độ",
+        "[IS220 -- XÂY DỰNG HTTT TRÊN FRAMEWORK (2022-RUBRIC) > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nBảng 2. **(NT: Nhận thức, KN: Kỹ năng, TĐ: Thái độ)**\n\n\n   **CĐRMH**   **LOs**  **Mô tả CĐRMH (",
+        "[Ngành Hệ Thống Thông Tin > ... > Học kỳ 8 (Chuyên ngành HTTT y tế)]\n\n[Bảng 1] Bảng 2 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IS401, Tên môn ",
+        "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > MÔ TẢ MÔN HỌC (Course description)]\n\nMôn học trình bày các khái niệm và phương pháp luận để phân tích thiết kế một hệ thống thông tin (HTTT), vai trò ",
+        "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > MỤC TIÊU MÔN HỌC (Course Goals)]\n\nBảng 1.\n\n[Bảng 1] Bảng 4 hàng x 3 cột. Các cột: ## Mục tiêu, ## Mục tiêu môn học, ## Chuẩn đầu ra trong CTĐT\n: ## Mụ"
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 10,
+        "total_time_ms": 11099.85899925232
+      },
+      "sources": [
+        {
+          "section_id": "80e231928e0b",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\n: NT4\nCĐRMH: G2.1, LOs: 3.1, Mô tả CĐRMH: Hiểu và xác định được các dữ kiện: hiện trạng môi trường ứ",
+          "score": 0.8174014
+        },
+        {
+          "section_id": "3673b47998db",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Giảng viên tham gia giảng dạy: Các giảng viên Khoa HTTT\nTên môn học (tiếng Việt):: Số tín chỉ:, Phân tích",
+          "score": 0.8147621
+        },
+        {
+          "section_id": "b9b96d4c0916",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS220 -- XÂY DỰNG HTTT TRÊN FRAMEWORK (2022-RUBRIC) > ĐÁNH GIÁ MÔN HỌC (Course assessment)]\n\nThành phần đánh giá: A2. Thực hành, Nội dung: Xây dựng một ứng dụng HTTT hoàn chỉnh, tối thiểu 2 chức năng",
+          "score": 0.80976343
+        },
+        {
+          "section_id": "a097bae38d3c",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS005 -- GIỚI THIỆU NGÀNH HỆ THỐNG THÔNG TIN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\n[Bảng 1] Bảng 3 hàng x 6 cột. Các cột: Rubric criteria/Mục tiêu môn học, Từ 0 đến <3, Từ 3 đến <5, ...\n: Rubric criteria/Mục",
+          "score": 0.80699825
+        },
+        {
+          "section_id": "921b194efa18",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Hệ Thống Thông Tin > ... > Học kỳ 8 (Chuyên ngành HTTT quản lý)]\n\n---\n\n[Bảng 1] Bảng 2 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IS401, ",
+          "score": 0.8019328
+        },
+        {
+          "section_id": "c0e4d77a29a4",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > NỘI DUNG CHI TIẾT]\n\n**Lý thuyết**\n\n**Thực hành**\n\n##\n\n[Bảng 1] Bảng 8 hàng x 5 cột. Các cột: Tuần/Thời lượng (4 tiết), Nội dung, Ghi chú/Mô tả hoạt độ",
+          "score": 0.7999244
+        },
+        {
+          "section_id": "0e756c543a42",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS220 -- XÂY DỰNG HTTT TRÊN FRAMEWORK (2022-RUBRIC) > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nBảng 2. **(NT: Nhận thức, KN: Kỹ năng, TĐ: Thái độ)**\n\n\n   **CĐRMH**   **LOs**  **Mô tả CĐRMH (",
+          "score": 0.7967882
+        },
+        {
+          "section_id": "baeb7da09a68",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Hệ Thống Thông Tin > ... > Học kỳ 8 (Chuyên ngành HTTT y tế)]\n\n[Bảng 1] Bảng 2 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IS401, Tên môn ",
+          "score": 0.7949667
+        },
+        {
+          "section_id": "78841cd36007",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > MÔ TẢ MÔN HỌC (Course description)]\n\nMôn học trình bày các khái niệm và phương pháp luận để phân tích thiết kế một hệ thống thông tin (HTTT), vai trò ",
+          "score": 0.7946305
+        },
+        {
+          "section_id": "90ec6fffd6e1",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS201 -- PHÂN TÍCH THIẾT KẾ HỆ THỐNG THÔNG TIN > MỤC TIÊU MÔN HỌC (Course Goals)]\n\nBảng 1.\n\n[Bảng 1] Bảng 4 hàng x 3 cột. Các cột: ## Mục tiêu, ## Mục tiêu môn học, ## Chuẩn đầu ra trong CTĐT\n: ## Mụ",
+          "score": 0.7938862
+        }
+      ]
+    },
+    {
+      "question": "Rubric đánh giá môn Hệ quản trị CSDL như thế nào?",
+      "answer": "Dựa trên các thông tin được cung cấp, rubric đánh giá môn Hệ quản trị CSDL như sau:\n\n*   **G2:** Từ 0 đến <3: Không nắm căn bản về khả năng áp dụng ngôn ngữ SQL để giải quyết các bài toán quản lý thực tế. Chưa biết cách tối ưu hóa các câu truy vấn SQL.\n*   **G3:** Từ 0 đến <3: Không nắm căn bản về khả năng áp dụng ngôn ngữ SQL để giải quyết các bài toán quản lý thực tế theo yêu cầu. Chưa biết cách tối ưu hóa các câu truy vấn SQL.\n*   **G3:** Từ 3 đến <5: Nắm sơ lược về ngôn ngữ, nhưng không thể áp dụng giải quyết các bài toán quản lý thực tế. Biết về tối ưu hóa các câu truy vấn tuy nhiên chỉ ở mức độ nắm kiến thức, Từ 5 đến <7: - Có thể sử dụng SQL để giải quyết các vấn đề đơn giản trong bài toán quản lý thực tế và chưa thành",
+      "contexts": [
+        "[IS207 -- PHÁT TRIỂN ỨNG DỤNG WEB (2022-RUBRIC) > ĐÁNH GIÁ CHI TIẾT MÔN HỌC]\n\na được Sử dụng thành thạo kỹ thuật lập trình Ajax Áp dụng các phương thức truyền dữ liệu tốt\nTiêu chí Rubric: G4, <3",
+        "[IS210 -- HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\nRubric criteria/Mục tiêu môn học: G2, Từ 0 đến <3: - Không nắm căn bản vể ngôn ngữ, không có khả năng áp dụng ngôn ngữ SQL để giải quy",
+        "[IS335 -- AN TOÀN VÀ BẢO MẬT HỆ THỐNG THÔNG TIN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\n- Chưa nắm được các ký hiệu trong xây dựng mô hình kiểm soát truy cập RBAC. - Sử dụng tốt chức năng theo dõi kiểm ",
+        "[IT004 -- CƠ SỞ DỮ LIỆU (2022-RUBRIC) > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nBảng 2.\n\n[Bảng 1] Bảng 7 hàng x 4 cột. Các cột: CĐRMH [1], LOs [2], Mô tả CĐRMH [3], ...\n: CĐRMH [1], : LOs [2",
+        "[EC213 -- QUẢN TRỊ QUAN HỆ KHÁCH HÀNG VÀ NHÀ CUNG CẤP (2022) > Rubric của thành phần đánh giá A3.2: Đồ án]\n\nđ): Không cài đặt được: 1đ Không tham gia: 0đ, Trọng số: 20%\n: A4.2, : Thao tác sử dụng phần"
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 5,
+        "total_time_ms": 21160.892009735107
+      },
+      "sources": [
+        {
+          "section_id": "7d790e4d0220",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS207 -- PHÁT TRIỂN ỨNG DỤNG WEB (2022-RUBRIC) > ĐÁNH GIÁ CHI TIẾT MÔN HỌC]\n\na được Sử dụng thành thạo kỹ thuật lập trình Ajax Áp dụng các phương thức truyền dữ liệu tốt\nTiêu chí Rubric: G4, <3",
+          "score": 0.8037152
+        },
+        {
+          "section_id": "026fec87f070",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS210 -- HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\nRubric criteria/Mục tiêu môn học: G2, Từ 0 đến <3: - Không nắm căn bản vể ngôn ngữ, không có khả năng áp dụng ngôn ngữ SQL để giải quy",
+          "score": 0.798409
+        },
+        {
+          "section_id": "5286834d7ff9",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS335 -- AN TOÀN VÀ BẢO MẬT HỆ THỐNG THÔNG TIN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\n- Chưa nắm được các ký hiệu trong xây dựng mô hình kiểm soát truy cập RBAC. - Sử dụng tốt chức năng theo dõi kiểm ",
+          "score": 0.7795067
+        },
+        {
+          "section_id": "89287e1229fb",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IT004 -- CƠ SỞ DỮ LIỆU (2022-RUBRIC) > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nBảng 2.\n\n[Bảng 1] Bảng 7 hàng x 4 cột. Các cột: CĐRMH [1], LOs [2], Mô tả CĐRMH [3], ...\n: CĐRMH [1], : LOs [2",
+          "score": 0.77936935
+        },
+        {
+          "section_id": "10c56c2c1662",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[EC213 -- QUẢN TRỊ QUAN HỆ KHÁCH HÀNG VÀ NHÀ CUNG CẤP (2022) > Rubric của thành phần đánh giá A3.2: Đồ án]\n\nđ): Không cài đặt được: 1đ Không tham gia: 0đ, Trọng số: 20%\n: A4.2, : Thao tác sử dụng phần",
+          "score": 0.7781477
+        }
+      ]
+    },
+    {
+      "question": "Chuẩn đầu ra G1 của môn Dữ Liệu Lớn là gì?",
+      "answer": "Hiểu và trình bày được những khái niệm cơ bản liên quan đến dữ liệu lớn, những thách thức, cơ hội từ dữ liệu lớn và những ứng dụng trong đời sống xã hội.",
+      "contexts": [
+        "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ CHUẨN ĐẦU RA]\n\nChuẩn đầu ra theo CTĐT: 2.7, Minh chứng đánh giá (Lý thuyết, quá trình): - A1.2. Seminar hệ sinh thái dữ liệu lớn. - A1.3. Seminar hệ thống xử lý dữ liệ",
+        "[IS405 -- DỮ LIỆU LỚN > NỘI DUNG CHI TIẾT]\n\nn loại dữ liệu lớn - Quy trình xử lý dữ liệu lớn. - Ứng dụng của dữ liệu lớn và xu hướng hiện tại. - Những thách thức và cơ hội từ dữ liệu lớn., Ghi chú/Mô ",
+        "[1], Chuẩn đầu ra: G2.1 G3.1 G3.2, Thành phần đánh giá: A1, A3\nTuần/Thời lượng (4 tiết): 8, Nội dung: Chương 5: Kiểm toán bảo mật - Kiến trúc kiểm toán bảo mật - Theo dõi kiểm định bảo mật - Hiện thực",
+        "[IS405 -- DỮ LIỆU LỚN > MỤC TIÊU MÔN HỌC (Course Goals)]\n\nBảng 1\n\n\n   **Mục tiêu**  **Mục tiêu môn học**                                                                                                ",
+        "[IS405 -- DỮ LIỆU LỚN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nCĐRMH: G3.1, LOs: 3.1, Mô tả CĐRMH: - Vận dụng kỹ năng xác định và phát biểu bài toán thực tế về dữ liệu lớn: ngữ cảnh khai th",
+        "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\n**Từ 9 đến 10**\n\n                  **G1**                 \\- Chưa nắm rõ đa số các khái niệm, cơ hội và ứng dụng của dữ liệu lớn. Chưa hiểu rõ hoặc "
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 6,
+        "total_time_ms": 12432.844877243042
+      },
+      "sources": [
+        {
+          "section_id": "cd31275a6322",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ CHUẨN ĐẦU RA]\n\nChuẩn đầu ra theo CTĐT: 2.7, Minh chứng đánh giá (Lý thuyết, quá trình): - A1.2. Seminar hệ sinh thái dữ liệu lớn. - A1.3. Seminar hệ thống xử lý dữ liệ",
+          "score": 0.81466293
+        },
+        {
+          "section_id": "8ce735a5edb9",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS405 -- DỮ LIỆU LỚN > NỘI DUNG CHI TIẾT]\n\nn loại dữ liệu lớn - Quy trình xử lý dữ liệu lớn. - Ứng dụng của dữ liệu lớn và xu hướng hiện tại. - Những thách thức và cơ hội từ dữ liệu lớn., Ghi chú/Mô ",
+          "score": 0.8118262
+        },
+        {
+          "section_id": "5b3d48c6dd26",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[1], Chuẩn đầu ra: G2.1 G3.1 G3.2, Thành phần đánh giá: A1, A3\nTuần/Thời lượng (4 tiết): 8, Nội dung: Chương 5: Kiểm toán bảo mật - Kiến trúc kiểm toán bảo mật - Theo dõi kiểm định bảo mật - Hiện thực",
+          "score": 0.8102598
+        },
+        {
+          "section_id": "e10bffad7c4a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS405 -- DỮ LIỆU LỚN > MỤC TIÊU MÔN HỌC (Course Goals)]\n\nBảng 1\n\n\n   **Mục tiêu**  **Mục tiêu môn học**                                                                                                ",
+          "score": 0.8038497
+        },
+        {
+          "section_id": "db6783f64b4b",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS405 -- DỮ LIỆU LỚN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nCĐRMH: G3.1, LOs: 3.1, Mô tả CĐRMH: - Vận dụng kỹ năng xác định và phát biểu bài toán thực tế về dữ liệu lớn: ngữ cảnh khai th",
+          "score": 0.80088663
+        },
+        {
+          "section_id": "d0a38d4240f4",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\n**Từ 9 đến 10**\n\n                  **G1**                 \\- Chưa nắm rõ đa số các khái niệm, cơ hội và ứng dụng của dữ liệu lớn. Chưa hiểu rõ hoặc ",
+          "score": 0.79823446
+        }
+      ]
+    },
+    {
+      "question": "Ngành CNTT có thể làm nghề gì sau khi ra trường?",
+      "answer": "Dựa trên các thông tin được cung cấp, sau khi tốt nghiệp ngành Công nghệ Thông Tin, sinh viên có thể làm việc trong nhiều lĩnh vực khác nhau, bao gồm:\n\n*   **Phát triển phần mềm:** Lập trình, thiết kế, phát triển các giải pháp phần mềm máy tính, hệ thống số, hệ thống nhúng, hệ thống IoT và ứng dụng trí tuệ nhân tạo.\n*   **Quản lý và vận hành mạng:** Thiết kế, cài đặt, quản trị, bảo trì và đảm bảo an ninh cho các hệ thống mạng máy tính và truyền thông.\n*   **Phát triển ứng dụng:** Phát triển các ứng dụng truyền thông xã hội và công nghệ Web, hoặc phát triển và vận hành hệ thống để triển khai các phần mềm, ứng dụng (DevOps).\n*   **Phân tích dữ liệu:** Khai thác dữ liệu và thông tin ứng dụng cho các doanh nghiệp trong vấn đề phân tích định lượng.\n*   **Thương mại điện tử:** Quản trị hệ thống, phát triển các hệ thống giao dịch thương mại, kinh doanh trực tuyến.\n*   **Nghiên cứu và phát triển:** Nghiên cứu và ứng dụng CNTT tại các viện, trung tâm nghiên cứu và các trường đại học, cao đẳng.\n*   **Giảng dạy:** Giảng dạy Công nghệ thông tin tại các trường đại học, cao đẳng, trung học phổ thông, trung học chuyên nghiệp và dạy nghề.\n\nNgoài ra, sinh viên còn có thể tham gia các chương trình đào tạo sau đại học của ngành Kỹ thuật Máy tính và các ngành phù hợp khác.",
+      "contexts": [
+        "[Ngành Hệ Thống Thông Tin > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp có thể làm việc ở các phạm vi và lĩnh vực khác nhau như:\n\n1. Chuyên viên phân tích, thiết kế, cài đặt, kiể",
+        "[Ngành Công Nghệ Thông Tin > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp Chương trình đào tạo Cử nhân Công nghệ Thông tin có khả năng làm việc ở những phạm vi và lĩnh vực",
+        "[Ngành Kỹ Thuật Máy Tính > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp ngành Kỹ thuật máy tính có thể làm việc ở các phạm vi và lĩnh vực khác nhau như:\n\n- Chuyên viên p",
+        "[Chương trình Mạng Máy Tính và Truyền Thông Dữ Liệu > Vị trí và khả năng làm việc sau tốt nghiệp]\n\n\\- Khởi nghiệp và làm chủ công nghệ trong các lĩnh vực IoTs/Industry4.0 và ứng dụng Mobile.\n\n\\",
+        "[Ngành Công Nghệ Thông Tin > Quan điểm xây dựng chương trình đào tạo]\n\n![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/66bdbdd08b03669bc4e66c80fec444532e2753890f2e8c8e.png)\n\n**Hình 1: Mô ",
+        "[Chương trình Thương Mại Điện Tử > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp có thể làm việc ở những phạm vi và lĩnh vực khác nhau như:\n\n\\- Chuyên viên quản trị hệ thống, chuy"
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 6,
+        "total_time_ms": 18339.842081069946
+      },
+      "sources": [
+        {
+          "section_id": "d62ab162f1b5",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Hệ Thống Thông Tin > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp có thể làm việc ở các phạm vi và lĩnh vực khác nhau như:\n\n1. Chuyên viên phân tích, thiết kế, cài đặt, kiể",
+          "score": 0.8632717
+        },
+        {
+          "section_id": "2fb5bcadd897",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp Chương trình đào tạo Cử nhân Công nghệ Thông tin có khả năng làm việc ở những phạm vi và lĩnh vực",
+          "score": 0.8530898
+        },
+        {
+          "section_id": "4a360f19b8ed",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp ngành Kỹ thuật máy tính có thể làm việc ở các phạm vi và lĩnh vực khác nhau như:\n\n- Chuyên viên p",
+          "score": 0.8298869
+        },
+        {
+          "section_id": "1d8065780a8c",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Mạng Máy Tính và Truyền Thông Dữ Liệu > Vị trí và khả năng làm việc sau tốt nghiệp]\n\n\\- Khởi nghiệp và làm chủ công nghệ trong các lĩnh vực IoTs/Industry4.0 và ứng dụng Mobile.\n\n\\",
+          "score": 0.82665586
+        },
+        {
+          "section_id": "197c31f4cd93",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > Quan điểm xây dựng chương trình đào tạo]\n\n![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/66bdbdd08b03669bc4e66c80fec444532e2753890f2e8c8e.png)\n\n**Hình 1: Mô ",
+          "score": 0.8227048
+        },
+        {
+          "section_id": "c582a4703b5b",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp có thể làm việc ở những phạm vi và lĩnh vực khác nhau như:\n\n\\- Chuyên viên quản trị hệ thống, chuy",
+          "score": 0.8214555
+        }
+      ]
+    },
+    {
+      "question": "Khối kiến thức đại cương ngành TTNT gồm những gì?",
+      "answer": "Khối kiến thức đại cương ngành TTNT gồm 45 tín chỉ, bao gồm:\n\n*   **Kiến thức cơ sở ngành (31 TC):** Bắt buộc cơ sở ngành.\n*   **Lý thuyết:** (không được chỉ rõ số lượng)\n*   **Thực hành / Thí nghiệm / Bài tập lớn:** 27 TC",
+      "contexts": [
+        "[Ngành Kỹ Thuật Máy Tính > ... > Khối kiến thức giáo dục đại cương]\n\nTổng cộng: **18** môn, **47**tín chỉ giáo dục đại cương bắt buộc.\n\n[Bảng 1] Bảng 23 hàng x 8 cột. Các cột: STT, Mã MH, Tên MH",
+        "[Chương Trình Kỹ Thuật Phần Mềm > ... > Khối kiến thức tốt nghiệp]\n\nKhối kiến thức tốt nghiệp trang bị cho sinh viên khả năng vận dụng tổng hợp kiến thức và kỹ năng đã học để thực hiện các dự án thực ",
+        "[Ngành Công Nghệ Thông Tin > Các khối kiến thức]\n\nKhối kiến thức: Khối kiến thức giáo dục đại cương**(45 TC)**, : Lý luận chính trị và pháp luật, Khối lượng: 13, : 36\n: Toán-Tin học-Khoa h",
+        "[Chương trình Truyền Thông Đa Phương Tiện > 6.5. Các môn học thuộc khối kiến thức tốt nghiệp:]\n\nCĐRMH: LO1, HK1: MM006<br><br>- Tâm lý học đại cương<br><br>- NT2, HK3: MM102<br><br>- Lý luận truyền th",
+        "[Ngành Trí Tuệ Nhân Tạo > ... > Khối kiến thức tốt nghiệp]\n\n10 tín chỉ.\n\n[Bảng 1] Bảng 14 hàng x 6 cột. Các cột: STT, Mã môn học, Tên môn học, ...\n: STT, : Mã môn học, : Tên môn học, : TC, : LT, : TH\n",
+        "[Chương trình Truyền Thông Đa Phương Tiện > Khối kiến thức cơ sở ngành]\n\nệm**|\n| **Tổng cộng**| **Lý thuyết**| **Thực hành / Thí nghiệm / Bài tập lớn**|\n| **II**| **Kiến thức cơ sở ngành (31 TC)**|   ",
+        "[Chương trình Truyền Thông Đa Phương Tiện > Các môn học đại cương]\n\n|     | MM006 | Tâm lý học đại cương | NT2 |     |     |     | KN2 |     | KN2 |     |\n|     | MM007 | Tư duy sáng tạo và xu hướng t",
+        "[Ngành Kỹ Thuật Máy Tính > Chuẩn đầu ra]\n\nHQG ngày 24/12/2020), Tầm nhìn - sứ mạng- Triết lý giáo dục của Trường ĐH CNTT.\n\nSinh viên tốt nghiệp CTĐT ngành KTMT đạt được các năng lực sau:\n\n**PLO1 - Về ",
+        "[Chương Trình Thiết Kế Vi Mạch > CHUẨN ĐẦU RA]\n\n658/QĐ-ĐHQG ngày 24/12/2020), Tầm nhìn - sứ mạng- Triết lý giáo dục của Trường ĐH CNTT.\n\nSinh viên tốt nghiệp CTĐT ngành TKVM đạt được các năng lực sa",
+        "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức giáo dục đại cương]\n\n**Tổng cộng 45 tín chỉ** (đã tính số tín chỉ của Anh văn và không tính các học phần Giáo dục quốc phòng và Giáo dục thể chất vào "
+      ],
+      "ground_truth": "",
+      "expected_intent": "structure",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 10,
+        "total_time_ms": 10251.399278640747
+      },
+      "sources": [
+        {
+          "section_id": "4c242329af67",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > ... > Khối kiến thức giáo dục đại cương]\n\nTổng cộng: **18** môn, **47**tín chỉ giáo dục đại cương bắt buộc.\n\n[Bảng 1] Bảng 23 hàng x 8 cột. Các cột: STT, Mã MH, Tên MH",
+          "score": 0.78247404
+        },
+        {
+          "section_id": "c3cf6058086e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Kỹ Thuật Phần Mềm > ... > Khối kiến thức tốt nghiệp]\n\nKhối kiến thức tốt nghiệp trang bị cho sinh viên khả năng vận dụng tổng hợp kiến thức và kỹ năng đã học để thực hiện các dự án thực ",
+          "score": 0.7817211
+        },
+        {
+          "section_id": "4d3fa15f8c8e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > Các khối kiến thức]\n\nKhối kiến thức: Khối kiến thức giáo dục đại cương**(45 TC)**, : Lý luận chính trị và pháp luật, Khối lượng: 13, : 36\n: Toán-Tin học-Khoa h",
+          "score": 0.78111553
+        },
+        {
+          "section_id": "7ce21b0e20e7",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Truyền Thông Đa Phương Tiện > 6.5. Các môn học thuộc khối kiến thức tốt nghiệp:]\n\nCĐRMH: LO1, HK1: MM006<br><br>- Tâm lý học đại cương<br><br>- NT2, HK3: MM102<br><br>- Lý luận truyền th",
+          "score": 0.78015137
+        },
+        {
+          "section_id": "f5d601d2c758",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Trí Tuệ Nhân Tạo > ... > Khối kiến thức tốt nghiệp]\n\n10 tín chỉ.\n\n[Bảng 1] Bảng 14 hàng x 6 cột. Các cột: STT, Mã môn học, Tên môn học, ...\n: STT, : Mã môn học, : Tên môn học, : TC, : LT, : TH\n",
+          "score": 0.7797122
+        },
+        {
+          "section_id": "aee204ee7c40",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Truyền Thông Đa Phương Tiện > Khối kiến thức cơ sở ngành]\n\nệm**|\n| **Tổng cộng**| **Lý thuyết**| **Thực hành / Thí nghiệm / Bài tập lớn**|\n| **II**| **Kiến thức cơ sở ngành (31 TC)**|   ",
+          "score": 0.77912617
+        },
+        {
+          "section_id": "30dde784ab04",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Truyền Thông Đa Phương Tiện > Các môn học đại cương]\n\n|     | MM006 | Tâm lý học đại cương | NT2 |     |     |     | KN2 |     | KN2 |     |\n|     | MM007 | Tư duy sáng tạo và xu hướng t",
+          "score": 0.7783313
+        },
+        {
+          "section_id": "7d5370df2d13",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > Chuẩn đầu ra]\n\nHQG ngày 24/12/2020), Tầm nhìn - sứ mạng- Triết lý giáo dục của Trường ĐH CNTT.\n\nSinh viên tốt nghiệp CTĐT ngành KTMT đạt được các năng lực sau:\n\n**PLO1 - Về ",
+          "score": 0.77566147
+        },
+        {
+          "section_id": "b71944e70c4d",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Thiết Kế Vi Mạch > CHUẨN ĐẦU RA]\n\n658/QĐ-ĐHQG ngày 24/12/2020), Tầm nhìn - sứ mạng- Triết lý giáo dục của Trường ĐH CNTT.\n\nSinh viên tốt nghiệp CTĐT ngành TKVM đạt được các năng lực sa",
+          "score": 0.77467823
+        },
+        {
+          "section_id": "aa19a5e191b1",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức giáo dục đại cương]\n\n**Tổng cộng 45 tín chỉ** (đã tính số tín chỉ của Anh văn và không tính các học phần Giáo dục quốc phòng và Giáo dục thể chất vào ",
+          "score": 0.7741947
+        }
+      ]
+    }
+  ]
+}

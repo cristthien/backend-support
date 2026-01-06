@@ -1,0 +1,208 @@
+{
+  "pipeline": "naive",
+  "timestamp": "2025-12-25T17:53:30.242638",
+  "intent_filter": "compare",
+  "total_queries": 3,
+  "results": [
+    {
+      "question": "Môn cơ sở dữ liệu phân tán khác gì với môn dữ liệu lớn?",
+      "answer": "Môn cơ sở dữ liệu phân tán cung cấp kiến thức về nguyên lý thiết kế cơ sở dữ liệu phân tán, quản lý giao tác, điều khiển tương tranh và phục hồi dữ liệu, đồng thời trang bị cho sinh viên các kiến thức về hệ quản trị CSDL phân tán (như Oracle hoặc SQL Server). Môn tập trung vào việc thiết kế và giải quyết các vấn đề liên quan đến CSDL phân tán.\n\nMôn dữ liệu lớn tập trung vào xử lý các tập dữ liệu lớn, thường sử dụng các mô hình như MapReduce. Nó bao gồm các kỹ thuật tiền xử lý, khai thác dữ liệu lớn, và các hệ sinh thái hỗ trợ lưu trữ, quản lý, truy vấn, chuyển đổi, lập quy trình xử lý dữ liệu lớn.\n",
+      "contexts": [
+        "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\nhân tán.                                  Nắm được phương pháp và lập trình được một số xử lý cơ bản với dữ liệu lớn trên nền tảng phân tán nhưng ch",
+        "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > THÔNG TIN CHUNG]\n\n[Bảng 1] Bảng 9 hàng x 2 cột. Các cột: Tên môn học (tiếng Việt):, Cơ sở dữ liệu phân tán\n: Tên môn học (tiếng Việt):, : Cơ sở dữ liệu phân tán\nTên ",
+        "[IS405 -- DỮ LIỆU LỚN > MỤC TIÊU MÔN HỌC (Course Goals)]\n\n(3.2, 3.3)\n\n      **G2**     Hiểu và lập trình được một số xử lý cơ bản với dữ liệu lớn trên nền tảng xử lý phân tán.                         ",
+        "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC (Course assessment)]\n\nlệ (%): 20%\nThành phần đánh giá: A2. Thực hành +-----------------------------------------------------------------------------------------",
+        "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > MÔ TẢ MÔN HỌC]\n\nSinh viên được trang bị các kiến thức về nguyên lý thiết kế cơ sở dữ liệu phân tán, quản lý giao tác, điều khiển tương tranh và phục hồi dữ liệu\\... ",
+        "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\ních của CSDL phân tán,... - Các thành phần cơ bản trong một hệ quản trị CSDL phân tán (như Oracle hoặc SQL Server).",
+        "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > NỘI DUNG, KẾ HOẠCH GIẢNG DẠY]\n\n+------------------+, Nội dung: Chương 1. Tổng quan về CSDL phân tán - Xử lý phân tán - Định nghĩa CSDL phân tán. - Các đặc điểm của C"
+      ],
+      "ground_truth": "",
+      "expected_intent": "compare",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 7,
+        "total_time_ms": 10997.017860412598
+      },
+      "sources": [
+        {
+          "section_id": "d0a38d4240f4",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\nhân tán.                                  Nắm được phương pháp và lập trình được một số xử lý cơ bản với dữ liệu lớn trên nền tảng phân tán nhưng ch",
+          "score": 0.83258724
+        },
+        {
+          "section_id": "0ee9cba95b78",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > THÔNG TIN CHUNG]\n\n[Bảng 1] Bảng 9 hàng x 2 cột. Các cột: Tên môn học (tiếng Việt):, Cơ sở dữ liệu phân tán\n: Tên môn học (tiếng Việt):, : Cơ sở dữ liệu phân tán\nTên ",
+          "score": 0.81903744
+        },
+        {
+          "section_id": "e10bffad7c4a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS405 -- DỮ LIỆU LỚN > MỤC TIÊU MÔN HỌC (Course Goals)]\n\n(3.2, 3.3)\n\n      **G2**     Hiểu và lập trình được một số xử lý cơ bản với dữ liệu lớn trên nền tảng xử lý phân tán.                         ",
+          "score": 0.81514263
+        },
+        {
+          "section_id": "4256c0912520",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC (Course assessment)]\n\nlệ (%): 20%\nThành phần đánh giá: A2. Thực hành +-----------------------------------------------------------------------------------------",
+          "score": 0.809083
+        },
+        {
+          "section_id": "d1c17c9a1d16",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > MÔ TẢ MÔN HỌC]\n\nSinh viên được trang bị các kiến thức về nguyên lý thiết kế cơ sở dữ liệu phân tán, quản lý giao tác, điều khiển tương tranh và phục hồi dữ liệu\\... ",
+          "score": 0.8049536
+        },
+        {
+          "section_id": "0f33a0b41b95",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\ních của CSDL phân tán,... - Các thành phần cơ bản trong một hệ quản trị CSDL phân tán (như Oracle hoặc SQL Server).",
+          "score": 0.8028774
+        },
+        {
+          "section_id": "fa8db1977b17",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > NỘI DUNG, KẾ HOẠCH GIẢNG DẠY]\n\n+------------------+, Nội dung: Chương 1. Tổng quan về CSDL phân tán - Xử lý phân tán - Định nghĩa CSDL phân tán. - Các đặc điểm của C",
+          "score": 0.7992921
+        }
+      ]
+    },
+    {
+      "question": "Môn cơ sơ dữ liệu có gì khác với hệ quản trị cơ sở dữ liệu?",
+      "answer": "Dựa trên thông tin được cung cấp, môn “Cơ sở dữ liệu” (IT004) trình bày về sự cần thiết của cơ sở dữ liệu trong doanh nghiệp và các tổ chức, cung cấp kiến thức về nguyên lý của các hệ thống cơ sở dữ liệu quan hệ (mô hình dữ liệu quan hệ, ngôn ngữ thao tác, truy vấn dữ liệu).\n\nTrong khi đó, “Hệ quản trị cơ sở dữ liệu” (IS210) tập trung vào việc sử dụng các công cụ như MS SQL Server, DB2, Oracle, MySQL... để quản lý và làm việc với cơ sở dữ liệu. Môn này đi sâu vào các thành phần của một HQTCSDL, nguyên tắc hoạt động, giao tác, an toàn, khôi phục dữ liệu, tối ưu hóa câu truy vấn.\n",
+      "contexts": [
+        "[IT004 -- CƠ SỞ DỮ LIỆU (2022-RUBRIC) > MÔ TẢ MÔN HỌC (Course description)]\n\nMôn học trình bày về sự cần thiết của cơ sở dữ liệu trong doanh nghiệp và trong các loại hình tổ chức khác. Cung cấp sự hiể",
+        "[IS210 -- HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Lý thuyết: (tiết), Hệ Quản trị Cơ sở Dữ liệu: 45 tiết\nTên môn học (tiếng Việt):: Thực hành: (tiết), Hệ Quản trị Cơ sở",
+        "[IS210 -- HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU > MÔ TẢ MÔN HỌC(Course description)]\n\nMôn học trình bày khái niệm cơ bản về các hệ quản trị cơ sở dữ liệu (HQTCSDL) hiện đại và đặc tính chung của chúng. Đi sâu vào",
+        "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > MÔ TẢ MÔN HỌC]\n\nSinh viên được trang bị các kiến thức về nguyên lý thiết kế cơ sở dữ liệu phân tán, quản lý giao tác, điều khiển tương tranh và phục hồi dữ liệu\\... ",
+        "[Chương trình Khoa Học Dữ Liệu > ... > Nhóm các môn học cơ sở ngành]\n\nSTT: 4, Mã môn học: IT004, Tên môn học: Cơ sở dữ liệu, TC: 4, LT: 3, TH: 1\nSTT: Kiến thức về mạng máy tính, TC: 4, LT: 3, TH: 1\nST"
+      ],
+      "ground_truth": "",
+      "expected_intent": "compare",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 5,
+        "total_time_ms": 9871.454000473022
+      },
+      "sources": [
+        {
+          "section_id": "bc656ae34ed3",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IT004 -- CƠ SỞ DỮ LIỆU (2022-RUBRIC) > MÔ TẢ MÔN HỌC (Course description)]\n\nMôn học trình bày về sự cần thiết của cơ sở dữ liệu trong doanh nghiệp và trong các loại hình tổ chức khác. Cung cấp sự hiể",
+          "score": 0.81793594
+        },
+        {
+          "section_id": "f7614c89db1f",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS210 -- HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Lý thuyết: (tiết), Hệ Quản trị Cơ sở Dữ liệu: 45 tiết\nTên môn học (tiếng Việt):: Thực hành: (tiết), Hệ Quản trị Cơ sở",
+          "score": 0.8107486
+        },
+        {
+          "section_id": "cc1863fd9c06",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS210 -- HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU > MÔ TẢ MÔN HỌC(Course description)]\n\nMôn học trình bày khái niệm cơ bản về các hệ quản trị cơ sở dữ liệu (HQTCSDL) hiện đại và đặc tính chung của chúng. Đi sâu vào",
+          "score": 0.8026881
+        },
+        {
+          "section_id": "d1c17c9a1d16",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > MÔ TẢ MÔN HỌC]\n\nSinh viên được trang bị các kiến thức về nguyên lý thiết kế cơ sở dữ liệu phân tán, quản lý giao tác, điều khiển tương tranh và phục hồi dữ liệu\\... ",
+          "score": 0.77587223
+        },
+        {
+          "section_id": "dd088817123a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Khoa Học Dữ Liệu > ... > Nhóm các môn học cơ sở ngành]\n\nSTT: 4, Mã môn học: IT004, Tên môn học: Cơ sở dữ liệu, TC: 4, LT: 3, TH: 1\nSTT: Kiến thức về mạng máy tính, TC: 4, LT: 3, TH: 1\nST",
+          "score": 0.7742281
+        }
+      ]
+    },
+    {
+      "question": "Ngành Kĩ thuật phần mềm khác gì với ngành công nghệ thông tin v",
+      "answer": "Dựa trên các thông tin được cung cấp, ngành Kỹ thuật Phần mềm và Công nghệ Thông tin có sự khác biệt sau:\n\n*   **Kỹ thuật Phần mềm** tập trung vào việc thiết kế, phát triển, kiểm thử và bảo trì các phần mềm máy tính. Sinh viên ngành này sẽ được đào tạo chuyên sâu về các kỹ thuật lập trình, kiến trúc phần mềm, và quy trình phát triển phần mềm.\n*   **Công nghệ Thông tin** có phạm vi rộng hơn, bao gồm cả phần cứng, phần mềm, mạng máy tính, và các ứng dụng của công nghệ thông tin trong nhiều lĩnh vực khác nhau.\n\nTóm lại, Kỹ thuật Phần mềm chuyên sâu vào việc tạo ra phần mềm, trong khi Công nghệ Thông tin có tính ứng dụng rộng hơn trong việc sử dụng và quản lý công nghệ thông tin.",
+      "contexts": [
+        "[Chương Trình Kỹ Thuật Phần Mềm > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp ngành Kỹ thuật phần mềm có thể làm việc ở các phạm vi và lĩnh vực khác nhau như:\n\nChuyên viê",
+        "[Chương Trình Kỹ Thuật Phần Mềm > Quan điểm xây dựng chương trình đào tạo]\n\nLàm việc ở bộ phận công nghệ thông tin hoặc cần ứng dụng công nghệ thông tin của tất cả các đơn vị có nhu cầu (hành chính sự",
+        "[Ngành Kỹ Thuật Máy Tính > Chuẩn đầu ra]\n\nKỹ thuật Phần mềm và thực tiễn. (abet 3.1, gac1.a)\n\n− LO2: Trình bày được kiến thức nền tảng và chuyên sâu về Công nghệ Thông tin và Kỹ thuật Phần mềm; giải t",
+        "[Chương Trình Kỹ Thuật Phần Mềm > Mục tiêu đào tạo]\n\nChương trình đào tạo hướng đến đào tạo nguồn nhân lực công nghệ thông tin chất lượng cao đạt trình độ khu vực và quốc tế, đáp ứng nhu cầu xây d",
+        "[Chương Trình Kỹ Thuật Phần Mềm > Chuẩn đầu ra]\n\nsau:\n\n**Về nhận thức:**\n\n− LO1: Trình bày được kiến thức nền tảng trong khoa học tự nhiên và khoa học xã hội; giải thích được cách thức vận dụng những ",
+        "[Chương Trình Khoa Học Máy Tính > Vị trí và khả năng làm việc sau tốt nghiệp]\n\n\\- Làm việc trong các công ty sản xuất, gia công phần mềm trong nước cũng như nước ngoài. Làm việc tại các công t",
+        "[Chương Trình Khoa Học Máy Tính > ... > Các môn học cơ sở ngành Khoa học Máy tính]\n\nSTT: Lập trình và Kỹ thuật phần mềm (12 TC)\nSTT: 2., Mã môn học: IT002, Tên môn học: Lập trình hướng đối tượng, Bắ"
+      ],
+      "ground_truth": "",
+      "expected_intent": "compare",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 7,
+        "total_time_ms": 10961.808204650879
+      },
+      "sources": [
+        {
+          "section_id": "be0311136a43",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Kỹ Thuật Phần Mềm > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp ngành Kỹ thuật phần mềm có thể làm việc ở các phạm vi và lĩnh vực khác nhau như:\n\nChuyên viê",
+          "score": 0.82266665
+        },
+        {
+          "section_id": "e90243196170",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Kỹ Thuật Phần Mềm > Quan điểm xây dựng chương trình đào tạo]\n\nLàm việc ở bộ phận công nghệ thông tin hoặc cần ứng dụng công nghệ thông tin của tất cả các đơn vị có nhu cầu (hành chính sự",
+          "score": 0.8101282
+        },
+        {
+          "section_id": "7d5370df2d13",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > Chuẩn đầu ra]\n\nKỹ thuật Phần mềm và thực tiễn. (abet 3.1, gac1.a)\n\n− LO2: Trình bày được kiến thức nền tảng và chuyên sâu về Công nghệ Thông tin và Kỹ thuật Phần mềm; giải t",
+          "score": 0.80512047
+        },
+        {
+          "section_id": "da44e346033a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Kỹ Thuật Phần Mềm > Mục tiêu đào tạo]\n\nChương trình đào tạo hướng đến đào tạo nguồn nhân lực công nghệ thông tin chất lượng cao đạt trình độ khu vực và quốc tế, đáp ứng nhu cầu xây d",
+          "score": 0.79859257
+        },
+        {
+          "section_id": "9030b9e1d2ac",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Kỹ Thuật Phần Mềm > Chuẩn đầu ra]\n\nsau:\n\n**Về nhận thức:**\n\n− LO1: Trình bày được kiến thức nền tảng trong khoa học tự nhiên và khoa học xã hội; giải thích được cách thức vận dụng những ",
+          "score": 0.79267263
+        },
+        {
+          "section_id": "4abd997e63d3",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Khoa Học Máy Tính > Vị trí và khả năng làm việc sau tốt nghiệp]\n\n\\- Làm việc trong các công ty sản xuất, gia công phần mềm trong nước cũng như nước ngoài. Làm việc tại các công t",
+          "score": 0.7883272
+        },
+        {
+          "section_id": "2c38a0d463f4",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Khoa Học Máy Tính > ... > Các môn học cơ sở ngành Khoa học Máy tính]\n\nSTT: Lập trình và Kỹ thuật phần mềm (12 TC)\nSTT: 2., Mã môn học: IT002, Tên môn học: Lập trình hướng đối tượng, Bắ",
+          "score": 0.7877703
+        }
+      ]
+    }
+  ]
+}

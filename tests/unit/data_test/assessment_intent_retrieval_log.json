@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-12-22T13:36:59.297189",
+  "total_queries": 2,
+  "intent_accuracy": "2/2 (100.0%)",
+  "es_connected": true,
+  "results": [
+    {
+      "index": 1,
+      "query": "Môn phân tích dữ liệu kinh doanh điểm cuối kì chiếm bao nhiêu phần trăm",
+      "expected_intent": "assessment",
+      "actual_intent": "assessment",
+      "intent_match": true,
+      "expanded_query": "môn phân tích dữ liệu kinh doanh điểm cuối kì chiếm bao nhiêu phần trăm, phân tích dữ liệu kinh doanh, phương pháp đánh giá, đánh giá môn học, điểm cuối kì",
+      "reasoning": "",
+      "time_ms": 12414.7,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "ĐÁNH GIÁ MÔN HỌC (Course assessment)",
+          "text": "[IS403 -- PHÂN TÍCH DỮ LIỆU KINH DOANH > ĐÁNH GIÁ MÔN HỌC (Course assessment)]\n\n*Ghi chú: nộp bài trễ 1 ngày trừ 20%, trễ hơn 1 ngày xem như không nộp bài tập*\n\n[Bảng 1] Bảng 2 hàng x 3 cột. Các cột: Thành phần đánh giá [1], CĐRMH [2], Tỷ lệ (%) [3]\n: Thành phần đánh giá [1], : CĐRMH [2], : Tỷ lệ (%) [3]\nThành phần đánh giá [1]: A1. Quá trình, gồm: - Kiểm tra trên lớp, bài tập (gồm các bài tập 1-8), CĐRMH [2]: G1, G2, G3, Tỷ lệ (%) [3]: 50%\nThành phần đánh giá [1]: A4. Thi vấn đáp cuối kỳ (Đồ án lớn), CĐRMH [2]: G1, G2, G3, Tỷ lệ (%) [3]: 50%",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS403 -- PHÂN TÍCH DỮ LIỆU KINH DOANH > ĐÁNH GIÁ MÔN HỌC (Course assessment)"
+        },
+        {
+          "rank": 2,
+          "title": "ĐÁNH GIÁ MÔN HỌC (Course assessment)",
+          "text": "[EC213 -- QUẢN TRỊ QUAN HỆ KHÁCH HÀNG VÀ NHÀ CUNG CẤP (2022) > ĐÁNH GIÁ MÔN HỌC (Course assessment)]\n\nBảng 5.\n\n## \n\n##\n\n[Bảng 1] Bảng 4 hàng x 3 cột. Các cột: Thành phần đánh giá [1], CĐRMH [2], Tỷ lệ (%) [3]\n: Thành phần đánh giá [1], : CĐRMH [2], : Tỷ lệ (%) [3]\nThành phần đánh giá [1]: A1. Điểm quá trình, CĐRMH [2]: G1.1, G1.2, G2.1, Tỷ lệ (%) [3]: 20%\nThành phần đánh giá [1]: A2. Điểm giữa kỳ, Tỷ lệ (%) [3]: 0%\nThành phần đánh giá [1]: A3. Thực hành - A3.1: Thực hành - A3.2: Đồ án môn học, CĐRMH [2]: G3.1 G3.2, Tỷ lệ (%) [3]: 30%\nThành phần đánh giá [1]: A4. Cuối kỳ, CĐRMH [2]: G1.2, G2.1, Tỷ lệ (%) [3]: 50%",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "EC213 -- QUẢN TRỊ QUAN HỆ KHÁCH HÀNG VÀ NHÀ CUNG CẤP (2022) > ĐÁNH GIÁ MÔN HỌC ("
+        },
+        {
+          "rank": 3,
+          "title": "MÔ TẢ MÔN HỌC (Course description)",
+          "text": "[IS403 -- PHÂN TÍCH DỮ LIỆU KINH DOANH > MÔ TẢ MÔN HỌC (Course description)]\n\nSinh viên được trang bị các kỹ thuật phân tích dữ liệu cần thiết cho việc thực hiện phân tích dữ liệu trong nghiên cứu, các dữ liệu trong kinh doanh. Ngoài ra, sinh viên được trang bị kiến thức kiến thức nền tảng của các công thức toán học cần thiết, từ các tình huống gần gũi trong thực tế, dưới dạng các ứng dụng trong kinh doanh, thực hành trên các phần mềm SPSS, ngôn ngữ R...",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS403 -- PHÂN TÍCH DỮ LIỆU KINH DOANH > MÔ TẢ MÔN HỌC (Course description)"
+        },
+        {
+          "rank": 4,
+          "title": "MỤC TIÊU MÔN HỌC (Course Goals)",
+          "text": "[IS403 -- PHÂN TÍCH DỮ LIỆU KINH DOANH > MỤC TIÊU MÔN HỌC (Course Goals)]\n\nBảng 1\n\n[Bảng 1] Bảng 3 hàng x 3 cột. Các cột: ## Mục tiêu [1], ## Mục tiêu môn học ## [2], ## CĐR cấp 2 CTĐT [3]\n: ## Mục tiêu [1], : ## Mục tiêu môn học ## [2], : ## CĐR cấp 2 CTĐT [3]\n## Mục tiêu [1]: 1., ## Mục tiêu môn học ## [2]: Giải thích được vai trò của phân tích dữ liệu, thống kê cơ bản, kiểm tra giả thuyết, các biến độc lập và phụ thuộc cũng như ước tính, ## CĐR cấp 2 CTĐT [3]: ## LO2 (2.7)\n## Mục tiêu [1]: 2., ## Mục tiêu môn học ## [2]: Nắm vững các kỹ thuật phân tích thống kê mô tả với các loại dữ liệu khác nhau trong kinh doanh. Tiến hành nghiên cứu, phân tích thông tin và đề xuất các giải pháp cho các vấn đề phân tích dữ liệu., ## CĐR cấp 2 CTĐT [3]: ## LO2 (3.1, 3.2, 3.3)\n## Mục tiêu [1]: 3., ## Mục tiêu môn học ## [2]: Làm việc nhóm, giao tiếp và cộng tác hiệu quả với nhóm., ## CĐR cấp 2 CTĐT [3]: ## LO5 (5.1, 5.3, 5.5, 5.6)",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS403 -- PHÂN TÍCH DỮ LIỆU KINH DOANH > MỤC TIÊU MÔN HỌC (Course Goals)"
+        },
+        {
+          "rank": 5,
+          "title": "ĐÁNH GIÁ MÔN HỌC",
+          "text": "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > ĐÁNH GIÁ MÔN HỌC]\n\nBảng 5.\n\n[Bảng 1] Bảng 2 hàng x 3 cột. Các cột: Thành phần đánh giá [1], CĐRMH (Gx) [2], Tỷ lệ (%) [3]\n: Thành phần đánh giá [1], : CĐRMH (Gx) [2], : Tỷ lệ (%) [3]\nThành phần đánh giá [1]: A1. Thực hành - Đồ án môn học - Seminar - Bài tập thực hành, CĐRMH (Gx) [2]: G5,G6, Tỷ lệ (%) [3]: 50%\nThành phần đánh giá [1]: A2. Thi lý thuyết cuối kỳ, CĐRMH (Gx) [2]: G1,G2,G3,G4, G5, Tỷ lệ (%) [3]: 50%",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > ĐÁNH GIÁ MÔN HỌC"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "query": "Môn dữ liệu lớn được tính phổ điểm như thế nào?",
+      "expected_intent": "assessment",
+      "actual_intent": "assessment",
+      "intent_match": true,
+      "expanded_query": "môn dữ liệu lớn được tính phổ điểm như thế nào?, PHƯƠNG PHÁP ĐÁNH GIÁ, ĐÁNH GIÁ MÔN HỌC, CHUẨN ĐẦU RA MÔN HỌC, PHƯƠNG PHÁP ĐÁNH GIÁ",
+      "reasoning": "",
+      "time_ms": 12312.45,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "ĐÁNH GIÁ MÔN HỌC CHI TIẾT",
+          "text": "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT]\n\nBảng 6\n\n\n   **Rubric criteria/Mục tiêu môn học**  **Từ 0 đến \\<3**                                                                                                   **Từ 3 đến \\<5**                                                                                                                **Từ 5 đến \\<7**                                                                                                                    **Từ 7 đến \\<9**                                                                                                        **Từ 9 đến 10**\n\n                  **G1**                 \\- Chưa nắm rõ đa số các khái niệm, cơ hội và ứng dụng của dữ liệu lớn. Chưa hiểu rõ hoặc hiểu không chính xác.\\   \\- Nắm được các khái niệm, cơ hội và ứng dụng của dữ liệu lớn ở mức độ cơ bản. Một số khái niệm, vấn đề hiểu chưa chính xác.\\   \\- Nắm được các khái niệm, cơ hội và ứng dụng của dữ liệu lớn ở mức độ cơ bản. Hầu hết các khái niệm, vấn đề đều hiểu chính xác.\\   \\- Nắm được hầu hết các khái niệm, cơ hội và ứng dụng của dữ liệu lớn. Hiểu chính xác và minh họa được.\\                \\- Nắm được toàn bộ các khái niệm, cơ hội và ứng dụng của dữ liệu lớn. Hiểu chính xác, giải thích cặn kẽ và minh họa được cụ thể.\\\n                                         - Không hiểu được phương pháp xây dựng giải thuật xử lý dữ liệu lớn.\\                                              - Chưa hiểu rõ phương pháp xây dựng giải thuật xử lý dữ liệu lớn.\\                                                              - Nắm được phương pháp xây dựng giải thuật xử lý dữ liệu lớn.\\                                                                      - Nắm được phương pháp xây dựng giải thuật xử lý dữ liệu lớn nhưng thực hiện chưa tốt lắm.\\                             - Nắm vững và áp dụng tốt phương pháp xây dựng giải thuật xử lý dữ liệu lớn.\\\n                                         - Không hiểu được các thành phần, cách thức hoạt động của các framework Apache Hadoop, Apache Spark.\\              - Chưa hiểu rõ các thành phần, cách thức hoạt động của các framework Apache Hadoop, Apache Spark.\\                              - Hiểu được các thành phần, cách thức hoạt động của các framework Apache Hadoop, Apache Spark.\\                                     - Hiểu được các thành phần, cách thức hoạt động của các framework Apache Hadoop, Apache Spark nhưng chưa tốt lắm.\\      - Hiểu rõ được các thành phần, cách thức hoạt động của các framework Apache Hadoop, Apache Spark.\\\n                                         - Không hiểu hoặc hiểu không chính xác kiến trúc hệ thống xử lý dữ liệu lớn.                                       - Chưa nắm rõ kiến trúc hệ thống xử lý dữ liệu lớn.                                                                             - Nắm được một số kiến trúc hệ thống xử lý dữ liệu lớn.                                                                             - Nắm được một số kiến trúc hệ thống xử lý dữ liệu lớn nhưng chưa tốt lắm.                                              - Nắm rõ được một số kiến trúc hệ thống xử lý dữ liệu lớn.\n\n                  **G2**                 Chưa hiểu được phương pháp lập trình xử lý dữ liệu lớn trên nền tảng phân tán.                                     Chưa hiểu rõ phương pháp lập trình xử lý dữ liệu lớn trên nền tảng phân tán.                                                    Nắm được phương pháp và lập trình được một số xử lý cơ bản với dữ liệu lớn trên nền tảng phân tán.                                  Nắm được phương pháp và lập trình được một số xử lý cơ bản với dữ liệu lớn trên nền tảng phân tán nhưng chưa tốt lắm.   Nắm vững được phương pháp và lập trình tốt một số xử lý cơ bản với dữ liệu lớn trên nền tảng phân tán.\n\n                  **G3**                 \\- Không xác định được bài toán về dữ liệu lớn.\\                                                                   \\- Xác định được bài toán về dữ liệu lớn nhưng phát biểu bài toán không đầy đủ hoặc thiếu chính xác.\\                           \\- Xác định được bài toán về dữ liệu lớn nhưng phát biểu bài toán còn một số thiếu sót.\\                                            \\- Xác định và phát biểu được bài toán về dữ liệu lớn.\\                                                                 \\- Xác định và phát biểu được bài toán về dữ liệu lớn.\\\n                                         - Không vận dụng được những kỹ thuật xử lý dữ liệu lớn để giải quyết một bài toán cụ thể.                          - Vận dụng được ở mức cơ bản những kỹ thuật xử lý dữ liệu lớn để giải quyết một bài toán cụ thể.                                - Vận dụng được những kỹ thuật xử lý dữ liệu lớn để giải quyết một bài toán cụ thể.                                                 - Vận dụng được ở mức khá tốt những kỹ thuật xử lý dữ liệu lớn để giải quyết một bài toán cụ thể.                       - Vận dụng được tốt những kỹ thuật xử lý dữ liệu lớn để giải quyết một bài toán cụ thể.\n\n                  **G4**                 Không phối hợp được với nhóm, khả năng thích ứng kém, dựa dẫm vào các bạn khác.                                    Chỉ làm được những công việc đơn giản, tương đối thụ động, khả năng làm việc độc lập không cao.                                 Phối hợp nhóm tương đối tốt, có khả năng làm việc độc lập.                                                                          Phối hợp khá tốt với nhóm, đồng thời khả năng làm việc độc lập cũng khá tốt.                                            Phối hợp rât tốt với nhóm, có vai trò tiên phong, lãnh đạo nhóm, đồng thời khả năng làm việc độc lập cao.",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT"
+        },
+        {
+          "rank": 2,
+          "title": "MÔ TẢ MÔN HỌC (Course description)",
+          "text": "[IS405 -- DỮ LIỆU LỚN > MÔ TẢ MÔN HỌC (Course description)]\n\nMôn học cung cấp cho sinh viên những kiến thức cơ bản về dữ liệu lớn như: định nghĩa, những đặc trưng cơ bản, các mô hình và framework xử lý dữ liệu lớn đang được sử dụng rộng rãi hiện nay. Ngoài ra, nội dung môn học còn giới thiệu đến sinh viên lịch sử hình thành, động lực phát triển, khả năng ứng dụng, nhu cầu quản trị, xử lý và những cơ hội, thách thức của dữ liệu lớn.\n\nCụ thể, sinh viên được trang bị những kiến thức chi tiết về các thành phần và phương thức hoạt động của mô hình xử lý dữ liệu lớn MapReduce, các framework xử lý dữ liệu lớn hàng đầu như Apache Hadoop, Apache Spark. Thông qua các bài tập, bài thực hành, đồ án sinh viên được rèn luyện để hiểu rõ những nội dung lý thuyết và vận dụng chúng để giải quyết các vấn đề dữ liệu lớn thực tế.",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > MÔ TẢ MÔN HỌC (Course description)"
+        },
+        {
+          "rank": 3,
+          "title": "ĐÁNH GIÁ MÔN HỌC (Course assessment)",
+          "text": "[IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC (Course assessment)]\n\nBảng 5\n\n[Bảng 1] Bảng 3 hàng x 4 cột. Các cột: Thành phần đánh giá, Bài đánh giá, CĐRMH, ...\n: Thành phần đánh giá, : Bài đánh giá, : CĐRMH, : Tỷ lệ (%)\nThành phần đánh giá: A1. Quá trình +-----------------------------------------------------------------------------------------------------------------------+-----------+ +-----------------------------------------------------------------------------------------------------------------------+-----------+, Bài đánh giá: A1.1. Bài tập cá nhân thiết kế giải thuật theo mô hình MapReduce\\ Thiết kế giải thuật trên mô hình xử lý phân tán dữ liệu lớn MapReduce. A1.2. Seminar hệ sinh thái dữ liệu lớn\\ Tìm hiểu và trình bày về các hệ thống hỗ trợ lưu trữ, quản lý, truy vấn, chuyển đổi, lập quy trình xử lý dữ liệu lớn. A1.3. Seminar hệ thống xử lý dữ liệu lớn\\ Tìm hiểu và trình bày về các hệ thống hỗ trợ xử lý dữ liệu lớn, xử lý theo thời gian thực..., CĐRMH: G1.3 G1.6 G4.1 G1.6 G4.1, Tỷ lệ (%): 20%\nThành phần đánh giá: A2. Thực hành +-----------------------------------------------------------------------------------------------------------------------+-----------+, Bài đánh giá: A2.1. Đồ án môn học\\ Thực hiện đồ án khai thác dữ liệu lớn trên nền tảng xử lý phân tán, viết báo cáo và seminar theo yêu cầu sau:\\ - Nhận diện và phát biểu được bài toán khai thác dữ liệu lớn.\\ - Hiểu được các đặc điểm và áp dụng các kỹ thuật tiền xử lý trên dữ liệu lớn.\\ - Mô tả và áp dụng các giải thuật khai thác dữ liệu song song, phân tán để giải quyết bài toán đã trình bày.\\ - Đánh giá, so sánh được kết quả giữa các phương pháp đã áp dụng. A2.2. Chuyên cần (điểm cộng)\\ Chăm chỉ, tích cực phát biểu, CĐRMH: G3.1 G3.2 G4.1 G2.1 G2.2, Tỷ lệ (%): 30%\nThành phần đánh giá: A3. Cuối kỳ, Bài đánh giá: Bài thi lý thuyết cuối kỳ, CĐRMH: G1.1 G1.2 G1.4 G1.5 G1.6, Tỷ lệ (%): 50%",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > ĐÁNH GIÁ MÔN HỌC (Course assessment)"
+        },
+        {
+          "rank": 4,
+          "title": "THÔNG TIN CHUNG",
+          "text": "[IS405 -- DỮ LIỆU LỚN > THÔNG TIN CHUNG]\n\n\n\n[Bảng 1] Bảng 13 hàng x 2 cột. Các cột: Tên môn học (tiếng Việt):, Dữ liệu lớn\n: Tên môn học (tiếng Việt):, : Dữ liệu lớn\nTên môn học (tiếng Việt):: Tên môn học (tiếng Anh):, Dữ liệu lớn: Big data\nTên môn học (tiếng Việt):: Mã môn học:, Dữ liệu lớn: IS405\nTên môn học (tiếng Việt):: Thuộc khối kiến thức:, Dữ liệu lớn: Chuyên ngành\nTên môn học (tiếng Việt):: Khoa/Bộ môn phụ trách:, Dữ liệu lớn: Khoa HTTT\nTên môn học (tiếng Việt):: Giảng viên phụ trách:, Dữ liệu lớn: Nguyễn Hồ Duy Trí, Nguyễn Hồ Duy Tri\nDữ liệu lớn: Email: trinhd@uit.edu.vn, tringuyen@uit.edu.vn\nTên môn học (tiếng Việt):: Giảng viên tham gia giảng dạy: Các giảng viên khoa HTTT\nTên môn học (tiếng Việt):: Số tín chỉ:, Dữ liệu lớn: 4\nDữ liệu lớn: TC lý thuyết : 3 TC thực hành :1\nTên môn học (tiếng Việt):: Lý thuyết (tiết):, Dữ liệu lớn: 45 tiết\nTên môn học (tiếng Việt):: Thực hành (tiết):, Dữ liệu lớn: 30 tiết\nTên môn học (tiếng Việt):: Tính chất của môn, Dữ liệu lớn: Bắt buộc đối với sinh viên ngành/chuyên ngành\nTên môn học (tiếng Việt):: Môn học trước, Dữ liệu lớn: Cơ sở dữ liệu",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > THÔNG TIN CHUNG"
+        },
+        {
+          "rank": 5,
+          "title": "CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)",
+          "text": "[IS405 -- DỮ LIỆU LỚN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)]\n\nBảng 2 ***(NT: Nhận thức, KN: Kỹ năng, TĐ: Thái độ)***\n\n[Bảng 1] Bảng 11 hàng x 4 cột. Các cột: CĐRMH, LOs, Mô tả CĐRMH, ...\n: CĐRMH, : LOs, : Mô tả CĐRMH, : Cấp độ CĐR Môn học\nCĐRMH: G1.1, LOs: 2.7, Mô tả CĐRMH: Hiểu và trình bày được những khái niệm cơ bản liên quan đến dữ liệu lớn:\\ - Định nghĩa, đặc điểm của dữ liệu lớn.\\ - Phân loại dữ liệu lớn, khái niệm NoSQL\\ - Quy trình xử lý dữ liệu lớn.\\ - Ứng dụng của dữ liệu lớn và xu hướng hiện tại.\\ - Những thách thức và cơ hội từ dữ liệu lớn., Cấp độ CĐR Môn học: NT3\nCĐRMH: G1.2, LOs: 2.5, Mô tả CĐRMH: Hiểu và trình bày được các nội dung của mô hình MapReduce:\\ - Những ý tưởng xây dựng mô hình MapReduce.\\ - Nội dung của mô hình MapReduce.\\ - Ưu điểm và hạn chế., Cấp độ CĐR Môn học: NT3\nCĐRMH: G1.3, LOs: 3.2\\ 3.3, Mô tả CĐRMH: Xây dựng được những giải thuật xử lý dữ liệu lớn trên mô hình MapReduce:\\ - Những vấn đề cơ bản.\\ - Các bước thiết kế giải thuật.\\ - Một số mẫu thiết kế thông dụng., Cấp độ CĐR Môn học: KN4\nCĐRMH: G1.4, LOs: 2.7, Mô tả CĐRMH: Hiểu và mô tả được các thành phần, cách thức hoạt động của các framework Apache Hadoop:\\ - Các thành phần lưu trữ, quản trị dữ liệu.\\ - Hệ thống tập tin phân tán HDFS.\\ - Các thành phần xử lý phân tán.\\ - Hệ thống quản lý tài nguyên YARN., Cấp độ CĐR Môn học: NT3\nCĐRMH: G1.5, LOs: 2.7, Mô tả CĐRMH: Hiểu và mô tả được các thành phần, cách thức hoạt động của các framework Apache Spark:\\ - Tập dữ liệu phân tán linh hoạt RDD.\\ - Các thành phần, khái niệm cơ bản trong Apache Spark.\\ - Các API được Apache Spark cung cấp.\\ - Kiến trúc cụm máy phân tán., Cấp độ CĐR Môn học: NT3\nCĐRMH: G1.6, LOs: 2.7, Mô tả CĐRMH: - Hiểu và mô tả được một số kiến trúc hệ thống xử lý dữ liệu lớn: kiến trúc Lambda, Kappa\\ - Giới thiệu các công cụ, hệ thống xử lý dữ liệu lớn thông dụng., Cấp độ CĐR Môn học: NT3\nCĐRMH: G2.1, LOs: 3.2\\ 3.3, Mô tả CĐRMH: Hiểu và lập trình được một số xử lý dữ liệu lớn cơ bản sử dụng framework Apache Hadoop, Cấp độ CĐR Môn học: KN4\nCĐRMH: G2.2, LOs: 3.2\\ 3.3, Mô tả CĐRMH: Hiểu và lập trình được một số xử lý dữ liệu lớn cơ bản sử dụng framework Apache Spark:\\ - Các khái niệm cơ bản: ngữ cảnh, phiên làm việc, mức độ song song hóa, biến lan truyền/tích lũy\\ - Mô hình lập trình dựa trên RDD: thao tác biến đổi/hành động, phụ thuộc hẹp/rộng.\\ - Sử dụng các API được cung cấp sẵn., Cấp độ CĐR Môn học: KN4\nCĐRMH: G3.1, LOs: 3.1, Mô tả CĐRMH: - Vận dụng kỹ năng xác định và phát biểu bài toán thực tế về dữ liệu lớn: ngữ cảnh khai thác dữ liệu, phạm vi bài toán, nguồn gốc, thành phần dữ liệu, phân loại dữ liệu, yêu cầu tiền xử lý dữ liệu lớn và các yêu cầu khác để giải quyết bài toán.\\ - Mô tả bài toán với độ phức tạp trung bình., Cấp độ CĐR Môn học: KN4\nCĐRMH: G3.2, LOs: 3.2 3.3, Mô tả CĐRMH: Xây dựng được các giải thuật phân tán dựa trên các mô hình xử lý dữ liệu lớn để giải quyết các công đoạn từ tiền xử lý, phân tích, mô hình hóa, cho đến giai đoạn đánh giá kết quả đạt được., Cấp độ CĐR Môn học: KN4\nCĐRMH: G4.1, LOs: 5.1\\ 5.2\\ 5.3\\ 5.4\\ 5.5\\ 5.6, Mô tả CĐRMH: Vận dụng kỹ năng làm việc nhóm trong việc thảo luận từng chủ đề của môn học và thực hiện đồ án:\\ - Lập lịch biểu làm việc\\ - Xác định mục tiêu và những việc phải làm\\ - Vận dụng các quy tắc làm việc nhóm\\ - Vận dụng các quy tắc giao tiếp nhóm\\ - Đề xuất các giải pháp\\ - Thể hiện tinh thần hợp tác nghiêm túc, thương lượng, thỏa thuận, điều chỉnh các xung đột, Cấp độ CĐR Môn học: KN4",
+          "level": 2,
+          "result_type": "unknown",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)"
+        }
+      ]
+    }
+  ]
+}

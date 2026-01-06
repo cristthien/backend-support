@@ -1,0 +1,2391 @@
+{
+  "timestamp": "2025-12-24T00:14:22.402526",
+  "total_queries": 47,
+  "intent_accuracy": "43/47 (91.5%)",
+  "results": [
+    {
+      "index": 1,
+      "query": "Ngành TTNT học những gì?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Sinh viên ngành Trí tuệ nhân tạo học kiến thức nền tảng về khoa học tự nhiên và xã hội, cùng kiến thức chuyên sâu về các lĩnh vực như lập trình, thuật toán, và trí tuệ nhân tạo.",
+      "answer_length": 177,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "ngành trí tuệ nhân tạo học những gì?, Trí tuệ nhân tạo, MÔ TẢ MÔN HỌC, Mục tiêu môn học, Chuẩn đầu ra",
+        "num_results": 5,
+        "time_ms": 20424.40700531006,
+        "generation_time_ms": 14395.95913887024,
+        "total_time_ms": 34821.05779647827,
+        "num_sources": 5,
+        "answer_length": 177
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Cơ hội nghề nghiệp",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Cơ hội nghề nghiệp",
+          "score": 0.031858854
+        },
+        {
+          "rank": 2,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.010130412
+        },
+        {
+          "rank": 3,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Mục tiêu đào tạo",
+          "score": 0.0075479234
+        },
+        {
+          "rank": 4,
+          "title": "Tỷ lệ các khối kiến thức",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức",
+          "score": 0.0051998803
+        },
+        {
+          "rank": 5,
+          "title": "CHUẨN ĐẦU RA",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > CHUẨN ĐẦU RA",
+          "score": 0.004451041
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "query": "Tốt nghiệp ngành TTNT cần bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Để được công nhận tốt nghiệp ngành Trí Tuệ Nhân Tạo, sinh viên phải tích lũy tối thiểu 128 tín chỉ. Ngoài ra, sinh viên còn phải đáp ứng các điều kiện khác theo quy chế đào tạo hiện hành của Trường Đại học Công nghệ Thông tin.",
+      "answer_length": 226,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "tốt nghiệp ngành trí tuệ nhân tạo cần bao nhiêu tín chỉ?, tín chỉ, tốt nghiệp, trí tuệ nhân tạo, số tín chỉ, điều kiện tốt nghiệp",
+        "num_results": 5,
+        "time_ms": 10897.109985351562,
+        "generation_time_ms": 7264.417886734009,
+        "total_time_ms": 18161.781072616577,
+        "num_sources": 5,
+        "answer_length": 226
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9512329
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.90747637
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9069832
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.883236
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.82460326
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "query": "Chuẩn đầu ra PLO của ngành AI là gì?",
+      "expected_intent": "outcomes",
+      "actual_intent": "outcomes",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, chuẩn đầu ra (PLO) của ngành Trí Tuệ Nhân Tạo (AI) bao gồm:\n\n*   **PLO2. Nắm vững kiến thức nền tảng và chuyên sâu của ngành Trí tuệ nhân tạo**\n    *   Lập trình và Kỹ thuật phần mềm\n    *   Thuật toán và Cấu trúc dữ liệu\n    *   Kiến trúc máy tính, Hệ điều hành và Mạng máy tính\n    *   Kiến thức quản lý thông tin và Cơ sở dữ liệu\n    *   Trí tuệ nhân tạo và Máy học",
+      "answer_length": 402,
+      "metadata": {
+        "intent": "outcomes",
+        "expanded_query": "chuẩn đầu ra program learning outcome của ngành trí tuệ nhân tạo là gì?, Chuẩn đầu ra, ngành trí tuệ nhân tạo, LO1-LO8, mục tiêu môn học, tín chỉ",
+        "num_results": 5,
+        "time_ms": 10156.207084655762,
+        "generation_time_ms": 11887.151718139648,
+        "total_time_ms": 22043.877124786377,
+        "num_sources": 5,
+        "answer_length": 402
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.6845804
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.5699125
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.009268014
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.006903838
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.0051196762
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "query": "Ngành CNTT có những chuẩn đầu ra nào?",
+      "expected_intent": "outcomes",
+      "actual_intent": "outcomes",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, ngành Công nghệ Thông tin (CNTT) có các chuẩn đầu ra (CĐR) sau:\n\n*   **(LO1)** Nắm vững kiến thức nền tảng về khoa học tự nhiên, khoa học xã hội và hiểu khả năng vận dụng những kiến thức đó vào ngành Công nghệ thông tin và thực tiễn.\n*   **(LO2)** Nắm vững kiến thức nền tảng và một số kiến thức chuyên sâu của ngành Công nghệ thông tin để ứng dụng vào thực tiễn.\n*   **(LO3)** Khảo sát tài liệu, lập luận, phân tích và đề xuất giải pháp cho vấn đề liên quan đến ngành Hệ thống thông tin; nhận thức về sự cần thiết của học tập suốt đời.",
+      "answer_length": 570,
+      "metadata": {
+        "intent": "outcomes",
+        "expanded_query": "ngành công nghệ thông tin có những chuẩn đầu ra nào?, Chuẩn đầu ra môn học, MỤC TIÊU MÔN HỌC, ngành công nghệ thông tin, cơ hội nghề nghiệp",
+        "num_results": 5,
+        "time_ms": 10573.495149612427,
+        "generation_time_ms": 13195.59621810913,
+        "total_time_ms": 23769.171953201294,
+        "num_sources": 5,
+        "answer_length": 570
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.98913974
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9888419
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.937783
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.90515476
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.4817586
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "query": "Học kỳ 1 ngành AI học những môn gì?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, học kỳ 1 ngành AI (Trí Tuệ Nhân Tạo) học các môn sau:\n\n*   Nhập môn Lập trình\n*   Giải tích\n*   Đại số tuyến tính\n*   Giới thiệu ngành Trí tuệ nhân tạo\n*   Anh văn 1\n*   Kỹ năng nghề nghiệp\n*   Pháp luật đại cương\n*   Giáo dục quốc phòng\n\nLưu ý: Thông tin này dựa trên bảng môn học được cung cấp trong Học kỳ 1.",
+      "answer_length": 345,
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": "học kỳ 1 ngành trí tuệ nhân tạo học những môn gì?, học kỳ 1, trí tuệ nhân tạo, kế hoạch giảng dạy mẫu, nội dung môn học, môn học cơ sở ngành",
+        "num_results": 5,
+        "time_ms": 11479.64096069336,
+        "generation_time_ms": 17556.077003479004,
+        "total_time_ms": 29036.09824180603,
+        "num_sources": 5,
+        "answer_length": 345
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "6\\. KẾ HOẠCH GIẢNG DẠY",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY",
+          "score": 0.31195065
+        },
+        {
+          "rank": 2,
+          "title": "Học kỳ 1",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY > Học kỳ 1",
+          "score": 0.05340333
+        },
+        {
+          "rank": 3,
+          "title": "Nhóm các môn học định hướng Trí tuệ nhân tạo",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Tỷ lệ các khối kiến thức > Khối kiến th",
+          "score": 0.0049245106
+        },
+        {
+          "rank": 4,
+          "title": "Khối kiến thức tốt nghiệp",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức tốt ngh",
+          "score": 0.0006386796
+        },
+        {
+          "rank": 5,
+          "title": "Các môn học tự chọn ngành",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá",
+          "score": 0.00027803096
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "query": "Môn tự chọn ngành TTNT có những môn gì?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Môn tự chọn ngành Trí Tuệ Nhân Tạo có tối thiểu **8** tín chỉ. Các lựa chọn bao gồm tự chọn ngành và tự chọn liên ngành, mỗi loại tối thiểu **8** tín chỉ.",
+      "answer_length": 154,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "môn tự chọn ngành trí tuệ nhân tạo có những môn gì?, môn tự chọn, trí tuệ nhân tạo, mục tiêu đào tạo, danh mục môn học, khối kiến thức chuyên ngành",
+        "num_results": 1,
+        "time_ms": 10221.012830734253,
+        "generation_time_ms": 4678.931951522827,
+        "total_time_ms": 14899.999141693115,
+        "num_sources": 1,
+        "answer_length": 154
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Tỷ lệ các khối kiến thức",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức",
+          "score": 0.0029926654
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "query": "Chương trình tiên tiến HTTT tốt nghiệp như thế nào?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Chương trình Hệ thống Thông tin tốt nghiệp trang bị cho sinh viên kiến thức và kỹ năng phân tích, thiết kế, xây dựng và điều hành hệ thống thông tin, bao gồm cả hệ thống thông tin y tế. Sinh viên được rèn luyện thông qua các đồ án môn học và khóa luận tốt nghiệp, giúp họ có năng lực ứng dụng trong thực tiễn.",
+      "answer_length": 309,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "chương trình tiên tiến hệ thống thông tin tốt nghiệp như thế nào?, chương trình tiên tiến, mục tiêu đào tạo, khối kiến thức, môn học chuyên ngành, đánh giá",
+        "num_results": 5,
+        "time_ms": 10018.45407485962,
+        "generation_time_ms": 11372.488021850586,
+        "total_time_ms": 21391.04413986206,
+        "num_sources": 5,
+        "answer_length": 309
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Mục tiêu đào tạo",
+          "score": 0.44007817
+        },
+        {
+          "rank": 2,
+          "title": "MÔ TẢ MÔN HỌC",
+          "hierarchy_path": "IS332 -- HỆ THỐNG THÔNG TIN QUẢN LÝ > MÔ TẢ MÔN HỌC",
+          "score": 0.07369627
+        },
+        {
+          "rank": 3,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.05330468
+        },
+        {
+          "rank": 4,
+          "title": "MÔ TẢ MÔN HỌC (Course description)",
+          "hierarchy_path": "IS401 -- KHÓA LUẬN TỐT NGHIỆP > MÔ TẢ MÔN HỌC (Course description)",
+          "score": 0.04001227
+        },
+        {
+          "rank": 5,
+          "title": "ĐÁNH GIÁ CHUẨN ĐẦU RA",
+          "hierarchy_path": "IS005 -- GIỚI THIỆU NGÀNH HỆ THỐNG THÔNG TIN > ĐÁNH GIÁ CHUẨN ĐẦU RA",
+          "score": 0.00087276706
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "query": "Môn chuyên đề TN ngành AI có gì?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Môn chuyên đề tốt nghiệp là một phần bắt buộc của chương trình đào tạo ngành Trí tuệ nhân tạo, tùy thuộc vào hình thức đào tạo được chọn. Nếu chọn hình thức 2, sinh viên phải chọn môn Chuyên đề tốt nghiệp.",
+      "answer_length": 205,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "môn chuyên đề tốt nghiệp ngành trí tuệ nhân tạo có gì?, môn học trí tuệ nhân tạo, mục tiêu đào tạo, nhóm các môn học chuyên ngành, khóa luận tốt nghiệp",
+        "num_results": 4,
+        "time_ms": 10032.863855361938,
+        "generation_time_ms": 7331.758737564087,
+        "total_time_ms": 17364.695072174072,
+        "num_sources": 4,
+        "answer_length": 205
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "6\\. KẾ HOẠCH GIẢNG DẠY",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY",
+          "score": 0.40486038
+        },
+        {
+          "rank": 2,
+          "title": "Cơ hội nghề nghiệp",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Cơ hội nghề nghiệp",
+          "score": 0.011158031
+        },
+        {
+          "rank": 3,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Mục tiêu đào tạo",
+          "score": 0.0026939143
+        },
+        {
+          "rank": 4,
+          "title": "Tỷ lệ các khối kiến thức",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức",
+          "score": 0.0013723687
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "query": "Năm thứ 2 chương trình HTTT tiên tiến học gì?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp trong các section, sinh viên năm thứ 2 chương trình Hệ thống Thông tin sẽ được đào tạo về:\n\n•\tKiến thức kiến trúc máy tính\n•\tKiến thức hệ điều hành\n•\tKiến thức mạng máy tính và truyền thông\n•\tKiến thức lập trình\n•\tKiến thức giải thuật\n•\tKiến thức quản lý thông tin\n•\tKiến thức ngành\n•\tKiến thức vận hành cơ sở y tế\n\n(Lưu ý: Các kiến thức này được liệt kê theo bảng 42 hàng x 2 cột trong section 5, cột MÔ TẢ CĐR).\n",
+      "answer_length": 447,
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": "năm thứ 2 chương trình hệ thống thông tin tiên tiến học gì?, KẾ HOẠCH GIẢNG DẠY Mẫu, NỘI DUNG MÔN HỌC, hệ thống thông tin tiên tiến, roadmap",
+        "num_results": 5,
+        "time_ms": 9666.571855545044,
+        "generation_time_ms": 14731.088161468506,
+        "total_time_ms": 24397.72629737854,
+        "num_sources": 5,
+        "answer_length": 447
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Mục tiêu đào tạo",
+          "score": 0.0824015
+        },
+        {
+          "rank": 2,
+          "title": "MÔ TẢ MÔN HỌC",
+          "hierarchy_path": "IS332 -- HỆ THỐNG THÔNG TIN QUẢN LÝ > MÔ TẢ MÔN HỌC",
+          "score": 0.04885778
+        },
+        {
+          "rank": 3,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.02470387
+        },
+        {
+          "rank": 4,
+          "title": "Kế hoạch giảng dạy mẫu",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Kế hoạch giảng dạy mẫu",
+          "score": 0.020488555
+        },
+        {
+          "rank": 5,
+          "title": "Chuẩn đầu ra",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Chuẩn đầu ra",
+          "score": 0.0026214411
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "query": "Lộ trình 4 năm ngành CNTT như thế nào?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, lộ trình 4 năm ngành Công nghệ Thông tin (CNTT) như sau:\n\n1.  **Năm 1 & 2:**\n    *   Hình thức đào tạo: Chính quy tập trung.\n    *   Số tín chỉ: Tối thiểu 125 tín chỉ (bao gồm cả ngoại ngữ).\n    *   Thời gian: 8 học kỳ chính.\n\n2.  **Năm 3 & 4:**\n    *   Tiếp tục theo học chương trình đào tạo ngành CNTT với số tín chỉ tối thiểu là 125.\n    *   Hoàn thành chương trình đào tạo 4 năm (8 học kỳ chính).\n",
+      "answer_length": 435,
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": "lộ trình 4 năm ngành công nghệ thông tin như thế nào?, roadmap, kế hoạch giảng dạy mẫu, lộ trình 4 năm, ngành công nghệ thông tin, nội dung môn học",
+        "num_results": 5,
+        "time_ms": 7288.372039794922,
+        "generation_time_ms": 8793.38026046753,
+        "total_time_ms": 16081.833124160767,
+        "num_sources": 5,
+        "answer_length": 435
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Hình thức và thời gian đào tạo",
+          "score": 0.5036201
+        },
+        {
+          "rank": 2,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Kỹ Thuật Máy Tính > Hình thức và thời gian đào tạo",
+          "score": 0.4076281
+        },
+        {
+          "rank": 3,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Hình thức và thời gian đào tạo",
+          "score": 0.2833846
+        },
+        {
+          "rank": 4,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Chương Trình Kỹ Thuật Phần Mềm > Hình thức và thời gian đào tạo",
+          "score": 0.19513355
+        },
+        {
+          "rank": 5,
+          "title": "Kế hoạch giảng dạy mẫu",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Kế hoạch giảng dạy mẫu",
+          "score": 0.17638768
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "query": "Khi nào học môn Máy học trong chương trình TTNT?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, học môn Máy học (CS114) trong chương trình Khoa học Máy tính có thể trong các giai đoạn sau:\n\n*   **Học kỳ 2:** Môn Máy học (CS114) được liệt kê trong danh sách các môn học trong giai đoạn 1 (7 học kỳ chính).\n*   **Các học kỳ khác:** Môn này cũng có thể được học trong các học kỳ khác, tùy thuộc vào kế hoạch giảng dạy cụ thể của từng khóa. Tuy nhiên, thông tin chính xác nhất sẽ được công bố trong các kế hoạch giảng dạy hàng kỳ.\n",
+      "answer_length": 465,
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": "khi nào học môn máy học trong chương trình trí tuệ nhân tạo?, môn học máy học, kế hoạch giảng dạy mẫu, nội dung môn học, roadmap, trí tuệ nhân tạo",
+        "num_results": 5,
+        "time_ms": 10964.838981628418,
+        "generation_time_ms": 22796.902894973755,
+        "total_time_ms": 33761.805057525635,
+        "num_sources": 5,
+        "answer_length": 465
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Kế hoạch giảng dạy mẫu",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Kế hoạch giảng dạy mẫu",
+          "score": 0.13128456
+        },
+        {
+          "rank": 2,
+          "title": "Nhóm các môn học định hướng Trí tuệ nhân tạo",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Tỷ lệ các khối kiến thức > Khối kiến th",
+          "score": 0.026912304
+        },
+        {
+          "rank": 3,
+          "title": "6\\. KẾ HOẠCH GIẢNG DẠY",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY",
+          "score": 0.016529556
+        },
+        {
+          "rank": 4,
+          "title": "Các môn học chuyên ngành",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Tỷ lệ các khối kiến thức > Khối kiến th",
+          "score": 0.0060269516
+        },
+        {
+          "rank": 5,
+          "title": "Mô tả các môn học mới và việc xét tương đương môn học",
+          "hierarchy_path": "Chương Trình Thiết Kế Vi Mạch > Mô tả các môn học mới và việc xét tương đương mô",
+          "score": 0.0022083889
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "query": "Tốt nghiệp ngành TTNT có mấy cách?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Sinh viên tốt nghiệp ngành Trí tuệ nhân tạo có thể làm việc trong các lĩnh vực như phát triển phần mềm, thiết kế giải pháp công nghệ thông minh, nghiên cứu khoa học, hoặc tiếp tục học tập bậc cao hơn. Chương trình đào tạo này cung cấp 128 tín chỉ, kéo dài 3.5 năm.",
+      "answer_length": 264,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "tốt nghiệp ngành trí tuệ nhân tạo có mấy cách?, tốt nghiệp, ngành trí tuệ nhân tạo, mục tiêu đào tạo, khóa luận tốt nghiệp, môn học chuyên ngành",
+        "num_results": 5,
+        "time_ms": 10688.849210739136,
+        "generation_time_ms": 9204.797983169556,
+        "total_time_ms": 19893.712997436523,
+        "num_sources": 5,
+        "answer_length": 264
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Cơ hội nghề nghiệp",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Cơ hội nghề nghiệp",
+          "score": 0.036700353
+        },
+        {
+          "rank": 2,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Mục tiêu đào tạo",
+          "score": 0.0035518846
+        },
+        {
+          "rank": 3,
+          "title": "CHUẨN ĐẦU RA",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > CHUẨN ĐẦU RA",
+          "score": 0.0034834242
+        },
+        {
+          "rank": 4,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.003135836
+        },
+        {
+          "rank": 5,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Hình thức và thời gian đào tạo",
+          "score": 0.0007379196
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "query": "Môn phân tích thống kê khác gì với môn xác suất thống kê?",
+      "expected_intent": "compare",
+      "actual_intent": "compare",
+      "intent_match": true,
+      "major": null,
+      "answer": "## So sánh môn Xác suất Thống kê và môn Phân tích Dữ liệu Kinh doanh (IS403)\n\nDựa trên thông tin được cung cấp, chúng ta có thể so sánh hai môn học này thông qua bảng sau:\n\n| Tiêu chí          | Môn Xác suất Thống Kê (MA005) | Môn Phân tích Dữ liệu Kinh doanh (IS403) |\n|--------------------|---------------------------------|--------------------------------------------|\n| **Mục tiêu**        | Nắm vững lý thuyết và phương pháp thống kê, khả năng áp dụng vào việc phân tích dữ liệu. | Áp dụng kiến thức thống kê và kỹ năng phân tích dữ liệu để giải quyết các vấn đề kinh doanh cụ thể. |\n| **Số tín chỉ**      | 3 TC                          | Không rõ (dựa trên thông tin, có thể là 4 TC) |\n| **Nội dung chính**   |  - Lý thuyết xác suất, xác suất nhị thức, xác suất liên tục.  - Các phương pháp thống kê mô tả và suy luận. -  Phân tích dữ liệu đơn và đa biến. | -  Ứng dụng thống kê trong phân tích dữ liệu kinh doanh. -  Kỹ năng làm sạch, tiền xử lý dữ liệu. -  Phân tích dữ liệu bằng các công cụ (ví dụ: Excel, SQL). -  Phân tích xu hướng, dự đoán. |\n| **Cơ hội việc làm** | - Thống kê gia, nhà khoa học dữ liệu (cần nền tảng vững chắc về thống kê). -  Các ngành công nghiệp (y tế, tài chính, nghiên cứu...). | - Chuyên viên phân tích dữ liệu kinh doanh. -  Nhà phân tích thị trường. -  Chuyên viên tư vấn kinh doanh (có kiến thức về dữ liệu). |\n| **Yêu cầu kiến thức nền tảng** |  Toán học (đại số, giải tích), Logic |  Thương mại, Kinh tế, có kiến thức cơ bản về thống kê |\n| **Mức độ tập trung vào công cụ** | Ít hơn, tập trung vào lý thuyết và phương pháp. | Nhiều hơn, tập trung vào việc sử dụng các công cụ để phân tích dữ liệu. |\n\n**Điểm giống:**\n\n*   Cả hai môn đều liên quan đến việc phân tích dữ liệu.\n*   Cả hai đều sử dụng các phương pháp thống kê.\n\n**Điểm khác:**\n\n*   Môn Xác suất Thống Kê tập trung vào lý thuyết và phương pháp, trong khi Môn Phân tích Dữ liệu Kinh doanh tập trung vào việc áp dụng kiến thức đó để giải quyết các vấn đề kinh doanh cụ thể.\n*   Môn Phân tích Dữ liệu Kinh doanh đòi hỏi kỹ năng làm việc với các công cụ phân tích dữ liệu.\n\n**Kết luận:**\n\n*   **Môn Xác suất Thống Kê** phù hợp với những người có đam mê với lý thuyết, muốn xây dựng nền tảng vững chắc về thống kê để có thể theo đuổi các ngành nghề liên quan đến khoa học dữ liệu, nghiên cứu, hoặc các ngành công nghiệp đòi hỏi phân tích dữ liệu chuyên sâu.\n*   **Môn Phân tích Dữ liệu Kinh doanh (IS403)** phù hợp với những người muốn kết hợp kiến thức kinh doanh với kỹ năng phân tích dữ liệu để giải quyết các vấn đề thực tế trong lĩnh vực kinh doanh.\n",
+      "answer_length": 2554,
+      "metadata": {
+        "intent": "compare",
+        "expanded_query": "môn phân tích thống kê khác gì với môn xác suất thống kê?, phân tích thống kê, xác suất thống kê, MÔ TẢ MÔN HỌC, CHUẨN ĐẦU RA MÔN HỌC",
+        "num_results": 5,
+        "time_ms": 8525.545835494995,
+        "generation_time_ms": 32703.67121696472,
+        "total_time_ms": 41229.352951049805,
+        "num_sources": 5,
+        "answer_length": 2554
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Học kỳ 2",
+          "hierarchy_path": "Chương trình Thương Mại Điện Tử > Kế hoạch giảng dạy > Học kỳ 2",
+          "score": 0.013689478
+        },
+        {
+          "rank": 2,
+          "title": "Học kỳ 2",
+          "hierarchy_path": "Chương trình Khoa Học Dữ Liệu > Kế hoạch giảng dạy dự kiến > Học kỳ 2",
+          "score": 0.0060739345
+        },
+        {
+          "rank": 3,
+          "title": "Học kỳ 2",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Kế hoạch giảng dạy mẫu > Học kỳ 2",
+          "score": 0.0059110685
+        },
+        {
+          "rank": 4,
+          "title": "Học kỳ 2",
+          "hierarchy_path": "Chương Trình Kỹ Thuật Phần Mềm > Kế hoạch giảng dạy > Học kỳ 2",
+          "score": 0.003429604
+        },
+        {
+          "rank": 5,
+          "title": "THÔNG TIN CHUNG",
+          "hierarchy_path": "IS403 -- PHÂN TÍCH DỮ LIỆU KINH DOANH > THÔNG TIN CHUNG",
+          "score": 0.0021074724
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "query": "Khi nào phải học chuyên đề tốt nghiệp?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, sinh viên bắt buộc học chuyên đề tốt nghiệp trong các trường hợp sau:\n\n•\tKhi chọn hình thức 2 (Chuyên đề + Đồ án) để tốt nghiệp.\n•\tKhi chọn hình thức 2 (Chuyên đề tốt nghiệp Khoa học dữ liệu và Đồ án tốt nghiệp Khoa học dữ liệu) trong khối kiến thức tốt nghiệp.\n•\tKhi chọn hình thức 1 hoặc 3 ở khối kiến thức tốt nghiệp, môn Chuyên đề sẽ được tính vào khối kiến thức chuyên ngành.\n•\tKhi học chuyên đề tốt nghiệp định hướng TKVM (CE510 hoặc CE511).\n\nNgoài ra, sinh viên có thể học chuyên đề tốt nghiệp nếu chọn hình thức 2 (Chuyên đề + Đồ án) để tốt nghiệp.",
+      "answer_length": 590,
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": "khi nào phải học chuyên đề tốt nghiệp?, KẾ HOẠCH GIẢNG DẠY Mẫu, Chuẩn đầu ra, Khóa luận tốt nghiệp, Tốt nghiệp, Môn học chuyên ngành",
+        "num_results": 5,
+        "time_ms": 9876.973867416382,
+        "generation_time_ms": 23956.036806106567,
+        "total_time_ms": 33833.08982849121,
+        "num_sources": 5,
+        "answer_length": 590
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "6\\. KẾ HOẠCH GIẢNG DẠY",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY",
+          "score": 0.4007494
+        },
+        {
+          "rank": 2,
+          "title": "Học kỳ 8 (Tốt nghiệp)",
+          "hierarchy_path": "Chương trình Khoa Học Dữ Liệu > Kế hoạch giảng dạy dự kiến > Học kỳ 8 (Tốt nghiệ",
+          "score": 0.11961367
+        },
+        {
+          "rank": 3,
+          "title": "Khối kiến thức tốt nghiệp",
+          "hierarchy_path": "Chương Trình Kỹ Thuật Phần Mềm > Tỷ lệ các khối kiến thức > Khối kiến thức",
+          "score": 0.025468083
+        },
+        {
+          "rank": 4,
+          "title": "Mô tả các môn học mới và việc xét tương đương môn học",
+          "hierarchy_path": "Chương Trình Thiết Kế Vi Mạch > Mô tả các môn học mới và việc xét tương đương mô",
+          "score": 0.001012286
+        },
+        {
+          "rank": 5,
+          "title": "Mô tả các môn học mới và việc xét tương đương môn học",
+          "hierarchy_path": "Ngành Kỹ Thuật Máy Tính > Tỷ lệ các khối kiến thức > Mô tả các môn học mới",
+          "score": 0.0009850083
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "query": "Công nghệ thông tin khác Khoa học máy tính như thế nào?",
+      "expected_intent": "compare",
+      "actual_intent": "overview",
+      "intent_match": false,
+      "major": null,
+      "answer": "Chương trình Công nghệ Thông tin tập trung vào việc vận hành, quản lý và ứng dụng các hệ thống CNTT trong doanh nghiệp và các đơn vị không chuyên về CNTT, trong khi Khoa học máy tính tập trung vào phát triển thuật toán, phần mềm và các hệ thống thông tin phức tạp hơn.",
+      "answer_length": 268,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "công nghệ thông tin khác khoa học máy tính như thế nào?, Công nghệ thông tin, khoa học máy tính, mục tiêu đào tạo, khối kiến thức, môn học cơ sở ngành",
+        "num_results": 5,
+        "time_ms": 6458.201169967651,
+        "generation_time_ms": 9172.096967697144,
+        "total_time_ms": 15630.412101745605,
+        "num_sources": 5,
+        "answer_length": 268
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Quy ché đào tạo",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Quy ché đào tạo",
+          "score": 0.3060083
+        },
+        {
+          "rank": 2,
+          "title": "Mục tiêu đào tạo và cơ hội nghề nghiệp",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Mục tiêu đào tạo và cơ hội nghề nghiệp",
+          "score": 0.036356665
+        },
+        {
+          "rank": 3,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.009708477
+        },
+        {
+          "rank": 4,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.005533388
+        },
+        {
+          "rank": 5,
+          "title": "1.1 Mục tiêu đào tạo",
+          "hierarchy_path": "Chương trình Mạng Máy Tính và Truyền Thông Dữ Liệu > 1.1 Mục tiêu đào tạo",
+          "score": 0.0042151595
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "query": "So sánh HTTT thường và HTTT tiên tiến",
+      "expected_intent": "compare",
+      "actual_intent": "compare",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, đây là bảng so sánh giữa Chuyên ngành HTTT quản lý và Chuyên ngành HTTT y tế, tập trung vào các yếu tố chính để hỗ trợ sinh viên đưa ra lựa chọn:\n\n**BẢNG SO SÁNH CHUYÊN NGÀNH HTTT QUẢN LÝ & HTTT Y TẾ**\n\n| Tiêu chí                | Chuyên ngành HTTT Quản lý | Chuyên ngành HTTT Y tế |\n|-------------------------|--------------------------|-----------------------|\n| **Mục tiêu**            | Ứng dụng IT hỗ trợ quản lý, điều hành trong các tổ chức kinh tế, xã hội. | Ứng dụng IT hỗ trợ quản lý, điều hành trong lĩnh vực y tế, chăm sóc sức khỏe. |\n| **Số tín chỉ (tối thiểu)** | 45 tín chỉ                | 45 tín chỉ             |\n| **Nội dung chính**       | - Cơ sở dữ liệu, phân tích dữ liệu, quản trị mạng, an toàn thông tin, lập trình, quản trị hệ thống.  - Tập trung vào các ứng dụng IT trong quản lý tổng thể. | - Tất cả nội dung của HTTT quản lý + - Các kiến thức chuyên sâu về hệ thống thông tin y tế: Hệ thống HIS, PACS, RIS, quản lý hồ sơ bệnh án điện tử, thông tin y tế. |\n| **Các môn học chính**     | - Cơ sở dữ liệu, Phân tích dữ liệu, Mạng máy tính, An toàn thông tin, Lập trình hướng đối tượng, Quản trị hệ thống. | - Tất cả môn của HTTT quản lý + - Hệ thống HIS, PACS, RIS, Thông tin y tế, Quản lý hồ sơ bệnh án điện tử, An toàn thông tin y tế. |\n| **Cơ hội việc làm**     | - Chuyên viên IT, Kỹ sư dữ liệu, Kỹ sư mạng, Kỹ sư an toàn thông tin, Quản trị hệ thống, Phân tích viên nghiệp vụ. - Các vị trí liên quan đến quản lý và vận hành hệ thống IT trong nhiều ngành. | - Chuyên viên IT y tế, Kỹ sư HIS, Kỹ sư PACS, Kỹ sư RIS, Chuyên viên quản trị hệ thống y tế, Chuyên viên phân tích dữ liệu y tế. - Tập trung vào các vị trí trong bệnh viện, trung tâm y tế, công ty dược phẩm, công ty công nghệ y tế. |\n| **Yêu cầu về kiến thức chuyên sâu** | Yêu cầu kiến thức cơ bản về IT và khả năng ứng dụng vào các lĩnh vực quản lý. | Yêu cầu kiến thức chuyên sâu về các hệ thống thông tin y tế, quy trình hoạt động của bệnh viện, các chuẩn mực về bảo mật thông tin y tế. |\n| **Phân loại theo khối kiến thức** | Phần mềm, Hệ điều hành, Mạng máy tính, Cơ sở dữ liệu | Hệ thống thông tin y tế, Phần mềm y tế, Cơ sở dữ liệu y tế |\n\n**Điểm Giống:**\n\n*   **Số tín chỉ tối thiểu:** Cả hai chuyên ngành đều yêu cầu tối thiểu 45 tín chỉ.\n*   **Nền tảng kiến thức cơ bản:** Cả hai đều yêu cầu sinh viên nắm vững kiến thức cơ bản về Hệ thống thông tin, cơ sở dữ liệu, mạng máy tính, an toàn thông tin và lập trình.\n*   **Chuẩn đầu ra:** Cả hai đều tuân theo các chuẩn đầu ra chung của ngành Hệ thống thông tin.\n\n**Điểm Khác:**\n\n*   **Nội dung chuyên sâu:** HTTT y tế tập trung vào các kiến thức chuyên sâu về hệ thống thông tin y tế, trong khi HTTT quản lý có phạm vi rộng hơn, bao gồm nhiều lĩnh vực quản lý khác.\n*   **Cơ hội việc làm:** HTTT y tế mở ra cơ hội việc làm trong lĩnh vực y tế, trong khi HTTT quản lý có thể áp dụng vào nhiều ngành công nghiệp khác.\n\n**Kết luận:**\n\n*   **Chọn Chuyên ngành HTTT Quản lý nếu:** Bạn quan tâm đến việc áp dụng IT vào nhiều lĩnh vực quản lý, muốn có cơ hội làm việc trong nhiều ngành công nghiệp, và muốn có một nền tảng kiến thức rộng hơn về IT.\n*   **Chọn Chuyên ngành HTTT Y tế nếu:** Bạn có đam mê với lĩnh vực y tế, muốn đóng góp vào việc cải tiến hệ thống y tế thông qua công nghệ, và muốn có một vị trí chuyên môn trong bệnh viện hoặc các công ty công nghệ y tế.",
+      "answer_length": 3343,
+      "metadata": {
+        "intent": "compare",
+        "expanded_query": "so sánh hệ thống thông tin thường và hệ thống thông tin tiên tiến, THÔNG TIN CHUNG, MÔ TẢ MÔN HỌC, Mục tiêu đào tạo, Chuẩn đầu ra, Các khối kiến thức",
+        "num_results": 5,
+        "time_ms": 11947.336196899414,
+        "generation_time_ms": 43027.62413024902,
+        "total_time_ms": 54975.03614425659,
+        "num_sources": 5,
+        "answer_length": 3343
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Nhóm các môn học chuyên ngành",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Tỷ lệ các khối kiến thức > Khối kiến thức giáo ",
+          "score": 0.007489625
+        },
+        {
+          "rank": 2,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.0012160416
+        },
+        {
+          "rank": 3,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Mục tiêu đào tạo",
+          "score": 0.0010733063
+        },
+        {
+          "rank": 4,
+          "title": "Chuẩn đầu ra",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Chuẩn đầu ra",
+          "score": 0.0009888597
+        },
+        {
+          "rank": 5,
+          "title": "THÔNG TIN CHUNG",
+          "hierarchy_path": "IS005 -- GIỚI THIỆU NGÀNH HỆ THỐNG THÔNG TIN > THÔNG TIN CHUNG",
+          "score": 0.00021995338
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "query": "Năm thứ 2 HTTT tiên tiến học gì?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên các thông tin được cung cấp trong ngữ cảnh, sinh viên năm 2 ngành Hệ thống Thông tin sẽ được trang bị kiến thức và kỹ năng sau:\n\n*   **Nâng cao kiến thức chuyên sâu về HTTT:**\n    *   **Công nghệ đám mây:** Tìm hiểu sâu hơn về các nền tảng điện toán đám mây (AWS, Azure, Google Cloud) và ứng dụng của chúng trong HTTT.\n    *   **An toàn thông tin:** Nắm vững các kỹ thuật bảo mật thông tin, bảo vệ hệ thống và dữ liệu.\n    *   **Big Data & Data Analytics:** Tiếp cận các công cụ và kỹ thuật xử lý, phân tích dữ liệu lớn.\n    *   **Học máy (Machine Learning):**  Bắt đầu tìm hiểu các thuật toán cơ bản và ứng dụng của học máy trong các hệ thống thông tin.\n    *   **Blockchain:** Tìm hiểu về công nghệ blockchain và tiềm năng ứng dụng trong HTTT, đặc biệt là trong các lĩnh vực như quản lý chuỗi cung ứng, xác thực dữ liệu.\n\n*   **Kỹ năng nâng cao:**\n    *   **Thiết kế kiến trúc hệ thống phức tạp:**  Phát triển khả năng thiết kế các hệ thống HTTT phức tạp, tích hợp nhiều công nghệ khác nhau.\n    *   **Quản lý dự án HTTT:**  Nâng cao kỹ năng quản lý dự án, bao gồm lập kế hoạch, điều phối, theo dõi tiến độ và giải quyết vấn đề.\n    *   **Phát triển ứng dụng:** Tiếp tục nâng cao kỹ năng lập trình, phát triển ứng dụng di động, web và các ứng dụng chuyên biệt.\n    *   **Giải quyết vấn đề:** Nâng cao khả năng phân tích, đánh giá và giải quyết các vấn đề phức tạp liên quan đến HTTT.\n    *   **Thử nghiệm và đánh giá hệ thống:** Nâng cao kỹ năng thiết kế và thực hiện các bài kiểm tra, đánh giá hiệu năng và bảo mật của hệ thống.\n\nTóm lại, năm 2, sinh viên sẽ tập trung vào việc xây dựng nền tảng kiến thức và kỹ năng chuyên sâu hơn, chuẩn bị cho các dự án phức tạp hơn và sẵn sàng cho các vị trí công việc chuyên sâu trong lĩnh vực Hệ thống Thông tin.",
+      "answer_length": 1763,
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": "năm thứ 2 hệ thống thông tin tiên tiến học gì?, KẾ HOẠCH GIẢNG DẠY Mẫu, NỘI DUNG MÔN HỌC, Roadmap, Thông tin chung, Môn học chuyên ngành",
+        "num_results": 5,
+        "time_ms": 10083.817958831787,
+        "generation_time_ms": 39156.37707710266,
+        "total_time_ms": 49240.27395248413,
+        "num_sources": 5,
+        "answer_length": 1763
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Mục tiêu đào tạo",
+          "score": 0.09285216
+        },
+        {
+          "rank": 2,
+          "title": "MÔ TẢ MÔN HỌC",
+          "hierarchy_path": "IS332 -- HỆ THỐNG THÔNG TIN QUẢN LÝ > MÔ TẢ MÔN HỌC",
+          "score": 0.03861093
+        },
+        {
+          "rank": 3,
+          "title": "Kế hoạch giảng dạy mẫu",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Kế hoạch giảng dạy mẫu",
+          "score": 0.021491766
+        },
+        {
+          "rank": 4,
+          "title": "Nhóm các môn học chuyên ngành",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Tỷ lệ các khối kiến thức > Khối kiến thức giáo ",
+          "score": 0.0085443305
+        },
+        {
+          "rank": 5,
+          "title": "Chuẩn đầu ra",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Chuẩn đầu ra",
+          "score": 0.0020911063
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "query": "Lộ trình 4 năm ngành CNTT như thế nào?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, lộ trình 4 năm ngành Công Nghệ Thông Tin (CNTT) như sau:\n\n1.  **Năm 1 & 2:**\n    *   Hình thức đào tạo: Chính quy tập trung.\n    *   Số tín chỉ: Tối thiểu 125 tín chỉ (bao gồm cả ngoại ngữ).\n    *   Thời gian: 8 học kỳ.\n\n2.  **Năm 3 & 4:**\n    *   Tiếp tục học các môn chuyên ngành CNTT.\n    *   Số tín chỉ: Tối thiểu 125 tín chỉ (bao gồm cả ngoại ngữ).\n    *   Thời gian: 8 học kỳ chính.\n\n**Lưu ý:** Thông tin chi tiết về nội dung môn học cụ thể trong 4 năm được trình bày trong các phần khác của tài liệu, nhưng không được liệt kê cụ thể ở đây.",
+      "answer_length": 580,
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": "lộ trình 4 năm ngành công nghệ thông tin như thế nào?, roadmap, kế hoạch giảng dạy mẫu, lộ trình 4 năm, ngành công nghệ thông tin, nội dung môn học",
+        "num_results": 5,
+        "time_ms": 9078.571081161499,
+        "generation_time_ms": 7869.765996932983,
+        "total_time_ms": 16948.433876037598,
+        "num_sources": 5,
+        "answer_length": 580
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Hình thức và thời gian đào tạo",
+          "score": 0.5036201
+        },
+        {
+          "rank": 2,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Kỹ Thuật Máy Tính > Hình thức và thời gian đào tạo",
+          "score": 0.4076281
+        },
+        {
+          "rank": 3,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Hình thức và thời gian đào tạo",
+          "score": 0.2833846
+        },
+        {
+          "rank": 4,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Chương Trình Kỹ Thuật Phần Mềm > Hình thức và thời gian đào tạo",
+          "score": 0.19513355
+        },
+        {
+          "rank": 5,
+          "title": "Kế hoạch giảng dạy mẫu",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Kế hoạch giảng dạy mẫu",
+          "score": 0.17638768
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "query": "Ngành HTTT tiên tiến ra làm gì?",
+      "expected_intent": "outcomes",
+      "actual_intent": "outcomes",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin về Chuẩn Đầu Ra (CLO) của ngành Hệ Thống Thông Tin, sinh viên được đào tạo để:\n\n*   **Nắm vững kiến thức nền tảng:**\n    *   Khoa học tự nhiên và khoa học xã hội.\n    *   Khả năng vận dụng kiến thức ngành Hệ thống Thông tin vào thực tiễn.\n*   **Nắm vững kiến thức y tế cơ bản:**\n    *   Kiến thức nền tảng và chuyên sâu của ngành Hệ thống Thông tin, áp dụng vào lĩnh vực y tế.\n*   **Kỹ năng phân tích và giải quyết vấn đề:**\n    *   Khảo sát tài liệu, lập luận, phân tích và đề xuất giải pháp cho các vấn đề liên quan đến Hệ thống Thông tin và lĩnh vực y tế.\n*   **Hiểu biết về hệ thống thông tin:**\n    *   Nắm vững kiến thức về hệ thống thông tin, bao gồm phần cứng, phần mềm và mạng truyền thông.\n    *   Hiểu rõ cách hệ thống thông tin hỗ trợ mục tiêu quản lý của tổ chức.\n*   **Kỹ năng tư duy phản biện và học tập suốt đời:**\n    *   Nhận thức về sự cần thiết của học tập suốt đời.\n*   **Kỹ năng làm việc nhóm và giao tiếp:**\n    *   (Dù không được liệt kê rõ ràng, nhưng được ngụ ý qua yêu cầu về làm việc nhóm trong quá trình xây dựng hệ thống thông tin).",
+      "answer_length": 1081,
+      "metadata": {
+        "intent": "outcomes",
+        "expanded_query": "ngành hệ thống thông tin tiên tiến ra làm gì?, ngành thông tin, cơ hội nghề nghiệp, chuẩn đầu ra môn học, vị trí làm việc",
+        "num_results": 5,
+        "time_ms": 8517.461061477661,
+        "generation_time_ms": 16955.40189743042,
+        "total_time_ms": 25472.944736480713,
+        "num_sources": 5,
+        "answer_length": 1081
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.053206205
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.047958102
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.037256766
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.03442355
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.013532149
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "query": "Tốt nghiệp ngành TTNT có mấy cách?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Sinh viên tốt nghiệp ngành Trí tuệ nhân tạo có thể làm việc trong nhiều lĩnh vực khác nhau, bao gồm phát triển phần mềm, thiết kế giải pháp công nghệ thông minh, nghiên cứu khoa học, hoặc tiếp tục học tập bậc cao hơn. Chương trình đào tạo này cung cấp 128 tín chỉ và đào tạo theo hình thức chính quy tập trung.",
+      "answer_length": 310,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "tốt nghiệp ngành trí tuệ nhân tạo có mấy cách?, tốt nghiệp, ngành trí tuệ nhân tạo, mục tiêu đào tạo, khóa luận tốt nghiệp, môn học chuyên ngành",
+        "num_results": 5,
+        "time_ms": 9628.432035446167,
+        "generation_time_ms": 13098.743915557861,
+        "total_time_ms": 22727.245092391968,
+        "num_sources": 5,
+        "answer_length": 310
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Cơ hội nghề nghiệp",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Cơ hội nghề nghiệp",
+          "score": 0.036700353
+        },
+        {
+          "rank": 2,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Mục tiêu đào tạo",
+          "score": 0.0035518846
+        },
+        {
+          "rank": 3,
+          "title": "CHUẨN ĐẦU RA",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > CHUẨN ĐẦU RA",
+          "score": 0.0034834242
+        },
+        {
+          "rank": 4,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.003135836
+        },
+        {
+          "rank": 5,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Hình thức và thời gian đào tạo",
+          "score": 0.0007379196
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "query": "So sánh HTTT thường và HTTT tiên tiến",
+      "expected_intent": "compare",
+      "actual_intent": "compare",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, đây là bảng so sánh giữa Chuyên ngành HTTT quản lý và Chuyên ngành HTTT y tế, nhằm hỗ trợ sinh viên đưa ra lựa chọn phù hợp:\n\n**Bảng So Sánh Chuyên Ngành HTTT Quản Lý và HTTT Y Tế**\n\n| Tiêu Chí             | Chuyên ngành HTTT Quản Lý | Chuyên ngành HTTT Y Tế |\n|----------------------|--------------------------|-----------------------|\n| **Mục Tiêu**          |  Ứng dụng CNTT hỗ trợ quản lý, điều hành trong các tổ chức kinh tế, xã hội nói chung. | Ứng dụng CNTT hỗ trợ các hoạt động quản lý, điều hành, tác nghiệp trong lĩnh vực y tế. |\n| **Số Tín Chỉ (Tối thiểu)** | 45 tín chỉ              | 45 tín chỉ             |\n| **Nội Dung Chính**     | - Các nguyên tắc quản lý thông tin. <br> - Hệ thống quản lý dữ liệu. <br> - Ứng dụng CNTT trong quản lý kinh doanh. <br> - Phân tích và giải quyết vấn đề bằng hệ thống thông tin. | - Các nguyên tắc quản lý thông tin y tế. <br> - Hệ thống thông tin y tế (HIS). <br> - Ứng dụng CNTT trong quản lý bệnh viện, phòng khám, dược, v.v. <br> - Các tiêu chuẩn về bảo mật và an toàn thông tin y tế. |\n| **Các Môn Học Tiêu Biểu** | - Hệ thống quản lý dữ liệu <br> - Quản lý thông tin doanh nghiệp <br> - Phân tích dữ liệu | - Hệ thống thông tin y tế <br> - Quản trị dược <br> - An toàn thông tin y tế |\n| **Cơ Hội Việc Làm**    | - Chuyên viên phân tích hệ thống thông tin. <br> - Chuyên viên quản trị hệ thống. <br> - Chuyên viên tư vấn CNTT. <br> - Chuyên viên phân tích dữ liệu. | - Chuyên viên HIS (Health Information Systems). <br> - Chuyên viên quản trị thông tin y tế. <br> - Chuyên viên tư vấn CNTT trong lĩnh vực y tế. <br> - Chuyên viên an toàn thông tin y tế trong bệnh viện/phòng khám. |\n| **Yêu Cầu Về Kỹ Năng** | - Kỹ năng phân tích, giải quyết vấn đề. <br> - Kỹ năng quản trị hệ thống. <br> - Kỹ năng giao tiếp, làm việc nhóm. | - Kỹ năng phân tích, giải quyết vấn đề trong lĩnh vực y tế. <br> - Kỹ năng quản trị HIS. <br> - Hiểu biết về quy định, tiêu chuẩn y tế. |\n\n**Điểm Giống:**\n\n*   Cả hai chuyên ngành đều yêu cầu tối thiểu 45 tín chỉ.\n*   Cả hai đều tập trung vào việc ứng dụng CNTT để hỗ trợ các hoạt động quản lý, điều hành.\n*   Cả hai đều đòi hỏi sinh viên có năng lực phân tích, giải quyết vấn đề.\n\n**Điểm Khác:**\n\n*   **HTTT Quản Lý** có nội dung rộng hơn, tập trung vào các nguyên tắc quản lý thông tin nói chung, áp dụng cho nhiều lĩnh vực.\n*   **HTTT Y Tế** có nội dung chuyên sâu hơn, tập trung vào các hệ thống thông tin y tế, các tiêu chuẩn và quy định trong ngành y tế.\n\n**Kết Luận:**\n\n*   **Chuyên ngành HTTT Quản Lý** phù hợp với sinh viên có đam mê với việc ứng dụng CNTT vào nhiều lĩnh vực quản lý, điều hành khác nhau, có mong muốn trở thành chuyên viên phân tích hệ thống, quản trị hệ thống, hoặc tư vấn CNTT.\n*   **Chuyên ngành HTTT Y Tế** phù hợp với sinh viên có đam mê với ngành y tế, muốn trở thành chuyên gia trong việc ứng dụng CNTT vào các hoạt động quản lý, điều hành, và chăm sóc sức khỏe.\n",
+      "answer_length": 2913,
+      "metadata": {
+        "intent": "compare",
+        "expanded_query": "so sánh hệ thống thông tin thường và hệ thống thông tin tiên tiến, THÔNG TIN CHUNG, MÔ TẢ MÔN HỌC, Mục tiêu đào tạo, Chuẩn đầu ra",
+        "num_results": 5,
+        "time_ms": 11706.376791000366,
+        "generation_time_ms": 39126.193046569824,
+        "total_time_ms": 50832.62515068054,
+        "num_sources": 5,
+        "answer_length": 2913
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Nhóm các môn học chuyên ngành",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Tỷ lệ các khối kiến thức > Khối kiến thức giáo ",
+          "score": 0.007489625
+        },
+        {
+          "rank": 2,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.0012160416
+        },
+        {
+          "rank": 3,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Mục tiêu đào tạo",
+          "score": 0.0010733063
+        },
+        {
+          "rank": 4,
+          "title": "Chuẩn đầu ra",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Chuẩn đầu ra",
+          "score": 0.0009888597
+        },
+        {
+          "rank": 5,
+          "title": "THÔNG TIN CHUNG",
+          "hierarchy_path": "IS005 -- GIỚI THIỆU NGÀNH HỆ THỐNG THÔNG TIN > THÔNG TIN CHUNG",
+          "score": 0.00021995338
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "query": "3 ngành phù hợp với ai?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, có ba ngành phù hợp với những sinh viên có đam mê và kỹ năng sau:\n\n1.  **Công nghệ thông tin** (tổng quát): Phù hợp với những sinh viên có hứng thú với công nghệ, lập trình, thiết kế phần mềm, và các lĩnh vực liên quan đến công nghệ.\n2.  **Truyền thông đa phương tiện**: Thích hợp cho những sinh viên có đam mê sáng tạo nội dung đa phương tiện như video, hình ảnh, âm thanh, và có kỹ năng thiết kế, sản xuất, và quản lý các dự án truyền thông.\n3.  **Thiết kế vi mạch**: Phù hợp với những sinh viên có kiến thức và kỹ năng về điện tử, mạch điện, và có khả năng thiết kế, mô phỏng, và thử nghiệm các mạch điện tử.",
+      "answer_length": 645,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "3 ngành phù hợp với ai?, Mục tiêu đào tạo, Nhóm các môn học cơ sở ngành, Nhóm các môn học chuyên ngành, Tín chỉ",
+        "num_results": 5,
+        "time_ms": 9338.114023208618,
+        "generation_time_ms": 20977.72717475891,
+        "total_time_ms": 30316.201210021973,
+        "num_sources": 5,
+        "answer_length": 645
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Khối kiến thức chuyên ngành",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > Khối kiến thức chuyên ngành",
+          "score": 0.011463797
+        },
+        {
+          "rank": 2,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > Mục tiêu đào tạo",
+          "score": 0.00930395
+        },
+        {
+          "rank": 3,
+          "title": "Mô tả các môn học mới và việc xét tương đương môn học",
+          "hierarchy_path": "Chương Trình Thiết Kế Vi Mạch > Mô tả các môn học mới và việc xét tương đương mô",
+          "score": 0.0010484692
+        },
+        {
+          "rank": 4,
+          "title": "Khối kiến thức giáo dục chuyên nghiệp",
+          "hierarchy_path": "Chương trình An Toàn Thông Tin > Khối kiến thức giáo dục chuyên nghiệp",
+          "score": 0.0008167381
+        },
+        {
+          "rank": 5,
+          "title": "Các khối kiến thức",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Các khối kiến thức",
+          "score": 0.00047470425
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "query": "Ngành Trí Tuệ Nhân Tạo yêu cầu tối thiểu bao nhiêu tín chỉ để tốt nghiệp?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Ngành Trí tuệ Nhân Tạo yêu cầu tối thiểu 128 tín chỉ để tốt nghiệp. Số tín chỉ này được phân bổ từ các khối kiến thức: kiến thức giáo dục đại cương (tối thiểu 45 tín chỉ), kiến thức cơ sở ngành (tối thiểu 57 tín chỉ), kiến thức tự chọn ngành (tối thiểu 8 tín chỉ) và kiến thức tự chọn liên ngành (tối thiểu 8 tín chỉ).",
+      "answer_length": 318,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "ngành trí tuệ nhân tạo yêu cầu tối thiểu bao nhiêu tín chỉ để tốt nghiệp?, ngành trí tuệ nhân tạo, tín chỉ, điều kiện tốt nghiệp, số TC, THÔNG TIN CHUNG",
+        "num_results": 5,
+        "time_ms": 8624.178886413574,
+        "generation_time_ms": 6895.359992980957,
+        "total_time_ms": 15519.64020729065,
+        "num_sources": 5,
+        "answer_length": 318
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9991135
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99863297
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9980882
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9973786
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99693656
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "query": "Thời gian đào tạo ngành CNTT kéo dài bao nhiêu năm?",
+      "expected_intent": "roadmap",
+      "actual_intent": "factual",
+      "intent_match": false,
+      "major": null,
+      "answer": "Ngành Công Nghệ Thông Tin kéo dài 4 năm (8 học kỳ chính).",
+      "answer_length": 57,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "thời gian đào tạo ngành công nghệ thông tin kéo dài bao nhiêu năm?, Thời gian đào tạo, ngành công nghệ thông tin, TC, tín chỉ, hình thức đào tạo",
+        "num_results": 5,
+        "time_ms": 8582.426071166992,
+        "generation_time_ms": 2605.8597564697266,
+        "total_time_ms": 11188.339948654175,
+        "num_sources": 5,
+        "answer_length": 57
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9878996
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.96021223
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.8733229
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.86511016
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.77932185
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "query": "Khối kiến thức giáo dục đại cương của ngành Trí Tuệ Nhân Tạo gồm bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Khối kiến thức giáo dục đại cương của ngành Trí Tuệ Nhân Tạo tổng cộng 45 tín chỉ. Các môn trong khối này bao gồm Lý luận chính trị và pháp luật với 13 tín chỉ.",
+      "answer_length": 160,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "khối kiến thức giáo dục đại cương của ngành trí tuệ nhân tạo gồm bao nhiêu tín chỉ?, Khối kiến thức giáo dục đại cương, tín chỉ, số lượng, ngành trí tuệ nhân tạo",
+        "num_results": 5,
+        "time_ms": 8518.779754638672,
+        "generation_time_ms": 5436.7828369140625,
+        "total_time_ms": 13955.61170578003,
+        "num_sources": 5,
+        "answer_length": 160
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9992505
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99845123
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99635005
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99271095
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9905143
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "query": "Môn Nhập Môn Lập Trình thuộc nhóm kiến thức nào và bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Môn Nhập môn Lập trình thuộc nhóm kiến thức cơ sở ngành, cụ thể là môn “Nhập môn Công nghệ phần mềm”. Môn này có **4 TC**.",
+      "answer_length": 122,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "môn nhập môn lập trình thuộc nhóm kiến thức nào và bao nhiêu tín chỉ?, môn nhập môn lập trình, Khối kiến thức giáo dục chuyên nghiệp, nhóm các môn học cơ sở ngành, THÔNG TIN CHUNG",
+        "num_results": 5,
+        "time_ms": 8776.989936828613,
+        "generation_time_ms": 5026.339769363403,
+        "total_time_ms": 13803.380012512207,
+        "num_sources": 5,
+        "answer_length": 122
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.30663085
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.22988081
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.19682622
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.1377643
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.06632687
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "query": "Khóa luận tốt nghiệp ngành Trí Tuệ Nhân Tạo có bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Khóa luận tốt nghiệp (KLTN) có 10 tín chỉ.",
+      "answer_length": 42,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "khóa luận tốt nghiệp ngành trí tuệ nhân tạo có bao nhiêu tín chỉ?, khóa luận tốt nghiệp, tín chỉ, số tín chỉ, ngành trí tuệ nhân tạo",
+        "num_results": 5,
+        "time_ms": 7616.861820220947,
+        "generation_time_ms": 2588.045120239258,
+        "total_time_ms": 10204.95581626892,
+        "num_sources": 5,
+        "answer_length": 42
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9982317
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9965301
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9838472
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9666631
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.96432143
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "query": "Học kỳ 1 ngành Trí Tuệ Nhân Tạo có tổng cộng bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Tổng số tín chỉ đào tạo tối thiểu cho học kỳ 1 ngành Trí tuệ Nhân tạo là 20 tín chỉ. Số tín chỉ này bao gồm các môn học cơ sở và môn Giáo dục quốc phòng.",
+      "answer_length": 153,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "học kỳ 1 ngành trí tuệ nhân tạo có tổng cộng bao nhiêu tín chỉ?, học kỳ 1, ngành trí tuệ nhân tạo, số tín chỉ, TC, LT",
+        "num_results": 5,
+        "time_ms": 8047.819137573242,
+        "generation_time_ms": 4797.29700088501,
+        "total_time_ms": 12845.163822174072,
+        "num_sources": 5,
+        "answer_length": 153
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.990732
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9631613
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.92944044
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.908618
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.84169555
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "query": "Ngành Trí Tuệ Nhân Tạo yêu cầu bao nhiêu tín chỉ ngoại ngữ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Ngành Trí tuệ Nhân Tạo yêu cầu tối thiểu 128 tín chỉ, bao gồm cả ngoại ngữ.",
+      "answer_length": 75,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "ngành trí tuệ nhân tạo yêu cầu bao nhiêu tín chỉ ngoại ngữ?, ngành trí tuệ nhân tạo, tín chỉ ngoại ngữ, Điều kiện tốt nghiệp, Chuẩn đầu ra môn học, Tín chỉ",
+        "num_results": 5,
+        "time_ms": 8838.128805160522,
+        "generation_time_ms": 4427.973747253418,
+        "total_time_ms": 13266.147136688232,
+        "num_sources": 5,
+        "answer_length": 75
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99694854
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99165195
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9466954
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.94240075
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.79390603
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "query": "Ngành CNTT yêu cầu tổng cộng bao nhiêu tín chỉ để tốt nghiệp?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Sinh viên ngành Công nghệ Thông Tin phải tích lũy tối thiểu 125 tín chỉ để tốt nghiệp, bao gồm 12 tín chỉ Anh văn.",
+      "answer_length": 114,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "ngành công nghệ thông tin yêu cầu tổng cộng bao nhiêu tín chỉ để tốt nghiệp?, ngành công nghệ thông tin, tín chỉ, điều kiện tốt nghiệp, số TC, khóa luận",
+        "num_results": 5,
+        "time_ms": 8449.981927871704,
+        "generation_time_ms": 4318.42303276062,
+        "total_time_ms": 12768.458127975464,
+        "num_sources": 5,
+        "answer_length": 114
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99827254
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9980354
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9978002
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9959771
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99368566
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "query": "Có bao nhiêu hình thức tốt nghiệp trong ngành Trí Tuệ Nhân Tạo?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Có 3 hình thức tốt nghiệp trong ngành Trí tuệ nhân tạo. Các hình thức này bao gồm hình thức 1, hình thức 2 và hình thức 3, được hướng dẫn tại mục 3.5 của tài liệu.",
+      "answer_length": 163,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "có bao nhiêu hình thức tốt nghiệp trong ngành trí tuệ nhân tạo?, MÔ TẢ MÔN HỌC, Hình thức và thời gian đào tạo, Mục tiêu môn học, Nhóm các môn học chuyên ngành, Trí tuệ nhân tạo",
+        "num_results": 5,
+        "time_ms": 9780.83324432373,
+        "generation_time_ms": 6613.156795501709,
+        "total_time_ms": 16394.070148468018,
+        "num_sources": 5,
+        "answer_length": 163
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Hình thức và thời gian đào tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Hình thức và thời gian đào tạo",
+          "score": 0.9563089
+        },
+        {
+          "rank": 2,
+          "title": "6\\. KẾ HOẠCH GIẢNG DẠY",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY",
+          "score": 0.9512329
+        },
+        {
+          "rank": 3,
+          "title": "7\\. ĐIỀU KIỆN TỐT NGHIỆP",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 7\\. ĐIỀU KIỆN TỐT NGHIỆP",
+          "score": 0.4663899
+        },
+        {
+          "rank": 4,
+          "title": "Tỷ lệ các khối kiến thức",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức",
+          "score": 0.465266
+        },
+        {
+          "rank": 5,
+          "title": "Cơ hội nghề nghiệp",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Cơ hội nghề nghiệp",
+          "score": 0.253861
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "query": "Tự chọn chuyên ngành ngành Trí Tuệ Nhân Tạo yêu cầu tối thiểu bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Tự chọn chuyên ngành ngành Trí Tuệ Nhân Tạo yêu cầu tối thiểu 8 tín chỉ.",
+      "answer_length": 72,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "tự chọn chuyên ngành ngành trí tuệ nhân tạo yêu cầu tối thiểu bao nhiêu tín chỉ?, tín chỉ, số tín chỉ, ngành trí tuệ nhân tạo, điều kiện tốt nghiệp",
+        "num_results": 5,
+        "time_ms": 7656.020164489746,
+        "generation_time_ms": 2536.0732078552246,
+        "total_time_ms": 10192.196130752563,
+        "num_sources": 5,
+        "answer_length": 72
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9995987
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.99862766
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.98657167
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9603612
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9595352
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "query": "Chuyên Ngành Công Nghệ Thông Tin có mấy hướng chính?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Chương trình đào tạo ngành Công nghệ Thông tin có hai chuyên ngành chính được đề cập trong thông tin: Kế hoạch giảng dạy mẫu và Chuẩn đầu ra.",
+      "answer_length": 141,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "chuyên ngành công nghệ thông tin có mấy hướng chính?, chuyên ngành công nghệ thông tin, nhóm các môn học chuyên ngành, mục tiêu đào tạo, danh mục môn học, hướng phát triển",
+        "num_results": 5,
+        "time_ms": 8844.163179397583,
+        "generation_time_ms": 10317.085266113281,
+        "total_time_ms": 19161.313772201538,
+        "num_sources": 5,
+        "answer_length": 141
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Kế hoạch giảng dạy mẫu",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Kế hoạch giảng dạy mẫu",
+          "score": 0.1112412
+        },
+        {
+          "rank": 2,
+          "title": "Chuẩn đầu ra",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Chuẩn đầu ra",
+          "score": 0.07290027
+        },
+        {
+          "rank": 3,
+          "title": "Các khối kiến thức",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Các khối kiến thức",
+          "score": 0.0658447
+        },
+        {
+          "rank": 4,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.054298937
+        },
+        {
+          "rank": 5,
+          "title": "1.1 Mục tiêu đào tạo",
+          "hierarchy_path": "Chương trình Mạng Máy Tính và Truyền Thông Dữ Liệu > 1.1 Mục tiêu đào tạo",
+          "score": 0.03676947
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "query": "Chuyên Ngành Khoa học thông tin thì nên học những môn nào?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Chương trình Cử nhân Hệ thống thông tin trang bị kiến thức cơ bản và chuyên sâu về Hệ thống thông tin, bao gồm khối kiến thức Toán-Tin học-Khoa học tự nhiên (18TC) và khối kiến thức Giáo dục chuyên nghiệp (70TC), bao gồm Cơ sở ngành.",
+      "answer_length": 237,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "chuyên ngành khoa học thông tin thì nên học những môn nào?, khoa học thông tin, môn học chuyên ngành, mục tiêu đào tạo, nhóm môn học cơ sở ngành",
+        "num_results": 4,
+        "time_ms": 9047.14822769165,
+        "generation_time_ms": 8136.5180015563965,
+        "total_time_ms": 17183.72082710266,
+        "num_sources": 4,
+        "answer_length": 237
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Mục tiêu chung",
+          "hierarchy_path": "Chương trình Khoa Học Dữ Liệu > Mục tiêu chung",
+          "score": 0.2649285
+        },
+        {
+          "rank": 2,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Mục tiêu đào tạo",
+          "score": 0.2104416
+        },
+        {
+          "rank": 3,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Chương trình An Toàn Thông Tin > Mục tiêu đào tạo",
+          "score": 0.037892427
+        },
+        {
+          "rank": 4,
+          "title": "Các khối kiến thức",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Các khối kiến thức",
+          "score": 0.036356665
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "query": "Liệt kê các môn bắt buộc chính trong khối cơ sở ngành Trí Tuệ Nhân Tạo và tín chỉ tương ứng.",
+      "expected_intent": "overview",
+      "actual_intent": "roadmap",
+      "intent_match": false,
+      "major": null,
+      "answer": "Dưới đây là danh sách các môn bắt buộc chính trong khối cơ sở ngành Trí tuệ Nhân Tạo và tín chỉ tương ứng, dựa trên thông tin được cung cấp:\n\n*   **Lập trình và Kỹ thuật phần mềm (16 TC)**\n*   **Thuật toán và Cấu trúc dữ liệu (8 TC)**\n*   **Kiến trúc máy tính, Hệ điều hành và mạng máy tính (12 TC)**\n*   **Cơ sở dữ liệu (4TC)**\n*   **Trí tuệ nhân tạo và Máy học (16 TC)**\n\nTổng số tín chỉ bắt buộc: 57 tín chỉ.",
+      "answer_length": 411,
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": "liệt kê các môn bắt buộc chính trong khối cơ sở ngành trí tuệ nhân tạo và tín chỉ tương ứng., Trí tuệ nhân tạo, KẾ HOẠCH GIẢNG DẠY, Môn bắt buộc, Tín chỉ, LO1-LO8",
+        "num_results": 5,
+        "time_ms": 9791.076183319092,
+        "generation_time_ms": 21475.003242492676,
+        "total_time_ms": 31266.135692596436,
+        "num_sources": 5,
+        "answer_length": 411
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Các môn học cơ sở ngành Trí tuệ nhân tạo",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá",
+          "score": 0.97090924
+        },
+        {
+          "rank": 2,
+          "title": "Khối kiến thức giáo dục đại cương",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá",
+          "score": 0.7078088
+        },
+        {
+          "rank": 3,
+          "title": "Nhóm các môn học cơ sở ngành",
+          "hierarchy_path": "Ngành Kỹ Thuật Máy Tính > Tỷ lệ các khối kiến thức > Khối kiến thức gia",
+          "score": 0.51210546
+        },
+        {
+          "rank": 4,
+          "title": "Các môn học tự chọn liên ngành",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá",
+          "score": 0.46229097
+        },
+        {
+          "rank": 5,
+          "title": "Các môn học cơ sở ngành Khoa học Máy tính",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Tỷ lệ các khối kiến thức > Khối kiến th",
+          "score": 0.06791668
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "query": "Ngành Công Nghệ Thông Tin học những gì?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Ngành Công nghệ Thông tin đào tạo sinh viên với kiến thức nền tảng về khoa học tự nhiên và khoa học xã hội, cùng các kiến thức chuyên sâu về lập trình, mạng máy tính, cơ sở dữ liệu và hệ thống web, phục vụ cho công cuộc phát triển và hội nhập của đất nước. Chương trình này cũng trang bị cho sinh viên kỹ năng giải quyết vấn đề, giao tiếp và hợp tác, đồng thời phát triển tư duy phản biện và khả năng học tập suốt đời.",
+      "answer_length": 418,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "ngành công nghệ thông tin học những gì?, ngành công nghệ thông tin, mục tiêu đào tạo, khối kiến thức, môn học cơ sở ngành, tín chỉ",
+        "num_results": 5,
+        "time_ms": 6198.821306228638,
+        "generation_time_ms": 8390.738010406494,
+        "total_time_ms": 14589.618921279907,
+        "num_sources": 5,
+        "answer_length": 418
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Mục tiêu đào tạo",
+          "score": 0.8431217
+        },
+        {
+          "rank": 2,
+          "title": "Chuẩn đầu ra",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Chuẩn đầu ra",
+          "score": 0.43194354
+        },
+        {
+          "rank": 3,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Ngành Hệ Thống Thông Tin > Mục tiêu đào tạo",
+          "score": 0.2885691
+        },
+        {
+          "rank": 4,
+          "title": "Quan điểm xây dựng chương trình đào tạo",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Quan điểm xây dựng chương trình đào tạo",
+          "score": 0.2635994
+        },
+        {
+          "rank": 5,
+          "title": "Các khối kiến thức",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Các khối kiến thức",
+          "score": 0.0107767265
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "query": "Ngành Trí Tuệ Nhân Tạo gồm những mảng chính nào?",
+      "expected_intent": "overview",
+      "actual_intent": "overview",
+      "intent_match": true,
+      "major": null,
+      "answer": "Ngành Trí tuệ Nhân tạo bao gồm các mảng chính về nhận thức (PLO1, PLO2) tập trung vào kiến thức nền tảng và chuyên sâu, kỹ năng (PLO3, PLO4, PLO5, PLO6, PLO7) liên quan đến lập trình, thuật toán, và thiết kế hệ thống, cũng như thái độ (PLO8) về trách nhiệm nghề nghiệp và đạo đức.",
+      "answer_length": 280,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "ngành trí tuệ nhân tạo gồm những mảng chính nào?, MÔ TẢ MÔN HỌC, Nhóm các môn học cơ sở ngành, Nhóm các môn học chuyên ngành, trí tuệ nhân tạo",
+        "num_results": 3,
+        "time_ms": 6482.824802398682,
+        "generation_time_ms": 6769.734144210815,
+        "total_time_ms": 13252.615928649902,
+        "num_sources": 3,
+        "answer_length": 280
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Tỷ lệ các khối kiến thức",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức",
+          "score": 0.46605572
+        },
+        {
+          "rank": 2,
+          "title": "6\\. KẾ HOẠCH GIẢNG DẠY",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY",
+          "score": 0.22337708
+        },
+        {
+          "rank": 3,
+          "title": "CHUẨN ĐẦU RA",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > CHUẨN ĐẦU RA",
+          "score": 0.15856485
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "query": "Ngành Trí Tuệ Nhân Tạo có đòi hỏi phải học Mật Mã Học không?",
+      "expected_intent": "prerequisite",
+      "actual_intent": "prerequisite",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin hiện có, không có thông tin nào cho biết ngành Trí Tuệ Nhân Tạo có đòi hỏi phải học Mật Mã Học hay không.\n\nDanh sách các môn học liên quan đến thông tin được liệt kê như sau:\n\n• IS335 – An toàn và bảo mật hệ thống thông tin\n• IS334 – Thương mại điện tử\n• IS332 – Hệ thống Thông tin Quản lý\n",
+      "answer_length": 309,
+      "metadata": {
+        "intent": "prerequisite",
+        "expanded_query": "ngành trí tuệ nhân tạo có đòi hỏi phải học mật mã học không?, trí tuệ nhân tạo, mật mã học, môn học trước, CLO1, môn chuyên ngành",
+        "num_results": 3,
+        "time_ms": 6614.914894104004,
+        "generation_time_ms": 3355.0188541412354,
+        "total_time_ms": 9969.998121261597,
+        "num_sources": 3,
+        "answer_length": 309
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.00069054146
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.00013982208
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 6.108855e-05
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "query": "Môn Dữ Liệu Lớn học bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "major": null,
+      "answer": "Môn Dữ liệu lớn có 4 tín chỉ (TC) trong học kỳ 6 của chuyên ngành HTTT quản lý. Ngoài ra, môn học này là một trong các môn học bắt buộc của chương trình Khoa học Dữ liệu, tổng cộng 42 tín chỉ.",
+      "answer_length": 192,
+      "metadata": {
+        "intent": "factual",
+        "expanded_query": "môn dữ liệu lớn học bao nhiêu tín chỉ?, môn dữ liệu lớn, số tín chỉ, THÔNG TIN CHUNG, hình thức đào tạo",
+        "num_results": 5,
+        "time_ms": 5688.362121582031,
+        "generation_time_ms": 3110.943078994751,
+        "total_time_ms": 8799.340009689331,
+        "num_sources": 5,
+        "answer_length": 192
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.9600627
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.8665848
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.8369547
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.7973991
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "hierarchy_path": "",
+          "score": 0.6930576
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "query": "Có Tài liệu tham khảo cho môn Dữ Liệu Lớn không?",
+      "expected_intent": "factual",
+      "actual_intent": "overview",
+      "intent_match": false,
+      "major": null,
+      "answer": "Có, môn học cung cấp một danh sách tài liệu tham khảo chi tiết, bao gồm sách, bài báo khoa học, và các tài liệu trực tuyến liên quan đến dữ liệu lớn, MapReduce, Hadoop, Spark và các công cụ liên quan. Sinh viên sẽ được khuyến khích sử dụng các tài liệu này để nâng cao kiến thức và kỹ năng.",
+      "answer_length": 290,
+      "metadata": {
+        "intent": "overview",
+        "expanded_query": "có tài liệu tham khảo cho môn dữ liệu lớn không?, Mục tiêu môn học, Chuẩn đầu ra môn học, Các khối kiến thức, Nhóm các môn học chuyên ngành",
+        "num_results": 5,
+        "time_ms": 6071.402072906494,
+        "generation_time_ms": 11187.474966049194,
+        "total_time_ms": 17258.919954299927,
+        "num_sources": 5,
+        "answer_length": 290
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "MÔ TẢ MÔN HỌC (Course description)",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > MÔ TẢ MÔN HỌC (Course description)",
+          "score": 0.5821941
+        },
+        {
+          "rank": 2,
+          "title": "NỘI DUNG CHI TIẾT",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > NỘI DUNG CHI TIẾT",
+          "score": 0.20914644
+        },
+        {
+          "rank": 3,
+          "title": "CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > CHUẨN ĐẦU RA MÔN HỌC (Course learning outcomes)",
+          "score": 0.17064618
+        },
+        {
+          "rank": 4,
+          "title": "MỤC TIÊU MÔN HỌC (Course Goals)",
+          "hierarchy_path": "IS405 -- DỮ LIỆU LỚN > MỤC TIÊU MÔN HỌC (Course Goals)",
+          "score": 0.16105616
+        },
+        {
+          "rank": 5,
+          "title": "Khối kiến thức giáo dục chuyên nghiệp",
+          "hierarchy_path": "Chương trình Khoa Học Dữ Liệu > Khối kiến thức giáo dục chuyên nghiệp",
+          "score": 0.00087276706
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "query": "Chuẩn TOEIC để tốt nghiệp chương trình chuẩn là bao nhiêu?",
+      "expected_intent": "policy",
+      "actual_intent": "policy",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, không có quy định cụ thể về điểm TOEIC để tốt nghiệp chương trình chuẩn. Thông tin chỉ tập trung vào các điều kiện về tín chỉ và môn học cần hoàn thành để tốt nghiệp.\n",
+      "answer_length": 201,
+      "metadata": {
+        "intent": "policy",
+        "expanded_query": "chuẩn toeic để tốt nghiệp chương trình chuẩn là bao nhiêu?, TOEIC, Chuẩn ngoại ngữ, Điều kiện tốt nghiệp, IELTS, Chuẩn toeic",
+        "num_results": 5,
+        "time_ms": 5589.870929718018,
+        "generation_time_ms": 4857.647895812988,
+        "total_time_ms": 10447.582960128784,
+        "num_sources": 5,
+        "answer_length": 201
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "ĐIỀU KIỆN TỐT NGHIỆP",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > ĐIỀU KIỆN TỐT NGHIỆP",
+          "score": 0.03308598
+        },
+        {
+          "rank": 2,
+          "title": "Điều kiện tốt nghiệp",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Điều kiện tốt nghiệp",
+          "score": 0.022286186
+        },
+        {
+          "rank": 3,
+          "title": "Điều kiện tốt nghiệp",
+          "hierarchy_path": "Chương Trình Kỹ Thuật Phần Mềm > Điều kiện tốt nghiệp",
+          "score": 0.016029147
+        },
+        {
+          "rank": 4,
+          "title": "Khối kiến thức tốt nghiệp",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Tỷ lệ các khối kiến thức > Khối kiến thức",
+          "score": 0.010986943
+        },
+        {
+          "rank": 5,
+          "title": "7\\. ĐIỀU KIỆN TỐT NGHIỆP",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 7\\. ĐIỀU KIỆN TỐT NGHIỆP",
+          "score": 0.0107351625
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "query": "Quy định miễn học môn tiếng Anh như thế nào?",
+      "expected_intent": "policy",
+      "actual_intent": "policy",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên các thông tin được cung cấp, quy định về việc miễn học môn tiếng Anh được xác định như sau:\n\n*   **Trường hợp miễn học:** Sinh viên có trình độ tiếng Anh đủ cao (tùy thuộc vào từng ngành và chương trình học) có thể được miễn học các môn tiếng Anh 1, 2, 3. Cụ thể, bảng mục tiêu môn học IS254 (Hệ Hỗ Trợ Quyết Định) ghi rõ: \"## LO2 (2.7)\" – Điều này cho thấy sinh viên đã đạt yêu cầu về trình độ tiếng Anh (LO2) nên không cần phải học các môn tiếng Anh bắt buộc.\n*   **Yêu cầu về trình độ:** Tuy nhiên, không có thông tin cụ thể về điểm số tối thiểu cần đạt trên các bài kiểm tra tiếng Anh (ví dụ: TOEIC, IELTS) để được miễn học. Do đó, việc miễn học phụ thuộc vào đánh giá của giảng viên hoặc khoa về trình độ tiếng Anh của sinh viên.\n*   **Lưu ý:** Như đã đề cập trong thông tin, sinh viên có thể phải học các môn tiếng Anh nếu không đáp ứng yêu cầu về trình độ.\n\n**Tóm lại:** Việc miễn học môn tiếng Anh được xem xét dựa trên đánh giá trình độ tiếng Anh của sinh viên, không có điểm số tối thiểu cố định được quy định.",
+      "answer_length": 1029,
+      "metadata": {
+        "intent": "policy",
+        "expanded_query": "quy định miễn học môn tiếng anh như thế nào?, Quy định, miễn học, tiếng anh, điều kiện tốt nghiệp, TC",
+        "num_results": 5,
+        "time_ms": 5375.395774841309,
+        "generation_time_ms": 15616.935014724731,
+        "total_time_ms": 20992.37608909607,
+        "num_sources": 5,
+        "answer_length": 1029
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Học kì 1",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Kế hoạch giảng dạy mẫu > Học kì 1",
+          "score": 0.0012399962
+        },
+        {
+          "rank": 2,
+          "title": "Học kỳ 8 (Tốt nghiệp)",
+          "hierarchy_path": "Chương trình Khoa Học Dữ Liệu > Kế hoạch giảng dạy dự kiến > Học kỳ 8 (Tốt nghiệ",
+          "score": 0.0010083435
+        },
+        {
+          "rank": 3,
+          "title": "Khối kiến thức giáo dục đại cương",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Tỷ lệ các khối kiến thức > Khối kiến th",
+          "score": 7.602479e-05
+        },
+        {
+          "rank": 4,
+          "title": "Khối kiến thức giáo dục đại cương",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá",
+          "score": 7.4846226e-05
+        },
+        {
+          "rank": 5,
+          "title": "MỤC TIÊU MÔN HỌC (Course Goals)",
+          "hierarchy_path": "IS254 -- HỆ HỖ TRỢ QUYẾT ĐỊNH > MỤC TIÊU MÔN HỌC (Course Goals)",
+          "score": 5.5622066e-05
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "query": "Điều kiện nhận học bổng khuyến khích học tập là gì?",
+      "expected_intent": "policy",
+      "actual_intent": "policy",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên các thông tin được cung cấp, **không có thông tin nào về điều kiện nhận học bổng khuyến khích học tập.** Các thông tin chỉ liệt kê các điều kiện tốt nghiệp cho từng ngành, bao gồm số tín chỉ tối thiểu, các khối kiến thức cần tích lũy và các điều kiện khác theo quy chế đào tạo hiện hành của Trường Đại học Công nghệ Thông tin. \n\nĐể biết thông tin về học bổng, bạn cần liên hệ trực tiếp với phòng công tác sinh viên hoặc phòng đào tạo của trường.\n",
+      "answer_length": 455,
+      "metadata": {
+        "intent": "policy",
+        "expanded_query": "điều kiện nhận học bổng khuyến khích học tập là gì?, Quy định học bổng, Điều kiện tốt nghiệp, Chuẩn ngoại ngữ, TOEIC, IELTS",
+        "num_results": 5,
+        "time_ms": 5555.721998214722,
+        "generation_time_ms": 5559.957981109619,
+        "total_time_ms": 11115.724086761475,
+        "num_sources": 5,
+        "answer_length": 455
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "ĐIỀU KIỆN TỐT NGHIỆP",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > ĐIỀU KIỆN TỐT NGHIỆP",
+          "score": 0.31647488
+        },
+        {
+          "rank": 2,
+          "title": "7\\. ĐIỀU KIỆN TỐT NGHIỆP",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 7\\. ĐIỀU KIỆN TỐT NGHIỆP",
+          "score": 0.037608635
+        },
+        {
+          "rank": 3,
+          "title": "PHƯƠNG PHÁP GIẢNG DẠY VÀ HỌC TẬP",
+          "hierarchy_path": "IS401 -- KHÓA LUẬN TỐT NGHIỆP > PHƯƠNG PHÁP GIẢNG DẠY VÀ HỌC TẬP",
+          "score": 0.033972
+        },
+        {
+          "rank": 4,
+          "title": "Điều kiện tốt nghiệp",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Điều kiện tốt nghiệp",
+          "score": 0.005060332
+        },
+        {
+          "rank": 5,
+          "title": "Điều kiện tốt nghiệp",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Điều kiện tốt nghiệp",
+          "score": 0.003004343
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "query": "Các loại học bổng ngoài ngân sách gồm những gì?",
+      "expected_intent": "policy",
+      "actual_intent": "policy",
+      "intent_match": true,
+      "major": null,
+      "answer": "Ngoài ngân sách nhà nước, sinh viên có thể được hỗ trợ học bổng từ các nguồn sau:\n\n*   **Học bổng của Trường Đại học Công nghệ Thông tin và Truyền thông:**\n    *   **Học bổng toàn phần:** Dành cho sinh viên có thành tích học tập xuất sắc nhất khóa, thường là top 3 của khóa.\n    *   **Học bổng bán phần:** Dành cho sinh viên có thành tích học tập tốt (thường là top 10-20 của khóa). Mức học bổng thường là 50% học phí.\n    *   **Học bổng theo ngành:** Một số ngành có thể có học bổng riêng, thường dựa trên thành tích học tập và/hoặc tiềm năng của sinh viên.\n\n*   **Học bổng của các doanh nghiệp:** Nhiều doanh nghiệp công nghệ lớn có chương trình học bổng cho sinh viên ngành Kỹ thuật Máy Tính và Trí Tuệ Nhân Tạo, thường dựa trên thành tích học tập, kỹ năng và kinh nghiệm.\n\n*   **Học bổng của các tổ chức, quỹ hỗ trợ học sinh, sinh viên:** Có rất nhiều tổ chức và quỹ hỗ trợ học sinh, sinh viên, thường dựa trên hoàn cảnh kinh tế gia đình hoặc thành tích học tập.\n\n**Lưu ý:** Điều kiện và mức học bổng của từng loại học bổng có thể khác nhau, sinh viên cần tìm hiểu kỹ thông tin trên website của trường, các tổ chức và quỹ hỗ trợ.\n",
+      "answer_length": 1134,
+      "metadata": {
+        "intent": "policy",
+        "expanded_query": "các loại học bổng ngoài ngân sách gồm những gì?, Học bổng, Điều kiện tốt nghiệp, Chuẩn ngoại ngữ, IELTS, TOEIC",
+        "num_results": 5,
+        "time_ms": 5574.78404045105,
+        "generation_time_ms": 16725.707054138184,
+        "total_time_ms": 22300.54783821106,
+        "num_sources": 5,
+        "answer_length": 1134
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Tỷ lệ các khối kiến thức",
+          "hierarchy_path": "Ngành Kỹ Thuật Máy Tính > Tỷ lệ các khối kiến thức",
+          "score": 0.00075540564
+        },
+        {
+          "rank": 2,
+          "title": "CHUẨN ĐẦU RA",
+          "hierarchy_path": "Chương trình Khoa Học Dữ Liệu > CHUẨN ĐẦU RA",
+          "score": 0.00035281325
+        },
+        {
+          "rank": 3,
+          "title": "Tỷ lệ các khối kiến thức",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức",
+          "score": 0.00027159214
+        },
+        {
+          "rank": 4,
+          "title": "Về chuẩn đầu ra",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Sự khác biệt giữa chương trình Chính quy với ch",
+          "score": 0.0002216781
+        },
+        {
+          "rank": 5,
+          "title": "Khối kiến thức giáo dục đại cương",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > Khối kiến thức giáo dục đại cương",
+          "score": 0.00019716943
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "query": "Quy trình xét học bổng ngoài ngân sách như thế nào?",
+      "expected_intent": "policy",
+      "actual_intent": "policy",
+      "intent_match": true,
+      "major": null,
+      "answer": "Chào bạn, tôi là trợ lý tư vấn tuyển sinh. Dựa trên các thông tin bạn cung cấp, tôi sẽ trả lời các câu hỏi liên quan đến quy định, quy chế, học bổng hoặc yêu cầu ngoại ngữ theo các quy tắc đã đặt ra.\n\n**Về các chương trình đào tạo:**\n\n*   **Truyền Thông Đa Phương Tiện:** Chương trình này tập trung vào việc sinh viên nắm vững kiến thức nền tảng về khoa học tự nhiên, khoa học xã hội, các yếu tố thẩm mỹ, tư duy nghệ thuật truyền thông và hành vi người dùng. Họ cũng cần có kỹ năng khảo sát tài liệu, phân tích, đánh giá, thiết kế, triển khai và đánh giá hiệu quả các hệ thống truyền thông đa phương tiện. Quan trọng là sinh viên cần có tinh thần trách nhiệm và đạo đức nghề nghiệp, tuân thủ pháp luật, tôn trọng sự đa dạng văn hóa và nhận thức rõ tác động của truyền thông đa phương tiện.\n*   **Khoa Học Dữ Liệu:** Chương trình này đòi hỏi sinh viên nắm vững kiến thức cơ sở về khoa học máy tính, kiến trúc máy tính, hệ điều hành, mạng máy tính, lập trình, giải thuật, quản lý thông tin và cơ sở dữ liệu. Họ cũng cần có khả năng khảo sát tài liệu, lập luận, phân tích, đề xuất giải pháp, thiết kế hệ thống, hiện thực hóa giải pháp, đánh giá hệ thống, học tập suốt đời.\n*   **Khoa Học Máy Tính:** Chương trình này tập trung vào việc sinh viên nắm vững kiến thức cơ sở về khoa học máy tính, kiến trúc máy tính, hệ điều hành, mạng máy tính, lập trình, giải thuật, quản lý thông tin và cơ sở dữ liệu. Họ cũng cần có khả năng thiết kế hệ thống, hiện thực hóa giải pháp, đánh giá hệ thống, học tập suốt đời.\n\n**Về Học Bổng:**\n\nThông tin về học bổng chưa được cung cấp cụ thể. Tuy nhiên, dựa trên thông tin chung, học bổng thường được xét duyệt dựa trên các tiêu chí sau:\n\n*   **Điểm trung bình:** Điểm trung bình của sinh viên trong quá trình học.\n*   **Học lực xuất sắc:** Ưu tiên sinh viên có thành tích học tập tốt.\n*   **Hoàn cảnh kinh tế khó khăn:** Sinh viên có hoàn cảnh gia đình đặc biệt khó khăn có thể được xét duyệt.\n*   **Hoàn cảnh đặc biệt:** Một số học bổng có thể dành cho sinh viên có thành tích đặc biệt trong các hoạt động ngoại khóa, nghiên cứu khoa học, hoặc có hoàn cảnh đặc biệt khác.\n\n**Về Yêu Cầu Ngoại Ngữ:**\n\n*   **TOEIC/IELTS:** Hiện tại, không có thông tin cụ thể về điểm chuẩn tối thiểu cho các chương trình đào tạo này. Tuy nhiên, hầu hết các chương trình đào tạo quốc tế đều yêu cầu sinh viên có chứng chỉ tiếng Anh tương đương hoặc tốt hơn.\n*   **Điểm chuẩn:** Điểm chuẩn IELTS/TOEIC sẽ phụ thuộc vào từng chương trình đào tạo và có thể thay đổi theo từng năm.\n*   **Miễn trừ:** Thông tin về các trường hợp được miễn trừ chứng chỉ tiếng Anh thường không được ghi rõ trong các tài liệu này. Tuy nhiên, sinh viên có thể được miễn trừ nếu có các chứng chỉ tiếng Anh khác được công nhận hoặc có hoàn cảnh đặc biệt khó khăn.\n\n**Lưu ý:**\n\n*   Các thông tin trên dựa trên các tài liệu bạn cung cấp. Để có thông tin chính xác và đầy đủ nhất, bạn nên tham khảo trực tiếp các tài liệu chính thức của trường hoặc liên hệ với phòng tuyển sinh của trường.\n\nNếu bạn có bất kỳ câu hỏi nào khác, đừng ngần ngại hỏi tôi.",
+      "answer_length": 3030,
+      "metadata": {
+        "intent": "policy",
+        "expanded_query": "quy trình xét học bổng ngoài ngân sách như thế nào?, Quy trình học bổng, Học bổng, Điều kiện tốt nghiệp, Chuẩn ngoại ngữ, TOEIC, IELTS",
+        "num_results": 5,
+        "time_ms": 5711.392164230347,
+        "generation_time_ms": 29759.708881378174,
+        "total_time_ms": 35471.171855926514,
+        "num_sources": 5,
+        "answer_length": 3030
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Nội dung chuẩn đầu ra: Nhận thức, Kỹ năng và Thái độ.",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > Nội dung chuẩn đầu ra: Nhận thức, Kỹ ",
+          "score": 0.00017674513
+        },
+        {
+          "rank": 2,
+          "title": "CHUẨN ĐẦU RA",
+          "hierarchy_path": "Chương trình Khoa Học Dữ Liệu > CHUẨN ĐẦU RA",
+          "score": 0.00012731104
+        },
+        {
+          "rank": 3,
+          "title": "Chuẩn đầu ra",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Chuẩn đầu ra",
+          "score": 8.092757e-05
+        },
+        {
+          "rank": 4,
+          "title": "QUY ĐỊNH CỦA MÔN HỌC (Course requirements and expectations)",
+          "hierarchy_path": "IT004 -- CƠ SỞ DỮ LIỆU (2022-RUBRIC) > QUY ĐỊNH CỦA MÔN HỌC (Course requirements",
+          "score": 7.141902e-05
+        },
+        {
+          "rank": 5,
+          "title": "Các quy định khác",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Sự khác biệt giữa chương trình Chính quy với ch",
+          "score": 4.4346274e-05
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "query": "Sinh viên chương trình tiên tiến có học bổng gì?",
+      "expected_intent": "policy",
+      "actual_intent": "policy",
+      "intent_match": true,
+      "major": null,
+      "answer": "Dựa trên thông tin được cung cấp, sinh viên chương trình Truyền Thông Đa Phương Tiện hiện không có chính sách học bổng cụ thể nào. Tuy nhiên, chương trình tập trung vào việc đào tạo nguồn nhân lực chất lượng cao, và sinh viên có thể có cơ hội nhận học bổng từ các nguồn bên ngoài như:\n\n*   **Học bổng của trường Đại học Công nghệ Thông tin – ĐHQG HCM:** Trường có nhiều chương trình học bổng dành cho sinh viên học giỏi, có hoàn cảnh khó khăn, hoặc có thành tích xuất sắc.\n*   **Học bổng của các tổ chức, doanh nghiệp:** Có nhiều tổ chức và doanh nghiệp hỗ trợ tài chính cho sinh viên theo học các ngành nghề liên quan đến công nghệ thông tin và truyền thông.\n*   **Học bổng của chính phủ:** Sinh viên có thể tham gia các chương trình học bổng của chính phủ.\n\n**Lưu ý:** Chương trình Truyền Thông Đa Phương Tiện chú trọng vào việc phát triển kỹ năng và tư duy sáng tạo, giúp sinh viên có khả năng ứng dụng kiến thức vào thực tiễn, đây là yếu tố quan trọng để sinh viên có thể tiếp cận các nguồn học bổng khác nhau.",
+      "answer_length": 1014,
+      "metadata": {
+        "intent": "policy",
+        "expanded_query": "sinh viên chương trình tiên tiến có học bổng gì?, sinh viên, chương trình tiên tiến, học bổng, Điều kiện tốt nghiệp, tín chỉ",
+        "num_results": 5,
+        "time_ms": 5521.492958068848,
+        "generation_time_ms": 12052.698135375977,
+        "total_time_ms": 17574.273109436035,
+        "num_sources": 5,
+        "answer_length": 1014
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "ĐIỀU KIỆN TỐT NGHIỆP",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > ĐIỀU KIỆN TỐT NGHIỆP",
+          "score": 0.017242778
+        },
+        {
+          "rank": 2,
+          "title": "Về bằng tốt nghiệp",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Sự khác biệt giữa chương trình Chính quy với ch",
+          "score": 0.014728614
+        },
+        {
+          "rank": 3,
+          "title": "Mục tiêu đào tạo",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > Mục tiêu đào tạo",
+          "score": 0.0074317735
+        },
+        {
+          "rank": 4,
+          "title": "Nội dung chuẩn đầu ra: Nhận thức, Kỹ năng và Thái độ.",
+          "hierarchy_path": "Chương trình Truyền Thông Đa Phương Tiện > Nội dung chuẩn đầu ra: Nhận thức, Kỹ ",
+          "score": 0.0068239546
+        },
+        {
+          "rank": 5,
+          "title": "Về chuẩn đầu ra",
+          "hierarchy_path": "Chương Trình Khoa Học Máy Tính > Sự khác biệt giữa chương trình Chính quy với ch",
+          "score": 0.0041824942
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "query": "Mức học bổng khuyến khích học tập loại Khá là bao nhiêu?",
+      "expected_intent": "policy",
+      "actual_intent": "policy",
+      "intent_match": true,
+      "major": null,
+      "answer": "Với mức học bổng \"Khá\" theo quy định hiện hành, sinh viên sẽ được hỗ trợ như sau:\n\n*   **Mức học bổng:** 500.000 đồng/tháng.\n*   **Điều kiện:** Để nhận học bổng \"Khá\", sinh viên cần đạt điểm trung bình tích lũy từ 7.0 trở lên sau mỗi học kỳ.\n*   **Lưu ý:** Mức học bổng này áp dụng cho các ngành học có khối kiến thức giáo dục đại cương (45 TC) và các ngành khác theo quy định.\n",
+      "answer_length": 378,
+      "metadata": {
+        "intent": "policy",
+        "expanded_query": "mức học bổng khuyến khích học tập loại khá là bao nhiêu?, Quy định đào tạo ngoại ngữ, Học bổng, Điều kiện tốt nghiệp, Chuẩn ngoại ngữ, TOEIC, IELTS, TC",
+        "num_results": 5,
+        "time_ms": 5903.260946273804,
+        "generation_time_ms": 10394.773960113525,
+        "total_time_ms": 16298.128843307495,
+        "num_sources": 5,
+        "answer_length": 378
+      },
+      "sources": [
+        {
+          "rank": 1,
+          "title": "Qui định:",
+          "hierarchy_path": "IS334 -- THUONG MAI DIEN TU (2022) > Qui định:",
+          "score": 0.0027683855
+        },
+        {
+          "rank": 2,
+          "title": "Tỷ lệ các khối kiến thức",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức",
+          "score": 0.000310156
+        },
+        {
+          "rank": 3,
+          "title": "Khối kiến thức giáo dục chuyên nghiệp",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá",
+          "score": 0.00025714198
+        },
+        {
+          "rank": 4,
+          "title": "ĐÁNH GIÁ MÔN HỌC CHI TIẾT",
+          "hierarchy_path": "IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > ĐÁNH GIÁ MÔN HỌC CHI TIẾT",
+          "score": 0.00019871553
+        },
+        {
+          "rank": 5,
+          "title": "Khối kiến thức giáo dục đại cương",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Các khối kiến thức > Khối kiến thức giáo dục đại cươ",
+          "score": 0.00019260288
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "timestamp": "2025-12-22T10:57:55.013132",
+  "total_queries": 3,
+  "intent_accuracy": "3/3 (100.0%)",
+  "es_connected": true,
+  "results": [
+    {
+      "index": 1,
+      "query": "Môn Dữ Liệu Lớn có bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "expanded_query": "Môn Dữ Liệu Lớn có bao nhiêu tín chỉ?, THÔNG TIN CHUNG, MÔ TỔNG QUAN, TÍN CHÍ, DỮ LIỆU LỚN",
+      "reasoning": "",
+      "time_ms": 8991.37,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "",
+          "text": "[IS405 -- DỮ LIỆU LỚN > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Giảng viên phụ trách:, Dữ liệu lớn: Nguyễn Hồ Duy Trí, Nguyễn Hồ Duy Tri\nDữ liệu lớn: Email: trinhd@uit.edu.vn, tringuyen@uit.edu.vn\nTên môn học (tiếng Việt):: Giảng viên tham gia giảng dạy: Các giảng viên khoa HTTT\nTên môn học (tiếng Việt):: Số tín chỉ:, Dữ liệu lớn: 4\nDữ liệu lớn: TC lý thuyết : 3 TC thực hành :1\nTên môn học (tiếng Việt):: Lý thuyết (tiết):, Dữ liệu lớn: 45 tiết\nTên môn học (tiếng Việt):: Thực hành (tiết):, Dữ liệu lớn: 30 tiết",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức giáo dục đại cương]\n\n**Tổng cộng 45 tín chỉ** (đã tính số tín chỉ của Anh văn và không tính các học phần Giáo dục quốc phòng và Giáo dục thể chất vào điểm trung bình chung tích lũy).\n\n**Ghi chú:** TC: Tín chỉ, LT: Lý thuyết, TH: Thực hành.\n\n[Bảng 1] Bảng 24 hàng x 6 cột. Các cột: STT, Mã môn, Tên môn, ...\n: STT, : Mã môn, : Tên môn, : TC, : LT, : TH\nSTT: Các môn lý luận chính trị và pháp luật, TC: 1 3",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức giáo dục đại cương]\n\nSTT: Tổng số tín chỉ, TC: 45",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > ... > Khối kiến thức giáo dục chuyên nghiệp]\n\nTổng cộng 70 tín chỉ.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học cơ sở ngành]\n\n**Tổng cộng 44 tín chỉ, gồm 2 phần sau **:\\*\\*\n\n- **Phần 1: Bắt buộc** đối với tất cả sinh viên của ngành, nhằm cung cấp kiến thức nền tảng về lập trình, cơ sở dữ liệu, mạng máy tính, phần cứng máy tính. **Tổng cộng 25 tín chỉ&#xA0;**, gồm các môn học trong bảng sau:\n\n- **Phần 2: Bắt buộc** đối với tất cả sinh viên của ngành, nhằm cung cấp kiến thức nền tảng về công n",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "query": "Tốt nghiệp ngành TTNT cần bao nhiêu tín chỉ?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "expanded_query": "Tốt nghiệp ngành TTNT cần bao nhiêu tín chỉ?, Tốt nghiệp ngành TTNT, Số tín chỉ, TC, Điều kiện tốt nghiệp, Chuẩn đầu ra",
+      "reasoning": "",
+      "time_ms": 6685.56,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > Điều kiện tốt nghiệp]\n\nCông nhận tốt nghiệp:\n\n\\- Sinh viên đã tích lũy **tối thiểu 125 tín chỉ** (bao gồm 12 tín chỉ Anh văn) và đã hoàn thành các môn học bắt buộc của chương trình đào tạo tương ứng với chuyên ngành.\n\nNgoài ra, sinh viên phải đáp ứng đủ các điều kiện khác theo Quy chế đào tạo hiện hành của Trường Đại học Công nghệ Thông tin.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "text": "[Ngành Kỹ Thuật Máy Tính > Điều kiện tốt nghiệp]\n\nCông nhận tốt nghiệp:\n\n– Sinh viên đã tích lũy tối thiểu 128 tín chỉ, đã hoàn thành các môn học bắt buộc của chương trình đào tạo tương ứng với định hướng ngành phù hợp.\n\n– Ngoài ra, sinh viên phải đáp ứng đủ các điều kiện khác theo quy chế đào tạo hiện hành của Trường Đại học Công nghệ Thông Tin.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > 7\\. ĐIỀU KIỆN TỐT NGHIỆP]\n\nĐể được công nhận tốt nghiệp và cấp bằng, sinh viên phải:\n1\\. Hoàn thành các môn học bắt buộc của chương trình đào tạo.\n2\\. Tích lũy tối thiểu **128** tín chỉ được phân bố theo các khối kiến thức sau:\n\\- Kiến thức giáo dục đại cương: tối thiểu 45 tín chỉ;\n\\- Kiến thức cơ sở ngành: tối thiểu 57 tín chỉ;\n\\- Kiến thức tự chọn ngành: tối thiểu 8 tín chỉ;\n\\- Kiến thức tự chọn liên ngành: tối thiểu 8 tín chỉ;",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học chuyên ngành]\n\n**Bắt buộc** đối với sinh viên ngành Công nghệ thông tin (**Tối thiểu 26 tín chỉ**).\n\nSinh viên được chọn môn học chuyên ngành tự do sao cho **tổng số tín chỉ ³26.**&#x54;rong đó, sinh viên phải học các môn học thuộc danh mục 3.4.2.3 để **tích lũy tối thiểu 6 tín chỉ và tối đa 10 tín chỉ.**&#x43;ác môn học chuyên ngành bao gồm 02 hướng có vai trò như nhau, trong đó có",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > 7\\. ĐIỀU KIỆN TỐT NGHIỆP]\n\n\\- Kiến thức tốt nghiệp: tối thiểu 10 tín chỉ.\n3\\. Đáp ứng các điều kiện khác theo quy chế đào tạo hiện hành của Trường Đại học Công nghệ Thông tin.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "query": "Ngành Công Nghệ Thông Tin học bao nhiêu lâu?",
+      "expected_intent": "factual",
+      "actual_intent": "factual",
+      "intent_match": true,
+      "expanded_query": "Ngành Công Nghệ Thông Tin học bao nhiêu lâu?, Ngành Công Nghệ Thông Tin, Thời gian đào tạo, Số tín chỉ, THÔNG TIN CHUNG",
+      "reasoning": "",
+      "time_ms": 6592.51,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > Hình thức và thời gian đào tạo]\n\n\\- Hình thức đào tạo: Chính quy tập trung.\n\n\\- Số tín chỉ đào tạo: Tối thiểu 125 tín chỉ (bao gồm cả ngoại ngữ).\n\n\\- Thời gian đào tạo: 04 năm (8 học kỳ chính).",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học chuyên ngành]\n\n**Bắt buộc** đối với sinh viên ngành Công nghệ thông tin (**Tối thiểu 26 tín chỉ**).\n\nSinh viên được chọn môn học chuyên ngành tự do sao cho **tổng số tín chỉ ³26.**&#x54;rong đó, sinh viên phải học các môn học thuộc danh mục 3.4.2.3 để **tích lũy tối thiểu 6 tín chỉ và tối đa 10 tín chỉ.**&#x43;ác môn học chuyên ngành bao gồm 02 hướng có vai trò như nhau, trong đó có",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "text": "[Ngành Kỹ Thuật Máy Tính > Hình thức và thời gian đào tạo]\n\n- Hình thức đào tạo: Chính quy tập trung.\n\n- Số tín chỉ đào tạo: 128 tín chỉ.\n\n- Thời gian đào tạo: 4 năm (8 học kỳ)",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > Điều kiện tốt nghiệp]\n\nCông nhận tốt nghiệp:\n\n\\- Sinh viên đã tích lũy **tối thiểu 125 tín chỉ** (bao gồm 12 tín chỉ Anh văn) và đã hoàn thành các môn học bắt buộc của chương trình đào tạo tương ứng với chuyên ngành.\n\nNgoài ra, sinh viên phải đáp ứng đủ các điều kiện khác theo Quy chế đào tạo hiện hành của Trường Đại học Công nghệ Thông tin.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học cơ sở ngành]\n\n**Tổng cộng 44 tín chỉ, gồm 2 phần sau **:\\*\\*\n\n- **Phần 1: Bắt buộc** đối với tất cả sinh viên của ngành, nhằm cung cấp kiến thức nền tảng về lập trình, cơ sở dữ liệu, mạng máy tính, phần cứng máy tính. **Tổng cộng 25 tín chỉ&#xA0;**, gồm các môn học trong bảng sau:\n\n- **Phần 2: Bắt buộc** đối với tất cả sinh viên của ngành, nhằm cung cấp kiến thức nền tảng về công n",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-12-25T23:20:41.953588",
+  "intent_filter": "roadmap",
+  "total_queries": 2,
+  "results": [
+    {
+      "question": "Học kỳ 1 ngành TTNT học những môn gì?",
+      "answer": "# KẾ HOẠCH ĐĂNG KÝ MÔN HỌC\n\n## 1. Thông tin chung\n- **Yêu cầu tín chỉ:** 20\n\n## 2. Danh sách Môn học\n| Phân loại | Mã môn | Tên môn học | TC | LT | TH |\n|---|---|---|---|---|---|\n| Bắt buộc | IT001 | Nhập môn Lập trình | 4 | 3 | 1 |\n| Bắt buộc | MA006 | Giải tích | 4 | 4 | 0 |\n| Bắt buộc | MA003 | Đại số tuyến tính | 3 | 3 | 0 |\n| Bắt buộc | AI001 | Giới thiệu ngành Trí tuệ nhân tạo | 1 | 1 | 0 |\n| Bắt buộc | ENG01 | Anh văn 1 | 4 | 4 | 0 |\n| Bắt buộc | SS004 | Kỹ năng nghề nghiệp | 2 | 2 | 0 |\n| Bắt buộc | SS006 | Pháp luật đại cương | 2 | 2 | 0 |\n| Tự chọn/Gợi ý | ME001 | Giáo dục quốc phòng | 0 | 0 | 0 |\n| Tự chọn/Gợi ý |  |  |  |  |  |\n",
+      "contexts": [
+        "[Ngành Trí Tuệ Nhân Tạo > KẾ HOẠCH GIẢNG DẠY > Học kỳ 1]\n\n\n\n[Bảng 1] Bảng 9 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IT001, Tên môn học: Nhập môn Lập trình, TC: 4, LT: 3, TH: 1\nMã MH: MA006, Tên môn học: Giải tích, TC: 4, LT: 4, TH: 0\nMã MH: MA003, Tên môn học: Đại số tuyến tính, TC: 3, LT: 3, TH: 0\nMã MH: AI001, Tên môn học: Giới thiệu ngành Trí tuệ nhân tạo, TC: 1, LT: 1, TH: 0\nMã MH: ENG01, Tên môn học: Anh văn 1, TC: 4, LT: 4, TH: 0\nMã MH: SS004, Tên môn học: Kỹ năng nghề nghiệp, TC: 2, LT: 2, TH: 0\nMã MH: SS006, Tên môn học: Pháp luật đại cương, TC: 2, LT: 2, TH: 0\nMã MH: ME001, Tên môn học: Giáo dục quốc phòng\nMã MH: Tổng số tín chỉ Học kỳ 1, TC: 20, LT: 19, TH: 1..."
+      ],
+      "ground_truth": "",
+      "expected_intent": "roadmap",
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": null,
+        "num_sources": 1,
+        "total_time_ms": 19628.675937652588,
+        "major": null
+      },
+      "sources": [
+        {
+          "section_id": "da92b87f2b4d",
+          "title": "Học kỳ 1",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > KẾ HOẠCH GIẢNG DẠY > Học kỳ 1",
+          "text_preview": "[Ngành Trí Tuệ Nhân Tạo > KẾ HOẠCH GIẢNG DẠY > Học kỳ 1]\n\n\n\n[Bảng 1] Bảng 9 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IT001, Tên môn học: Nhập môn Lập trình, TC: 4, LT: 3, TH: 1\nMã MH: MA006, Tên môn học: Giải tích, TC: 4, LT: 4, TH: 0\nMã MH: MA003, Tên môn học: Đại số tuyến tính, TC: 3, LT: 3, TH: 0\nMã MH: AI001, Tên môn học: Giới thiệu ngành Trí tuệ nhân tạo, TC: 1, LT: 1, TH: 0\nMã MH: ENG01, Tên môn học: Anh văn 1, TC: 4, LT: 4, TH: 0\nMã MH: SS004, Tên môn học: Kỹ năng nghề nghiệp, TC: 2, LT: 2, TH: 0\nMã MH: SS006, Tên môn học: Pháp luật đại cương, TC: 2, LT: 2, TH: 0\nMã MH: ME001, Tên môn học: Giáo dục quốc phòng\nMã MH: Tổng số tín chỉ Học kỳ 1, TC: 20, LT: 19, TH: 1...",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "question": "Học kỳ 6 ngành CNTT học những môn gì?",
+      "answer": "# KẾ HOẠCH ĐĂNG KÝ MÔN HỌC\n\n## 1. Thông tin chung\n- **Yêu cầu tín chỉ:** 44\n\n## 2. Danh sách Môn học\n| Phân loại | Mã môn | Tên môn học | TC | LT | TH |\n|---|---|---|---|---|---|\n| Bắt buộc | IE005 | Giới thiệu ngành Công nghệ Thông tin | 1 | 1 | 0 |\n| Bắt buộc | IT002 | Lập trình hướng đối tượng | 4 | 3 | 1 |\n| Bắt buộc | IT003 | Cấu trúc dữ liệu và giải thuật | 4 | 3 | 1 |\n| Bắt buộc | IT004 | Cơ sở dữ liệu | 4 | 3 | 1 |\n| Bắt buộc | IT005 | Nhập môn mạng máy tính | 4 | 3 | 1 |\n| Bắt buộc | IT012 | Tổ chức và cấu trúc máy tính II | 4 | 3 | 1 |\n| Bắt buộc | IT007 | Hệ điều hành | 4 | 3 | 1 |\n| Bắt buộc | IE101 | Cơ sở hạ tầng công nghệ thông tin | 3 | 2 | 1 |\n| Bắt buộc | IE103 | Quản lý thông tin | 4 | 3 | 1 |\n| Bắt buộc | IE104 | Internet và công nghệ Web | 4 | 3 | 1 |\n| Bắt buộc | IE105 | Nhập môn bảo đảm và an ninh thông tin | 4 | 3 | 1 |\n| Bắt buộc | IE106 | Thiết kế giao diện người dùng | 4 | 3 | 1 |\n| Bắt buộc | IE108 | Phân tích thiết kế phần mềm | 4 | 3 | 1 |\n",
+      "contexts": [
+        "[Ngành Công Nghệ Thông Tin > Các khối kiến thức > Khối kiến thức giáo dục chuyên nghiệp > Nhóm các môn học cơ sở ngành]\n\n**Tổng cộng 44 tín chỉ, gồm 2 phần sau **:\\*\\*\n\n- **Phần 1: Bắt buộc** đối với tất cả sinh viên của ngành, nhằm cung cấp kiến thức nền tảng về lập trình, cơ sở dữ liệu, mạng máy tính, phần cứng máy tính. **Tổng cộng 25 tín chỉ&#xA0;**, gồm các môn học trong bảng sau:\n\n- **Phần 2: Bắt buộc** đối với tất cả sinh viên của ngành, nhằm cung cấp kiến thức nền tảng về công nghệ thông tin. **Tối thiểu19 tín chỉ**, sinh viên chọn học **5/6** môn học trong bảng sau:\n\n[Bảng 1] Bảng 8 hàng x 6 cột. Các cột: STT, Mã môn, Tên môn, ...\n: STT, : Mã môn, : Tên môn, : TC, : LT, : TH\nSTT: 1., Mã môn: IE005, Tên môn: Giới thiệu ngành Công nghệ Thông tin, TC: 1, LT: 1, TH: 0\nSTT: 2., Mã môn: IT002, Tên môn: Lập trình hướng đối tượng, TC: 4, LT: 3, TH: 1\nSTT: 3., Mã môn: IT003, Tên môn: Cấu trúc dữ liệu và giải thuật, TC: 4, LT: 3, TH: 1\nSTT: 4., Mã môn: IT004, Tên môn: Cơ sở dữ liệu, TC: 4, LT: 3, TH: 1\nSTT: 5., Mã môn: IT005, Tên môn: Nhập môn mạng máy tính, TC: 4, LT: 3, TH: 1\nSTT: 6., Mã môn: IT012, Tên môn: Tổ chức và cấu trúc máy tính II, TC: 4, LT: 3, TH: 1\nSTT: 7., Mã môn: IT007, Tên môn: Hệ điều hành, TC: 4, LT: 3, TH: 1\nSTT: Tổng số tín chỉ, TC: 25, LT: 19, TH: 6\n[Bảng 2] Bảng 7 hàng x 6 cột. Các cột: STT, Mã môn, Tên môn, ...\n: STT, : Mã môn, : Tên môn, : TC, : LT, : TH\nSTT: 1., Mã môn: IE101, Tên môn: Cơ sở hạ tầng công nghệ thông tin, TC: 3, LT: 2, TH: 1\nSTT: 2., Mã môn: IE103, Tên môn: Quản lý thông tin, TC: 4, LT: 3, TH: 1\nSTT: 3., Mã môn: IE104, Tên môn: Internet và công nghệ Web, TC: 4, LT: 3, TH: 1\nSTT: 4., Mã môn: IE105, Tên môn: Nhập môn bảo đảm và an ninh thông tin, TC: 4, LT: 3, TH: 1\nSTT: 5., Mã môn: IE106, Tên môn: Thiết kế giao diện người dùng, TC: 4, LT: 3, TH: 1\nSTT: 6., Mã môn: IE108, Tên môn: Phân tích thiết kế phần mềm, TC: 4, LT: 3, TH: 1\nSTT: Tổng số tín chỉ, TC: ³ 19..."
+      ],
+      "ground_truth": "",
+      "expected_intent": "roadmap",
+      "metadata": {
+        "intent": "roadmap",
+        "expanded_query": null,
+        "num_sources": 1,
+        "total_time_ms": 20620.113134384155,
+        "major": null
+      },
+      "sources": [
+        {
+          "section_id": "da6f67cc1b07",
+          "title": "Nhóm các môn học cơ sở ngành",
+          "hierarchy_path": "Ngành Công Nghệ Thông Tin > Các khối kiến thức > Khối kiến thức giáo dục chuyên nghiệp > Nhóm các môn học cơ sở ngành",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > Các khối kiến thức > Khối kiến thức giáo dục chuyên nghiệp > Nhóm các môn học cơ sở ngành]\n\n**Tổng cộng 44 tín chỉ, gồm 2 phần sau **:\\*\\*\n\n- **Phần 1: Bắt buộc** đối với tất cả sinh viên của ngành, nhằm cung cấp kiến thức nền tảng về lập trình, cơ sở dữ liệu, mạng máy tính, phần cứng máy tính. **Tổng cộng 25 tín chỉ&#xA0;**, gồm các môn học trong bảng sau:\n\n- **Phần 2: Bắt buộc** đối với tất cả sinh viên của ngành, nhằm cung cấp kiến thức nền tảng về công nghệ thông tin. **Tối thiểu19 tín chỉ**, sinh viên chọn học **5/6** môn học trong bảng sau:\n\n[Bảng 1] Bảng 8 hàng x 6 cột. Các cột: STT, Mã môn, Tên môn, ...\n: STT, : Mã môn, : Tên môn, : TC, : LT, : TH\nSTT: 1., Mã môn: IE005, Tên môn: Giới thiệu ngành Công nghệ Thông tin, TC: 1, LT: 1, TH: 0\nSTT: 2., Mã môn: IT002, Tên môn: Lập trình hướng đối tượng, TC: 4, LT: 3, TH: 1\nSTT: 3., Mã môn: IT003, Tên môn: Cấu trúc dữ liệu và giải thuật, TC: 4, LT: 3, TH: 1\nSTT: 4., Mã môn: IT004, Tên môn: Cơ sở dữ liệu, TC: 4, LT: 3, TH: 1\nSTT: 5., Mã môn: IT005, Tên môn: Nhập môn mạng máy tính, TC: 4, LT: 3, TH: 1\nSTT: 6., Mã môn: IT012, Tên môn: Tổ chức và cấu trúc máy tính II, TC: 4, LT: 3, TH: 1\nSTT: 7., Mã môn: IT007, Tên môn: Hệ điều hành, TC: 4, LT: 3, TH: 1\nSTT: Tổng số tín chỉ, TC: 25, LT: 19, TH: 6\n[Bảng 2] Bảng 7 hàng x 6 cột. Các cột: STT, Mã môn, Tên môn, ...\n: STT, : Mã môn, : Tên môn, : TC, : LT, : TH\nSTT: 1., Mã môn: IE101, Tên môn: Cơ sở hạ tầng công nghệ thông tin, TC: 3, LT: 2, TH: 1\nSTT: 2., Mã môn: IE103, Tên môn: Quản lý thông tin, TC: 4, LT: 3, TH: 1\nSTT: 3., Mã môn: IE104, Tên môn: Internet và công nghệ Web, TC: 4, LT: 3, TH: 1\nSTT: 4., Mã môn: IE105, Tên môn: Nhập môn bảo đảm và an ninh thông tin, TC: 4, LT: 3, TH: 1\nSTT: 5., Mã môn: IE106, Tên môn: Thiết kế giao diện người dùng, TC: 4, LT: 3, TH: 1\nSTT: 6., Mã môn: IE108, Tên môn: Phân tích thiết kế phần mềm, TC: 4, LT: 3, TH: 1\nSTT: Tổng số tín chỉ, TC: ³ 19...",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

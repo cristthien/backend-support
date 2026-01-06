@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-12-22T22:51:57.515616",
+  "total_queries": 2,
+  "intent_accuracy": "2/2 (100.0%)",
+  "es_connected": true,
+  "results": [
+    {
+      "index": 1,
+      "query": "Học kỳ 1 ngành AI học những môn gì?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "expanded_query": "học kỳ 1 ngành trí tuệ nhân tạo học những môn gì?, học kỳ 1, trí tuệ nhân tạo, kế hoạch giảng dạy mẫu, nội dung môn học, môn học cơ sở ngành",
+      "reasoning": "",
+      "time_ms": 18606.63,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "6\\. KẾ HOẠCH GIẢNG DẠY",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY]\n\nChương trình học được tổ chức trong **7 học kỳ chính**, kết hợp các môn cơ sở ngành, tự chọn ngành, tự chọn liên ngành và khối kiến thức tốt nghiệp, giúp sinh viên phát triển nền tảng vững chắc, chuyên sâu về AI và kỹ năng thực hành cần thiết.\n\n**Lưu ý:**\n\n1. (\\*) Tuỳ thuộc vào năng lực ngoại ngữ đầu vào của sinh viên, sinh viên có thể học Anh văn phù hợp theo quy định.\n2. (\\*\\*) Các môn học chuyên ngành được hướng dẫn tại mục 3.4.2.\n3. (\\*\\*\\*) Sinh viên bắt buộc chọn môn Chuyên đề tốt nghiệp nếu chọn hình thức 2 (Chuyên đề + Đồ án). Nếu chọn hình thức 1 hoặc 3, môn Chuyên đề sẽ được tính vào khối kiến thức chuyên ngành.\n4. (\\*\\*\\*\\*) Các hình thức tốt nghiệp được hướng dẫn tại mục 3.5.",
+          "level": 2,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY"
+        },
+        {
+          "rank": 2,
+          "title": "Học kỳ 1",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY > Học kỳ 1]\n\n\n\n[Bảng 1] Bảng 9 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IT001, Tên môn học: Nhập môn Lập trình, TC: 4, LT: 3, TH: 1\nMã MH: MA006, Tên môn học: Giải tích, TC: 4, LT: 4, TH: 0\nMã MH: MA003, Tên môn học: Đại số tuyến tính, TC: 3, LT: 3, TH: 0\nMã MH: AI001, Tên môn học: Giới thiệu ngành Trí tuệ nhân tạo, TC: 1, LT: 1, TH: 0\nMã MH: ENG01, Tên môn học: Anh văn 1, TC: 4, LT: 4, TH: 0\nMã MH: SS004, Tên môn học: Kỹ năng nghề nghiệp, TC: 2, LT: 2, TH: 0\nMã MH: SS006, Tên môn học: Pháp luật đại cương, TC: 2, LT: 2, TH: 0\nMã MH: ME001, Tên môn học: Giáo dục quốc phòng\nMã MH: Tổng số tín chỉ Học kỳ 1, TC: 20, LT: 19, TH: 1",
+          "level": 3,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY > Học kỳ 1"
+        },
+        {
+          "rank": 3,
+          "title": "Khối kiến thức tốt nghiệp",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức tốt nghiệp]\n\n● Sinh viên tích lũy tối thiểu 10 tín chỉ cho khối kiến thức tốt nghiệp.\n● Sinh viên được chọn:\n○ Hoặc, thực hiện Khóa luận tốt nghiệp (KLTN) 10 tín chỉ nếu sinh viên đủ điều kiện làm khóa luận tốt nghiệp theo qui chế của trường.\n○ Hoặc, thực hiện Đồ án tốt nghiệp tại doanh nghiệp 10 tín chỉ.\n○ Hoặc, thực hiện Đồ án tốt nghiệp 6 tín chỉ và học một trong các môn chuyên đề tốt nghiệp (4 tín chỉ) để đạt tối thiểu 10 tín chỉ.\n\n[Bảng 1] Bảng 14 hàng x 6 cột. Các cột: STT, Mã môn học, Tên môn học, ...\n: STT, : Mã môn học, : Tên môn học, : TC, : LT, : TH\nSTT: Hoặc: thực hiện Khóa luận tốt nghiệp\nSTT: 1., Mã môn học: AI505, Tên môn học: Khóa luận tốt nghiệp, TC: 10\nSTT: Hoặc: thực hiện**Đồ án tốt nghiệp tại doanh nghiệp**\nSTT: 2., Mã môn học: AI504, Tên môn học: Đồ án tốt nghiệp tại doanh nghiệp, TC: 10\nSTT: Hoặc: thực hiện**Đồ án**tốt nghiệp + học Môn chuyên đề\nSTT: 3., Mã môn học: AI503, Tên môn học: Đồ án tốt nghiệp, TC: 6\nMã môn học: Danh sách các môn chuyên đề\nSTT: 4., Mã môn học: CS409, Tên môn học: Hệ suy diễn mờ, TC: 4, LT: 3, TH: 1\nSTT: 5., Mã môn học: CS405, Tên môn học: Logic mờ và ứng dụng, TC: 4, LT: 3, TH: 1\nSTT: 6., Mã môn học: CS406, Tên môn học: Xử lý ảnh và ứng dụng, TC: 4, LT: 3, TH: 1\nSTT: 7., Mã môn học: CS419, Tên môn học: Truy xuất thông tin, TC: 4, LT: 3, TH: 1\nSTT: 8., Mã môn học: CS412, Tên môn học: Web ngữ nghĩa, TC: 4, LT: 3, TH: 1\nSTT: 9., Mã môn học: Hoặc, các môn học chuyên ngành, nếu các môn học này chưa được tính trong phần kiến thức chuyên ngành.\nSTT: 10., Mã môn học: Và các môn học khác theo đề nghị của Khoa",
+          "level": 3,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức tốt ngh"
+        },
+        {
+          "rank": 4,
+          "title": "Các môn học tự chọn ngành",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giáo dục chuyên nghiệp > Các môn học tự chọn ngành]\n\nTổng số tín chỉ cho các môn học tự chọn ngành đạt tối thiểu **8** tín chỉ.\n\n[Bảng 1] Bảng 24 hàng x 7 cột. Các cột: STT, Mã môn học, Tên môn học chuyên ngành, ...\n: STT, : Mã môn học, : Tên môn học chuyên ngành, : TC, : LT, : TH\nSTT: 1., Mã môn học: CS211, Tên môn học chuyên ngành: Trí tuệ nhân tạo nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 2., Mã môn học: CS315, Tên môn học chuyên ngành: Máy học nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 3., Mã môn học: CS410, Tên môn học chuyên ngành: Mạng Neural và Thuật giải di truyền, TC: 4, LT: 3, TH: 1\nSTT: 4., Mã môn học: CS431, Tên môn học chuyên ngành: Các kĩ thuật học sâu và ứng dụng, TC: 3, LT: 2, TH: 1\nSTT: 5., Mã môn học: CS217, Tên môn học chuyên ngành: Các hệ cơ sở tri thức, TC: 4, LT: 3, TH: 1\nSTT: 6., Mã môn học: CS316, Tên môn học chuyên ngành: Các hệ giải bài toán thông minh, TC: 4, LT: 3, TH: 1\nSTT: 7., Mã môn học: CS312, Tên môn học chuyên ngành: Hệ thống đa tác tử, TC: 4, LT: 3, TH: 1\nSTT: 8., Mã môn học: CS229, Tên môn học chuyên ngành: Ngữ nghĩa học tính toán, TC: 4, LT: 3, TH: 1\nSTT: 9., Mã môn học: CS226, Tên môn học chuyên ngành: Ngôn ngữ học máy tính, TC: 4, LT: 4, TH: 0\nSTT: 10., Mã môn học: CS222, Tên môn học chuyên ngành: Xử lý ngôn ngữ tự nhiên nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 11., Mã môn học: CS323, Tên môn học chuyên ngành: Các hệ thống hỏi-đáp, TC: 4, LT: 3, TH: 1\nSTT: 12., Mã môn học: CS321, Tên môn học chuyên ngành: Ngôn ngữ học ngữ liệu, TC: 4, LT: 3, TH: 1\nSTT: 13., Mã môn học: CS325, Tên môn học chuyên ngành: Dịch máy, TC: 4, LT: 3, TH: 1\nSTT: 14., Mã môn học: CS331, Tên môn học chuyên ngành: Thị giác máy tính nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 15., Mã môn học: CS532, Tên môn học chuyên ngành: Thị giác máy tính trong tương tác người – máy, TC: 4, LT: 3, TH: 1\nSTT: 16., Mã môn học: CS338, Tên môn học chuyên ngành: Nhận dạng, TC: 4, LT: 3, TH: 1\nSTT: 17., Mã môn học: CS313, Tên môn học chuyên ngành: Khai thác dữ liệu và ứng dụng, TC: 4, LT: 3, TH: 1\nSTT: 18., Mã môn học: CS336, Tên môn học chuyên ngành: Truy vấn thông tin đa phương tiện, TC: 4, LT: 3, TH: 1\nSTT: 19., Mã môn học: CS337, Tên môn học chuyên ngành: Xử lý âm thanh và tiếng nói, TC: 4, LT: 3, TH: 1\nSTT: 20., Mã môn học: CS535, Tên môn học chuyên ngành: Tổng hợp tiếng nói, TC: 4, LT: 3, TH: 1\nSTT: 21., Mã môn học: AI301, Tên môn học chuyên ngành: Khởi nghiệp và sáng tạo, TC: 2, LT: 2, TH: 0\nSTT: 22., Mã môn học: AI302, Tên môn học chuyên ngành: Kỹ thuật viết báo cáo và trình bày, TC: 2, LT: 2, TH: 0\nSTT: 23., Mã môn học: CS317, Tên môn học chuyên ngành: Phát triển và vận hành hệ thống máy học, TC: 4, LT: 3, TH: 1\nSTT: Và các môn học khác theo đề nghị của Khoa",
+          "level": 4,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá"
+        },
+        {
+          "rank": 5,
+          "title": "Mục tiêu đào tạo",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Mục tiêu đào tạo]\n\n\\- **Mục tiêu chung:**\no Chương trình đào tạo ngành Trí tuệ nhân tạo hướng đến mục tiêu đào tạo nguồn nhân lực chất lượng cao đạt trình độ khu vực và quốc tế về Trí tuệ nhân tạo.\no Chương trình trang bị cho người học nền tảng kiến thức vững vàng kết hợp cùng kiến thức chuyên sâu cập nhật, hiện đại về Trí tuệ nhân tạo. Người học hiểu và có khả năng làm chủ, vận dụng sáng tạo các thành tựu tiên tiến của ngành; có kỹ năng cần thiết và thái độ chuẩn mực trong phát triển nghề nghiệp.\n\n\\- **Mục tiêu cụ thể:**\nMục tiêu cụ thể của chương trình đào tạo (programe objective – viết tắt là PO) như sau:\n\n[Bảng 1] Bảng 6 hàng x 2 cột. Các cột: Mục tiêu, Nội dung mục tiêu\n: Mục tiêu, : Nội dung mục tiêu\nMục tiêu: PO1, Nội dung mục tiêu: Có kiến thức nền tảng vững vàng về khoa học máy tính và chuyên sâu về Trí tuệ nhân tạo.\nMục tiêu: PO2, Nội dung mục tiêu: Có khả năng thiết kế các giải pháp, phát triển các hệ thống ứng dụng công nghệ tiên tiến về khoa học máy tính, trí tuệ nhân tạo.\nMục tiêu: PO3, Nội dung mục tiêu: Có khả năng tự học, phân tích độc lập và nghiên cứu các vấn đề chuyên sâu về lĩnh vực khoa học máy tính và trí tuệ nhân tạo; có thể tiếp tục học tập ở bậc đào tạo sau đại học.\nMục tiêu: PO4, Nội dung mục tiêu: Có khả năng giải quyết các vấn đề phức tạp trong các tình huống nảy sinh trong quá trình làm việc, phân tích và đề xuất giải pháp phù hợp với thực tế; có khả năng thiết lập các mục tiêu khả thi, lập kế hoạch phù hợp với điều kiện thực tế để hoàn thành công việc được giao.\nMục tiêu: PO5, Nội dung mục tiêu: Có khả năng giao tiếp xã hội, làm việc hợp tác, làm việc nhóm và làm việc trong một tổ chức; có khả năng vận dụng các kiến thức, kỹ năng và kinh nghiệm để giải quyết các tình huống nghề nghiệp khác nhau.\nMục tiêu: PO6, Nội dung mục tiêu: Có trình độ ngoại ngữ đáp ứng cơ bản yêu cầu công việc và nghề nghiệp.",
+          "level": 2,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Mục tiêu đào tạo"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "query": "Học kỳ 5 ngành trí tuệ nhân tạo học những môn gì?",
+      "expected_intent": "roadmap",
+      "actual_intent": "roadmap",
+      "intent_match": true,
+      "expanded_query": "học kỳ 5 ngành trí tuệ nhân tạo học những môn gì?, học kỳ 5, ngành trí tuệ nhân tạo, KẾ HOẠCH GIẢNG DẠY, NỘI DUNG MÔN HỌC, Môn học AI",
+      "reasoning": "",
+      "time_ms": 13721.42,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "6\\. KẾ HOẠCH GIẢNG DẠY",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY]\n\nChương trình học được tổ chức trong **7 học kỳ chính**, kết hợp các môn cơ sở ngành, tự chọn ngành, tự chọn liên ngành và khối kiến thức tốt nghiệp, giúp sinh viên phát triển nền tảng vững chắc, chuyên sâu về AI và kỹ năng thực hành cần thiết.\n\n**Lưu ý:**\n\n1. (\\*) Tuỳ thuộc vào năng lực ngoại ngữ đầu vào của sinh viên, sinh viên có thể học Anh văn phù hợp theo quy định.\n2. (\\*\\*) Các môn học chuyên ngành được hướng dẫn tại mục 3.4.2.\n3. (\\*\\*\\*) Sinh viên bắt buộc chọn môn Chuyên đề tốt nghiệp nếu chọn hình thức 2 (Chuyên đề + Đồ án). Nếu chọn hình thức 1 hoặc 3, môn Chuyên đề sẽ được tính vào khối kiến thức chuyên ngành.\n4. (\\*\\*\\*\\*) Các hình thức tốt nghiệp được hướng dẫn tại mục 3.5.",
+          "level": 2,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY"
+        },
+        {
+          "rank": 2,
+          "title": "Học kỳ 4",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY > Học kỳ 4]\n\n\n\n[Bảng 1] Bảng 7 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IT005, Tên môn học: Nhập môn mạng máy tính, TC: 4, LT: 3, TH: 1\nMã MH: CS112, Tên môn học: Phân tích và thiết kế thuật toán, TC: 4, LT: 3, TH: 1\nMã MH: CS106, Tên môn học: Trí tuệ nhân tạo, TC: 4, LT: 3, TH: 1\nMã MH: CS114, Tên môn học: Máy học, TC: 4, LT: 3, TH: 1\nMã MH: SS007, Tên môn học: Triết học Mác – Lênin, TC: 3, LT: 3, TH: 0\nMã MH: PE231, Tên môn học: Giáo dục thể chất 1\nMã MH: Tổng số tín chỉ Học kỳ 4, TC: 19",
+          "level": 3,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > 6\\. KẾ HOẠCH GIẢNG DẠY > Học kỳ 4"
+        },
+        {
+          "rank": 3,
+          "title": "Các môn học cơ sở ngành Trí tuệ nhân tạo",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giáo dục chuyên nghiệp > Các môn học cơ sở ngành Trí tuệ nhân tạo]\n\n● Tổng số tín chỉ cho các môn học cơ sở ngành đạt tối thiểu **57** tín chỉ\n| | | | | | | |\n| ------------------------------------------------------------- | -------------- | ----------------------------------- | ----------------- | ------ | ------ | ------ |\n| **STT** | **Mã môn học** | **Tên môn học** | **Bắt buộc/Chọn** | **TC** | **LT** | **TH** |\n| **Lập trình và Kỹ thuật phần mềm (16 TC)** | | | | | | |\n| 1. | IT001 | Nhập môn lập trình | BB | 4 | 3 | 1 |\n| 2. | IT002 | Lập trình hướng đối tượng | BB | 4 | 3 | 1 |\n| 3. | SE104 | Nhập môn Công nghệ phần mềm | Chọn 1/2 | 4 | 3 | 1 |\n| 4. | CS111 | Nguyên lý và phương pháp lập trình | 4 | 3 | 1 |\n| 5. | CS311 | Kỹ thuật lập trình Trí tuệ nhân tạo | Chọn 1/2 | 4 | 3 | 1 |\n| 6. | CS116 | Lập trình Python cho Máy học | 4 | 3 | 1 |\n| **Thuật toán và Cấu trúc dữ liệu (8 TC)** | | | | | | |\n| 7. | IT003 | Cấu trúc dữ liệu và giải thuật | BB | 4 | 3 | 1 |\n| 8. | CS112 | Phân tích và thiết kế thuật toán | BB | 4 | 3 | 1 |\n| **Kiến trúc máy tính, Hệ điều hành và mạng máy tính (12 TC)** | | | | | | |\n| 9. | IT012 | Tổ chức và cấu trúc máy tính II | BB | 4 | 3 | 1 |\n| 10. | IT007 | Hệ điều hành | BB | 4 | 3 | 1 |\n| 11. | IT005 | Nhập môn mạng máy tính | BB | 4 | 3 | 1 |\n| **Cơ sở dữ liệu (4TC)** | | | | | | |\n| 12. | IT004 | Cơ sở dữ liệu | BB | 4 | 3 | 1 |\n| **Trí tuệ nhân tạo và Máy học (16 TC)** | | | | | | |\n| 13. | CS106 | Trí tuệ nhân tạo | BB | 4 | 3 | 1 |\n| 14. | CS114 | Máy học | BB | 4 | 3 | 1 |\n| 15. | AI002 | Tư duy Trí tuệ nhân tạo | BB | 4 | 3 | 1 |\n| 16. | CS221 | Xử lý ngôn ngữ tự nhiên | Chọn 1/4 | 4 | 3 | 1 |\n| 17. | CS231 | Nhập môn Thị giác máy tính | 4 | 3 | 1 |\n| 18. | CS214 | Biểu diễn tri thức và suy luận | 4 | 3 | 1 |\n| 19. | CS232 | Tính toán đa phương tiện | 4 | 3 | 1 |\n| **Giới thiệu ngành (1 TC)** | | | | | | |\n| 20. | AI001 | Giới thiệu ngành Trí tuệ nhân tạo | BB | 1 | 1 | 0 |",
+          "level": 4,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá"
+        },
+        {
+          "rank": 4,
+          "title": "Các môn học tự chọn ngành",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giáo dục chuyên nghiệp > Các môn học tự chọn ngành]\n\nTổng số tín chỉ cho các môn học tự chọn ngành đạt tối thiểu **8** tín chỉ.\n\n[Bảng 1] Bảng 24 hàng x 7 cột. Các cột: STT, Mã môn học, Tên môn học chuyên ngành, ...\n: STT, : Mã môn học, : Tên môn học chuyên ngành, : TC, : LT, : TH\nSTT: 1., Mã môn học: CS211, Tên môn học chuyên ngành: Trí tuệ nhân tạo nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 2., Mã môn học: CS315, Tên môn học chuyên ngành: Máy học nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 3., Mã môn học: CS410, Tên môn học chuyên ngành: Mạng Neural và Thuật giải di truyền, TC: 4, LT: 3, TH: 1\nSTT: 4., Mã môn học: CS431, Tên môn học chuyên ngành: Các kĩ thuật học sâu và ứng dụng, TC: 3, LT: 2, TH: 1\nSTT: 5., Mã môn học: CS217, Tên môn học chuyên ngành: Các hệ cơ sở tri thức, TC: 4, LT: 3, TH: 1\nSTT: 6., Mã môn học: CS316, Tên môn học chuyên ngành: Các hệ giải bài toán thông minh, TC: 4, LT: 3, TH: 1\nSTT: 7., Mã môn học: CS312, Tên môn học chuyên ngành: Hệ thống đa tác tử, TC: 4, LT: 3, TH: 1\nSTT: 8., Mã môn học: CS229, Tên môn học chuyên ngành: Ngữ nghĩa học tính toán, TC: 4, LT: 3, TH: 1\nSTT: 9., Mã môn học: CS226, Tên môn học chuyên ngành: Ngôn ngữ học máy tính, TC: 4, LT: 4, TH: 0\nSTT: 10., Mã môn học: CS222, Tên môn học chuyên ngành: Xử lý ngôn ngữ tự nhiên nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 11., Mã môn học: CS323, Tên môn học chuyên ngành: Các hệ thống hỏi-đáp, TC: 4, LT: 3, TH: 1\nSTT: 12., Mã môn học: CS321, Tên môn học chuyên ngành: Ngôn ngữ học ngữ liệu, TC: 4, LT: 3, TH: 1\nSTT: 13., Mã môn học: CS325, Tên môn học chuyên ngành: Dịch máy, TC: 4, LT: 3, TH: 1\nSTT: 14., Mã môn học: CS331, Tên môn học chuyên ngành: Thị giác máy tính nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 15., Mã môn học: CS532, Tên môn học chuyên ngành: Thị giác máy tính trong tương tác người – máy, TC: 4, LT: 3, TH: 1\nSTT: 16., Mã môn học: CS338, Tên môn học chuyên ngành: Nhận dạng, TC: 4, LT: 3, TH: 1\nSTT: 17., Mã môn học: CS313, Tên môn học chuyên ngành: Khai thác dữ liệu và ứng dụng, TC: 4, LT: 3, TH: 1\nSTT: 18., Mã môn học: CS336, Tên môn học chuyên ngành: Truy vấn thông tin đa phương tiện, TC: 4, LT: 3, TH: 1\nSTT: 19., Mã môn học: CS337, Tên môn học chuyên ngành: Xử lý âm thanh và tiếng nói, TC: 4, LT: 3, TH: 1\nSTT: 20., Mã môn học: CS535, Tên môn học chuyên ngành: Tổng hợp tiếng nói, TC: 4, LT: 3, TH: 1\nSTT: 21., Mã môn học: AI301, Tên môn học chuyên ngành: Khởi nghiệp và sáng tạo, TC: 2, LT: 2, TH: 0\nSTT: 22., Mã môn học: AI302, Tên môn học chuyên ngành: Kỹ thuật viết báo cáo và trình bày, TC: 2, LT: 2, TH: 0\nSTT: 23., Mã môn học: CS317, Tên môn học chuyên ngành: Phát triển và vận hành hệ thống máy học, TC: 4, LT: 3, TH: 1\nSTT: Và các môn học khác theo đề nghị của Khoa",
+          "level": 4,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá"
+        },
+        {
+          "rank": 5,
+          "title": "Các môn học tự chọn liên ngành",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giáo dục chuyên nghiệp > Các môn học tự chọn liên ngành]\n\n\\- Tổng số tín chỉ cho các môn tự chọn liên ngành đạt tối thiểu **8** tín chỉ.\n\\- Sinh viên có thể chọn học:\no Các môn học liên ngành trong danh sách khuyến nghị được liệt kê trong bảng sau.\no Hoặc, các môn học cơ sở ngành và chuyên ngành trong các chương trình đào tạo đại học ngành khác của trường.\no Hoặc, các môn học trong các chương trình đào tạo thạc sĩ của trường.\no Hoặc, các môn học tự chọn ngành Trí tuệ nhân tạo, nếu các môn học này chưa được tính trong khối kiến thức tự chọn ngành.\no Hoặc, các môn học chuyên đề tốt nghiệp ngành Trí tuệ nhân tạo, nếu các môn học này chưa được tính trong khối kiến thức tốt nghiệp.\no Hoặc, các môn học thuộc khối kiến thức giáo dục chuyên nghiệp trong các chương trình đào tạo đại học hoặc sau đại học của Trường ĐHCNTT hoặc của các Trường đại học khác trong ĐHQG –HCM hoặc của các Trường đại học khác ngoài ĐHQG –HCM mà có ký kết hợp tác với Trường ĐHCNTT. Các môn học tương đương nhau chỉ được tính một lần vào tổng số tín chỉ tích lũy.\no Hoặc, các môn thực tập quốc tế khi sinh viên tham gia chương trình giao lưu, trao đổi sinh viên quốc tế và được Đơn vị phụ trách chuyên môn công nhận.\n\n_\\* Môn Thực tập (CS551) được đánh giá qua báo cáo kết quả thực tập doanh nghiệp, hoặc kết quả công bố khoa học._\n\n[Bảng 1] Bảng 26 hàng x 7 cột. Các cột: STT, Mã môn học, Tên môn học tự chọn tự do, ...\n: STT, : Mã môn học, : Tên môn học tự chọn tự do, : TC, : LT, : TH\nSTT: Ngành Khoa học dữ liệu\nSTT: 1., Mã môn học: DS102, Tên môn học tự chọn tự do: Học máy thống kê, TC: 4, LT: 3, TH: 1\nSTT: 2., Mã môn học: DS103, Tên môn học tự chọn tự do: Thu thập và tiền xử lý dữ liệu, TC: 4, LT: 3, TH: 1\nSTT: 3., Mã môn học: DS200, Tên môn học tự chọn tự do: Phân tích dữ liệu lớn, TC: 4, LT: 3, TH: 1\nSTT: 4., Mã môn học: DS201, Tên môn học tự chọn tự do: Deep Learning trong khoa học dữ liệu, TC: 4, LT: 3, TH: 1\nSTT: Ngành Kỹ thuật máy tính\nSTT: 5., Mã môn học: CE340, Tên môn học tự chọn tự do: Trí tuệ nhân tạo cho hệ thống nhúng, TC: 4, LT: 3, TH: 1\nSTT: 6., Mã môn học: CE344, Tên môn học tự chọn tự do: Trí tuệ nhân tạo cho IoT, TC: 4, LT: 3, TH: 1\nSTT: Ngành Hệ thống thông tin\nSTT: 7., Mã môn học: IS211, Tên môn học tự chọn tự do: Cơ sở dữ liệu phân tán, TC: 4, LT: 3, TH: 1\nSTT: 8., Mã môn học: IS403, Tên môn học tự chọn tự do: Phân tích dữ liệu kinh doanh, TC: 3, LT: 3, TH: 0\nSTT: Ngành Công nghệ phần mềm\nSTT: 9., Mã môn học: SE113, Tên môn học tự chọn tự do: Kiểm chứng phần mềm, TC: 4, LT: 3, TH: 1\nSTT: 10., Mã môn học: SE357, Tên môn học tự chọn tự do: Kỹ thuật phân tích yêu cầu, TC: 3, LT: 2, TH: 1\nSTT: 11., Mã môn học: SE358, Tên môn học tự chọn tự do: Quản lý dự án phát triển phần mềm, TC: 4, LT: 3, TH: 1\nSTT: Ngành Mạng máy tính và truyền thông dữ liệu\nSTT: 12., Mã môn học: NT538, Tên môn học tự chọn tự do: Giải thuật xử lý song song và phân bố, TC: 3, LT: 2, TH: 1\nSTT: 13., Mã môn học: NT539, Tên môn học tự chọn tự do: AI ứng dụng trong mạng và truyền thông, TC: 4, LT: 3, TH: 1\nSTT: Ngành khoa học máy tính\nSTT: 14., Mã môn học: CS519, Tên môn học tự chọn tự do: Phương pháp luận nghiên cứu khoa học, TC: 3, LT: 3, TH: 0\nSTT: 15., Mã môn học: CS529, Tên môn học tự chọn tự do: Các vấn đề nghiên cứu và ứng dụng trong khoa học máy tính, TC: 4, LT: 4, TH: 0\nSTT: 16., Mã môn học: CS333, Tên môn học tự chọn tự do: Đồ họa game, TC: 3, LT: 2, TH: 1\nSTT: 17., Mã môn học: CS527, Tên môn học tự chọn tự do: Thực tại ảo, TC: 4, LT: 3, TH: 1\nSTT: 18., Mã môn học: CS523, Tên môn học tự chọn tự do: Cấu trúc dữ liệu và giải thuật nâng cao, TC: 4, LT: 3, TH: 1\nSTT: 19., Mã môn học: CS551*, Tên môn học tự chọn tự do: Thực tập, TC: 2\nSTT: Và các môn học khác theo đề nghị.",
+          "level": 4,
+          "result_type": "section",
+          "hierarchy_path": "Ngành Trí Tuệ Nhân Tạo > Tỷ lệ các khối kiến thức > Khối kiến thức giá"
+        }
+      ]
+    }
+  ]
+}

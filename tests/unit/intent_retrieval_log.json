@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-12-23T00:31:35.653948",
+  "total_queries": 1,
+  "intent_accuracy": "1/1 (100.0%)",
+  "es_connected": true,
+  "results": [
+    {
+      "index": 1,
+      "query": "Môn tiên quyết của Dữ Liệu Lớn là gì?",
+      "expected_intent": "prerequisite",
+      "actual_intent": "prerequisite",
+      "intent_match": true,
+      "expanded_query": "môn tiên quyết của dữ liệu lớn là gì?, Môn tiên quyết, môn học trước, THÔNG TIN CHUNG, Khối kiến thức giáo dục đại cương, Khối kiến thức cơ sở ngành",
+      "reasoning": "",
+      "time_ms": 9569.94,
+      "num_results": 3,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "",
+          "text": "[IS405 -- DỮ LIỆU LỚN > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Tính chất của môn, Dữ liệu lớn: Bắt buộc đối với sinh viên ngành/chuyên ngành\nTên môn học (tiếng Việt):: Môn học trước, Dữ liệu lớn: Cơ sở dữ liệu",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "text": "[IS211 -- CƠ SỞ DỮ LIỆU PHÂN TÁN > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Môn học trước:, Cơ sở dữ liệu phân tán: Cơ sở dữ liệu, Nhập môn mạng máy tính",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "text": "[IS334 -- THUONG MAI DIEN TU (2022) > THÔNG TIN CHUNG (General information)]\n\nTên môn học (tiếng Việt):: Môn học trước:",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-12-22T12:02:35.697877",
+  "total_queries": 2,
+  "intent_accuracy": "2/2 (100.0%)",
+  "es_connected": true,
+  "results": [
+    {
+      "index": 1,
+      "query": "Ngành Trí Tuệ Nhân Tạo ra làm được role nào?",
+      "expected_intent": "outcomes",
+      "actual_intent": "outcomes",
+      "intent_match": true,
+      "expanded_query": "ngành trí tuệ nhân tạo ra làm được role nào?, trí tuệ nhân tạo, mục tiêu môn học, cơ hội nghề nghiệp, chuẩn đầu ra môn học",
+      "reasoning": "",
+      "time_ms": 10127.64,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Cơ hội nghề nghiệp]\n\nSinh viên tốt nghiệp ngành Trí tuệ nhân tạo có thể làm việc:\n\\- Chuyên gia lập trình Trí tuệ nhân tạo, tham gia phát triển các phần mềm, ứng dụng, các hệ thống tính toán có sử dụng Trí tuệ nhân tạo.\n\\- Chuyên gia phân tích, thiết kế, xây dựng giải pháp kỹ thuật, giải pháp công nghệ thông minh có sử dụng Trí tuệ nhân tạo tại các công ty, tập đoàn công nghệ.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Quan điểm xây dựng chương trình đào tạo]\n\ncách làm việc hiện đại, hiệu quả.\n\\- Chương trình đào tạo ngành Trí tuệ nhân tạo được xây dựng trên nền tảng về Khoa học máy tính, tăng cường kiến thức, kĩ năng chuyên sâu về Trí tuệ nhân tạo và phát triển khả năng ứng dụng liên ngành.\n\\- Chương trình đào tạo ngành Trí tuệ nhân tạo được vận hành tương tự như các chương trình đào tạo khác tại Trường. Việc tổ chức, vận hành chương trình cần khai thác hiệu quả các thế mạnh về tính liên thông, liên ngành trong nghiên cứu khoa học và đào tạo nhóm ngà",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Cơ hội nghề nghiệp]\n\n\\- Nhà nghiên cứu về Khoa học máy tính và Trí tuệ nhân tạo tại các trường, viện, trung tâm nghiên cứu, bộ phận Nghiên cứu & Phát triển của các công ty và tập đoàn công nghệ.\n\\- Tiếp tục theo học các bậc học cao hơn về Khoa học máy tính, Trí tuệ nhân tạo.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > Mục tiêu đào tạo]\n\n\\- **Mục tiêu chung:**\no Chương trình đào tạo ngành Trí tuệ nhân tạo hướng đến mục tiêu đào tạo nguồn nhân lực chất lượng cao đạt trình độ khu vực và quốc tế về Trí tuệ nhân tạo.\no Chương trình trang bị cho người học nền tảng kiến thức vững vàng kết hợp cùng kiến thức chuyên sâu cập nhật, hiện đại về Trí tuệ nhân tạo. Người học hiểu và có khả năng làm chủ, vận dụng sáng tạo các thành tựu tiên tiến của ngành; có kỹ năng cần thiết và thái độ chuẩn mự",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "text": "[Ngành Trí Tuệ Nhân Tạo > CHUẨN ĐẦU RA]\n\n| 2 | 2 | Kiến thức chuyên sâu ngành Trí tuệ nhân tạo | | |\n| **PLO 3. Khảo sát tài liệu, lập luận, phân tích và đề ra giải pháp cho vấn đề liên quan đến ngành Trí tuệ nhân tạo; nhận thức về sự cần thiết và có năng lực để học tập suốt đời** | | | | |\n| 3 | 1 | Khảo sát, xác định và hình thành vấn đề cần giải quyết | | |\n| 3 | 2 | Mô hình hóa, lập luận và phân tích | | |\n| 3 | 3 | Xây dựng ý tưởng, giải pháp | | |\n| 3 | 4 | Phân tích và đánh giá giải pháp | | |",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "query": "Sau khi tốt nghiệp ngành Công Nghệ thông Tin có thể làm được những ngành liên quan tới data không",
+      "expected_intent": "outcomes",
+      "actual_intent": "outcomes",
+      "intent_match": true,
+      "expanded_query": "sau khi tốt nghiệp ngành công nghệ thông tin có thể làm được những ngành liên quan tới data không, Công nghệ thông tin, data, cơ hội nghề nghiệp, chuẩn đầu ra môn học, mục tiêu môn học",
+      "reasoning": "",
+      "time_ms": 7783.74,
+      "num_results": 5,
+      "sections": [
+        {
+          "rank": 1,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp Chương trình đào tạo Cử nhân Công nghệ Thông tin có khả năng làm việc ở những phạm vi và lĩnh vực khác nhau như:\n\n1\\) Chuyên viên thiết kế, xây dựng và quản lý các dự án nghiên cứu và ứng dụng CNTT, chủ yếu trong lĩnh vực: giao thông, xây dựng, địa lý, môi trường, viễn thám.\n\n2\\) Chuyên viên quản lý, giám sát, đầu tư các dự án công nghệ thông tin.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 2,
+          "title": "",
+          "text": "[Ngành Kỹ Thuật Máy Tính > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nSinh viên tốt nghiệp ngành Kỹ thuật máy tính có thể làm việc ở các phạm vi và lĩnh vực khác nhau như:\n\n- Chuyên viên phân tích, thiết kế, phát triển thuộc các dự án phát triển giải pháp phần mềm máy tính, thiết kế các hệ thống số, hệ thống nhúng, hệ thống IoT và ứng dụng trí tuệ nhân tạo.\n\n- Cán bộ nghiên cứu và ứng dụng Công nghệ thông tin ở các viện, trung tâm nghiên cứu và các trường đại học, cao đẳng. Giảng dạy",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 3,
+          "title": "",
+          "text": "[Ngành Công Nghệ Thông Tin > Vị trí và khả năng làm việc sau tốt nghiệp]\n\n3\\) Chuyên viên khai thác dữ liệu và thông tin ứng dụng cho các doanh nghiệp trong vấn đề phân tích định lượng.\n\n4\\) Chuyên viên có kĩ năng phát triển các ứng dụng truyền thông xã hội và công nghệ Web.\n\n5\\) Cán bộ giảng dạy, nghiên cứu khoa học và ứng dụng CNTT ở các trường đại học và cao đẳng trên cả nước.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 4,
+          "title": "",
+          "text": "[Ngành Kỹ Thuật Máy Tính > Vị trí và khả năng làm việc sau tốt nghiệp]\n\ncác môn liên quan đến kỹ thuật máy tính tại các trường đại học, cao đẳng, trung học chuyên nghiệp, dạy nghề và các trường phổ thông.\n\n- Nghiên cứu khoa học thuộc các lĩnh vực về phần mềm hệ thống, thiết kế hệ thống số, điều khiển tự động và các hệ thống nhúng ở các viện nghiên cứu, các trung tâm và cơ quan nghiên cứu của các bộ, ngành, các trường đại học và cao đẳng.\n\n- Làm việc ở bộ phận công nghệ thông tin hoặc cần ứng dụng công nghệ thông tin của tất cả các đơn vị có nhu cầu (hành chính sự n",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        },
+        {
+          "rank": 5,
+          "title": "",
+          "text": "[Ngành Kỹ Thuật Máy Tính > Vị trí và khả năng làm việc sau tốt nghiệp]\n\nghiệp, ngân hàng, viễn thông, hàng không, xây dựng,…).\n\n- Làm việc trong các công ty sản xuất trong lĩnh vực điện tử, tự động hóa và giải pháp thông minh trong và ngoài nước.\n\n- Tham gia các chương trình đào tạo sau đại học của ngành KTMT và các ngành phù hợp khác.",
+          "level": 0,
+          "result_type": "chunk",
+          "hierarchy_path": ""
+        }
+      ]
+    }
+  ]
+}

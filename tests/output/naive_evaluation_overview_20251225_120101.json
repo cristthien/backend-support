@@ -1,0 +1,272 @@
+{
+  "pipeline": "naive",
+  "timestamp": "2025-12-25T12:01:01.027823",
+  "intent_filter": "overview",
+  "total_queries": 4,
+  "results": [
+    {
+      "question": "Ngành CNTT học những gì?",
+      "answer": "Ngành Công nghệ Thông tin học những trụ cột sau: lập trình, mạng máy tính, giao tiếp người-máy, cơ sở dữ liệu, và hệ thống web. Chương trình đào tạo dựa trên nền tảng kiến thức về các nền tảng cơ bản của CNTT và các ứng dụng như Đảm bảo và An ninh Thông tin.\n\nNgoài ra, sinh viên còn được học các môn như: Kiểm chứng phần mềm, An toàn dữ liệu, khôi phục thông tin sau sự cố, Bảo mật web và ứng dụng.\n\nChương trình cũng bao gồm các môn tự chọn như Lập trình song song và Hệ thống phân tán, Công nghệ IoT và Ứng dụng, Trí tuệ nhân tạo cho hệ thống nhúng, và Kỹ thuật hệ thống máy tính.\n",
+      "contexts": [
+        "[Ngành Công Nghệ Thông Tin > Quan điểm xây dựng chương trình đào tạo]\n\n![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/66bdbdd08b03669bc4e66c80fec444532e2753890f2e8c8e.png)\n\n**Hình 1: Mô ",
+        "[Ngành Công Nghệ Thông Tin > Mục tiêu đào tạo]\n\nhuyên viên trong lĩnh vực CNTT. Bên cạnh đó, trên cơ sở các kiến thức được trang bị ở trình độ đại học, người học có đủ năng lực từng bước hoàn thiện kh",
+        "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học chuyên ngành]\n\nSTT: 7., Mã môn: SE113, Tên môn: Kiểm chứng phần mềm (Có môn học trước), TC: 4, LT: 3, TH: 1\nSTT: 8., Mã môn: NT212, Tên môn: An to",
+        "[Ngành Kỹ Thuật Máy Tính > ... > Nhóm các môn học chuyên ngành]\n\n1\nSTT: 2, Mã MH: CE439, Tên môn học (MH): Lập trình song song và Hệ thống phân tán, Loại MH: Tự chọn, Tín chỉ: 4, : 3, : 1\nSTT: 3, ",
+        "[Ngành Hệ Thống Thông Tin > Vị trí và khả năng làm việc sau tốt nghiệp]\n\ncác trường.\n3. Quản lý bộ phận CNTT, quản lý thông tin (CIO), cán bộ quản lý dự án, quản trị viên cơ sở dữ liệu.\n4. Chuyên viên",
+        "[Ngành Hệ Thống Thông Tin > ... > Học kỳ 4 (Chuyên ngành HTTT quản lý)]\n\n---\n\n[Bảng 1] Bảng 6 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IS201, "
+      ],
+      "ground_truth": "",
+      "expected_intent": "overview",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 6,
+        "total_time_ms": 20400.71415901184
+      },
+      "sources": [
+        {
+          "section_id": "197c31f4cd93",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > Quan điểm xây dựng chương trình đào tạo]\n\n![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/66bdbdd08b03669bc4e66c80fec444532e2753890f2e8c8e.png)\n\n**Hình 1: Mô ",
+          "score": 0.85828066
+        },
+        {
+          "section_id": "59870ea874a0",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > Mục tiêu đào tạo]\n\nhuyên viên trong lĩnh vực CNTT. Bên cạnh đó, trên cơ sở các kiến thức được trang bị ở trình độ đại học, người học có đủ năng lực từng bước hoàn thiện kh",
+          "score": 0.8234916
+        },
+        {
+          "section_id": "40be15102e72",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Công Nghệ Thông Tin > ... > Nhóm các môn học chuyên ngành]\n\nSTT: 7., Mã môn: SE113, Tên môn: Kiểm chứng phần mềm (Có môn học trước), TC: 4, LT: 3, TH: 1\nSTT: 8., Mã môn: NT212, Tên môn: An to",
+          "score": 0.8220253
+        },
+        {
+          "section_id": "8d856c108f44",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > ... > Nhóm các môn học chuyên ngành]\n\n1\nSTT: 2, Mã MH: CE439, Tên môn học (MH): Lập trình song song và Hệ thống phân tán, Loại MH: Tự chọn, Tín chỉ: 4, : 3, : 1\nSTT: 3, ",
+          "score": 0.8180146
+        },
+        {
+          "section_id": "d62ab162f1b5",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Hệ Thống Thông Tin > Vị trí và khả năng làm việc sau tốt nghiệp]\n\ncác trường.\n3. Quản lý bộ phận CNTT, quản lý thông tin (CIO), cán bộ quản lý dự án, quản trị viên cơ sở dữ liệu.\n4. Chuyên viên",
+          "score": 0.81765175
+        },
+        {
+          "section_id": "f684590bd634",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Hệ Thống Thông Tin > ... > Học kỳ 4 (Chuyên ngành HTTT quản lý)]\n\n---\n\n[Bảng 1] Bảng 6 hàng x 5 cột. Các cột: Mã MH, Tên môn học, TC, ...\n: Mã MH, : Tên môn học, : TC, : LT, : TH\nMã MH: IS201, ",
+          "score": 0.81446695
+        }
+      ]
+    },
+    {
+      "question": "Môn Hoạch Định Nguồn Lực Doanh Nghiệp học gì?",
+      "answer": "Môn Hoạch định nguồn lực doanh nghiệp cung cấp cho sinh viên các quy trình chuẩn của một hệ thống ERP trong doanh nghiệp liên quan đến bán hàng, sản xuất, phân phối, vật tư, mua hàng, kế toán. Sinh viên có khả năng thao tác trên hệ thống hoạch định nguồn lực ERP, hiểu được tầm quan trọng của ERP, điều kiện triển khai về nền tảng công nghệ, qui mô và phạm vi hoạt động của các tổ chức/doanh nghiệp và các chức năng mà một hệ thống ERP hỗ trợ cho doanh nghiệp. Môn học cũng giúp sinh viên nắm vững các quy trình chuẩn trong doanh nghiệp, hiểu rõ sự tương tác và luân chuyển thông tin giữa các thành phần trong ERP, và thiết lập và mô hình hóa các quy trình trong doanh nghiệp theo hướng quy trình nghiệp vụ doanh nghiệp (BPM) bằng ngôn ngữ mô hình hóa nghiệp vụ doanh nghiệp (BPMN).",
+      "contexts": [
+        "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Thuộc khối kiến thức:, Hoạch định nguồn lực doanh nghiệp: Chuyên ngành\nTên môn học (tiếng Việt):: Khoa/Bộ môn",
+        "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > MÔ TẢ MÔN HỌC (Course description)]\n\nCung cấp cho sinh viên các quy trình chuẩn của một hệ thống ERP trong doanh nghiệp liên quan đến bán hàng, sản xuất, ",
+        "[Chương trình Thương Mại Điện Tử > ... > Nhóm môn học chuyên ngành Thương mại điện tử]\n\nSTT: 8, Mã môn học: IS336, Tên môn học: Hoạch định nguồn lực doanh nghiệp, TC: 4, LT: 3, TH: 1\nMã môn học: Tổng ",
+        "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > NỘI DUNG MÔN HỌC, KẾ HOẠCH GIẢNG DẠY]\n\nhoạt động của doanh nghiệp: mua hàng, bán hàng, sản xuất, tài chính, kế toán, quản lý kho., CĐR MH [3]: G1 > > G2, ",
+        "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > CHUẨN ĐẦU RA MÔN HỌC]\n\nphần của của hệ thống ERP > > Xác định cốt lõi (luật) về hoạch định sản xuất MRP., Cấp độ CĐR Môn học [4]: NT3\nCĐRMH [1]: G2, LOs >",
+        "[Chương trình Khoa Học Dữ Liệu > Quan điểm xây dựng chương trình đào tạo]\n\nọc cho đến các lĩnh vực kinh doanh, thương mại,…\n\n− Đào tạo nguồn nhân lực có khả năng khai thác các nguồn dữ liệu hiệu quả, "
+      ],
+      "ground_truth": "",
+      "expected_intent": "overview",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 6,
+        "total_time_ms": 14789.451122283936
+      },
+      "sources": [
+        {
+          "section_id": "54f2ebe28fd3",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > THÔNG TIN CHUNG]\n\nTên môn học (tiếng Việt):: Thuộc khối kiến thức:, Hoạch định nguồn lực doanh nghiệp: Chuyên ngành\nTên môn học (tiếng Việt):: Khoa/Bộ môn",
+          "score": 0.8567004
+        },
+        {
+          "section_id": "771698e1e314",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > MÔ TẢ MÔN HỌC (Course description)]\n\nCung cấp cho sinh viên các quy trình chuẩn của một hệ thống ERP trong doanh nghiệp liên quan đến bán hàng, sản xuất, ",
+          "score": 0.81834173
+        },
+        {
+          "section_id": "b2d54b6c8836",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > ... > Nhóm môn học chuyên ngành Thương mại điện tử]\n\nSTT: 8, Mã môn học: IS336, Tên môn học: Hoạch định nguồn lực doanh nghiệp, TC: 4, LT: 3, TH: 1\nMã môn học: Tổng ",
+          "score": 0.81722355
+        },
+        {
+          "section_id": "d70e958686c3",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > NỘI DUNG MÔN HỌC, KẾ HOẠCH GIẢNG DẠY]\n\nhoạt động của doanh nghiệp: mua hàng, bán hàng, sản xuất, tài chính, kế toán, quản lý kho., CĐR MH [3]: G1 > > G2, ",
+          "score": 0.8127885
+        },
+        {
+          "section_id": "09706ca42326",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS336 -- Hoạch Định Nguồn Lực Doanh Nghiệp > CHUẨN ĐẦU RA MÔN HỌC]\n\nphần của của hệ thống ERP > > Xác định cốt lõi (luật) về hoạch định sản xuất MRP., Cấp độ CĐR Môn học [4]: NT3\nCĐRMH [1]: G2, LOs >",
+          "score": 0.80407476
+        },
+        {
+          "section_id": "605681f323c6",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Khoa Học Dữ Liệu > Quan điểm xây dựng chương trình đào tạo]\n\nọc cho đến các lĩnh vực kinh doanh, thương mại,…\n\n− Đào tạo nguồn nhân lực có khả năng khai thác các nguồn dữ liệu hiệu quả, ",
+          "score": 0.79693365
+        }
+      ]
+    },
+    {
+      "question": "Ngành Khoa Học Máy Tính gồm những mảng chính nào?",
+      "answer": "Ngành Khoa Học Máy Tính gồm các mảng chính sau:\n\n*   Lập trình và Kỹ thuật phần mềm\n*   Thuật toán và Cấu trúc dữ liệu\n*   Kiến trúc máy tính và Hệ điều hành\n*   Mạng máy tính và Truyền thông",
+      "contexts": [
+        "[Chương Trình Khoa Học Máy Tính > ... > Các môn học cơ sở ngành Khoa học Máy tính]\n\nSTT: Mạng máy tính và Truyền thông (4TC)\nSTT: 14., Mã môn học: IT005, Tên môn học: Nhập môn mạng máy tính, Bắt buộ",
+        "[Ngành Kỹ Thuật Máy Tính > ... > Nhóm các môn học chuyên ngành]\n\n1\nSTT: 2, Mã MH: CE439, Tên môn học (MH): Lập trình song song và Hệ thống phân tán, Loại MH: Tự chọn, Tín chỉ: 4, : 3, : 1\nSTT: 3, ",
+        "[Chương Trình Khoa Học Máy Tính > Chuẩn đầu ra]\n\nCĐR cấp: 2, : 1, : 3, Nội dung: Kiến trúc máy tính và Hệ điều hành\nCĐR cấp: 2, : 1, : 4, Nội dung: Kiến thức quản lý thông tin và Cơ sở dữ liệu\nCĐR cấp",
+        "[Ngành Kỹ Thuật Máy Tính > ... > Nhóm các môn học cơ sở ngành]\n\nSTT: 1, Mã MH: IT002, Tên MH: Lập trình hướng đối tượng, Loại MH: Bắt buộc, Tín chỉ: 4, : 3, : 1\nSTT: 2, Mã MH: IT003, Tên MH: Cấu tr",
+        "[Chương Trình Khoa Học Máy Tính > Kế hoạch giảng dạy mẫu]\n\n- Các môn học trong chương trình Khoa học máy tính được tổ chức trong 2 giai đoạn gồm 7 học kỳ chính như sau:"
+      ],
+      "ground_truth": "",
+      "expected_intent": "overview",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 5,
+        "total_time_ms": 15736.289024353027
+      },
+      "sources": [
+        {
+          "section_id": "2c38a0d463f4",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Khoa Học Máy Tính > ... > Các môn học cơ sở ngành Khoa học Máy tính]\n\nSTT: Mạng máy tính và Truyền thông (4TC)\nSTT: 14., Mã môn học: IT005, Tên môn học: Nhập môn mạng máy tính, Bắt buộ",
+          "score": 0.8399277
+        },
+        {
+          "section_id": "8d856c108f44",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > ... > Nhóm các môn học chuyên ngành]\n\n1\nSTT: 2, Mã MH: CE439, Tên môn học (MH): Lập trình song song và Hệ thống phân tán, Loại MH: Tự chọn, Tín chỉ: 4, : 3, : 1\nSTT: 3, ",
+          "score": 0.8236432
+        },
+        {
+          "section_id": "4038088ace48",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Khoa Học Máy Tính > Chuẩn đầu ra]\n\nCĐR cấp: 2, : 1, : 3, Nội dung: Kiến trúc máy tính và Hệ điều hành\nCĐR cấp: 2, : 1, : 4, Nội dung: Kiến thức quản lý thông tin và Cơ sở dữ liệu\nCĐR cấp",
+          "score": 0.82224417
+        },
+        {
+          "section_id": "169041a15f44",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Ngành Kỹ Thuật Máy Tính > ... > Nhóm các môn học cơ sở ngành]\n\nSTT: 1, Mã MH: IT002, Tên MH: Lập trình hướng đối tượng, Loại MH: Bắt buộc, Tín chỉ: 4, : 3, : 1\nSTT: 2, Mã MH: IT003, Tên MH: Cấu tr",
+          "score": 0.818553
+        },
+        {
+          "section_id": "304a386c5b48",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương Trình Khoa Học Máy Tính > Kế hoạch giảng dạy mẫu]\n\n- Các môn học trong chương trình Khoa học máy tính được tổ chức trong 2 giai đoạn gồm 7 học kỳ chính như sau:",
+          "score": 0.81533
+        }
+      ]
+    },
+    {
+      "question": "Ngành Thương Mại Điện tử học như nào vậy?",
+      "answer": "Ngành Thương mại điện tử được xây dựng với tính liên ngành, tính nghiên cứu và tính ứng dụng cao, phù hợp với nhu cầu nhân lực thương mại điện tử của xã hội hiện nay. Chương trình gần với chương trình đào tạo ngành Thương mại điện tử của nhiều trường đại học trên thế giới để có thể hợp tác quốc tế và đào tạo nâng cao sau này.\n\nSinh viên ngành Thương mại điện tử bắt buộc phải học các môn sau:\n\n*   **Nhóm môn chuyên ngành Thương mại điện tử (Bảng 9):**\n    *   EC204: Marketing điện tử\n    *   EC312: Thiết kế hệ thống TMĐT\n    *   EC213: Quản trị quan hệ khách hàng và nhà cung cấp\n    *   EC337: Hệ thống thanh toán trực tuyến\n    *   EC208: Quản trị dự án TMĐT\n    *   EC229: Pháp luật trong TMĐT\n    *   EC335: An toàn và bảo mật TMĐT\n*   **Nhóm môn cơ sở ngành (Bảng 11):**\n    *   IT002: Lập trình hướng đối tượng\n    *   IT003: Cấu trúc dữ liệu và giải thuật\n    *   IT004: Cơ sở dữ liệu\n    *   IT005: Nhập môn mạng máy tính\n*   **Nhóm môn chuyên ngành Thương mại điện tử (Bảng 8):**\n    *   EC312: Thiết kế hệ thống thương mại điện tử\n    *   EC204: Marketing điện tử\n    *   EC213: Quản trị quan hệ khách hàng và nhà cung cấp\n\nNgoài ra, sinh viên còn học các môn khác như Kinh tế học đại cương, Marketing căn bản, Tư tưởng Hồ Chí Minh, Phát triển ứng dụng web, Phân tích thiết kế quy trình nghiệp vụ doanh nghiệp, Phát triển ứng dụng thương mại di động, v.v.",
+      "contexts": [
+        "[Chương trình Thương Mại Điện Tử > ... > Nhóm môn học chuyên ngành Thương mại điện tử]\n\n\\- Bắt buộc đối với tất cả sinh viên của ngành Thương mại điện tử.\n\n[Bảng 1] Bảng 9 hàng x 6 cột. Các cột: STT, ",
+        "[Chương trình Thương Mại Điện Tử > ... > Nhóm các môn học cơ sở ngành]\n\n\\- Bắt buộc đối với tất cả sinh viên của ngành Thương mại điện tử.\n\n[Bảng 1] Bảng 11 hàng x 6 cột. Các cột: STT, Mã môn học, Tên",
+        "[Chương trình Thương Mại Điện Tử > CHUẨN ĐẦU RA]\n\nhức về sự cần thiết của học tập suốt đời. (abet 3.6, abet 3.7, gac2.a)\n\n‒ LO4: Thiết kế, hiện thực hoá và đánh giá hệ thống, giải pháp của ngành Thươn",
+        "[Chương trình Thương Mại Điện Tử > ... > Nhóm các môn chuyên đề tốt nghiệp]\n\n[Bảng 1] Bảng 6 hàng x 6 cột. Các cột: STT, Mã môn học, Tên môn học, ...\n: STT, : Mã môn học, : Tên môn học, : TC, : LT, : ",
+        "[Chương trình Thương Mại Điện Tử > ... > Học kỳ 5]\n\n[Bảng 1] Bảng 8 hàng x 5 cột. Các cột: Mã môn, Tên môn, TC, ...\n: Mã môn, : Tên môn, : TC, : LT, : TH\nMã môn: EC312, Tên môn: Thiết kế hệ thống thươ",
+        "[Chương trình Thương Mại Điện Tử > ... > Học kỳ 4]\n\n[Bảng 1] Bảng 6 hàng x 5 cột. Các cột: Mã môn, Tên môn, TC, ...\n: Mã môn, : Tên môn, : TC, : LT, : TH\nMã môn: EC101, Tên môn: Marketing căn bản, TC:",
+        "[Chương trình Thương Mại Điện Tử > Quan điểm xây dựng chương trình đào tạo]\n\n‒ Chương trình đào tạo mang tính liên ngành, tính nghiên cứu và tính ứng dụng cao, phù hợp với nhu cầu nhân lực Thương mại ",
+        "[IS334 -- THUONG MAI DIEN TU (2022) > THÔNG TIN CHUNG (General information)]\n\n[Bảng 1] Bảng 10 hàng x 2 cột. Các cột: Tên môn học (tiếng Việt):, Thương mại điện tử\n: Tên môn học (tiếng Việt):, : Thươn"
+      ],
+      "ground_truth": "",
+      "expected_intent": "overview",
+      "metadata": {
+        "major_used": null,
+        "chunks_retrieved": 10,
+        "sections_retrieved": 8,
+        "total_time_ms": 25970.035076141357
+      },
+      "sources": [
+        {
+          "section_id": "b2d54b6c8836",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > ... > Nhóm môn học chuyên ngành Thương mại điện tử]\n\n\\- Bắt buộc đối với tất cả sinh viên của ngành Thương mại điện tử.\n\n[Bảng 1] Bảng 9 hàng x 6 cột. Các cột: STT, ",
+          "score": 0.8460245
+        },
+        {
+          "section_id": "3006b488f3db",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > ... > Nhóm các môn học cơ sở ngành]\n\n\\- Bắt buộc đối với tất cả sinh viên của ngành Thương mại điện tử.\n\n[Bảng 1] Bảng 11 hàng x 6 cột. Các cột: STT, Mã môn học, Tên",
+          "score": 0.841959
+        },
+        {
+          "section_id": "95fdd463ce40",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > CHUẨN ĐẦU RA]\n\nhức về sự cần thiết của học tập suốt đời. (abet 3.6, abet 3.7, gac2.a)\n\n‒ LO4: Thiết kế, hiện thực hoá và đánh giá hệ thống, giải pháp của ngành Thươn",
+          "score": 0.8328471
+        },
+        {
+          "section_id": "d77db734197c",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > ... > Nhóm các môn chuyên đề tốt nghiệp]\n\n[Bảng 1] Bảng 6 hàng x 6 cột. Các cột: STT, Mã môn học, Tên môn học, ...\n: STT, : Mã môn học, : Tên môn học, : TC, : LT, : ",
+          "score": 0.8302231
+        },
+        {
+          "section_id": "bfe18bcec38c",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > ... > Học kỳ 5]\n\n[Bảng 1] Bảng 8 hàng x 5 cột. Các cột: Mã môn, Tên môn, TC, ...\n: Mã môn, : Tên môn, : TC, : LT, : TH\nMã môn: EC312, Tên môn: Thiết kế hệ thống thươ",
+          "score": 0.82913065
+        },
+        {
+          "section_id": "a31c45a90585",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > ... > Học kỳ 4]\n\n[Bảng 1] Bảng 6 hàng x 5 cột. Các cột: Mã môn, Tên môn, TC, ...\n: Mã môn, : Tên môn, : TC, : LT, : TH\nMã môn: EC101, Tên môn: Marketing căn bản, TC:",
+          "score": 0.8280425
+        },
+        {
+          "section_id": "0502915e207a",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[Chương trình Thương Mại Điện Tử > Quan điểm xây dựng chương trình đào tạo]\n\n‒ Chương trình đào tạo mang tính liên ngành, tính nghiên cứu và tính ứng dụng cao, phù hợp với nhu cầu nhân lực Thương mại ",
+          "score": 0.8277087
+        },
+        {
+          "section_id": "73a33545b68e",
+          "title": "Unknown",
+          "hierarchy_path": "",
+          "text_preview": "[IS334 -- THUONG MAI DIEN TU (2022) > THÔNG TIN CHUNG (General information)]\n\n[Bảng 1] Bảng 10 hàng x 2 cột. Các cột: Tên môn học (tiếng Việt):, Thương mại điện tử\n: Tên môn học (tiếng Việt):, : Thươn",
+          "score": 0.8264532
+        }
+      ]
+    }
+  ]
+}
