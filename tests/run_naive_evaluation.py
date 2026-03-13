@@ -2,9 +2,12 @@
 Run naive RAG pipeline (naive_pipeline.py) on test queries and save results for evaluation
 
 Usage:
-    python tests/run_naive_evaluation.py               # Run all queries
-    python tests/run_naive_evaluation.py --overview    # Run only overview intent queries
-    python tests/run_naive_evaluation.py --structure   # Run only structure intent queries
+    python tests/run_naive_evaluation.py                          # Run all (vector mode)
+    python tests/run_naive_evaluation.py --overview               # Run only overview intent
+    python tests/run_naive_evaluation.py --search-mode vector     # Run all with vector mode
+    python tests/run_naive_evaluation.py --search-mode fulltext   # Run all with fulltext mode
+    python tests/run_naive_evaluation.py --search-mode hybrid     # Run all with hybrid mode
+    python tests/run_naive_evaluation.py --roadmap --search-mode hybrid  # Combine filters
 """
 import argparse
 import asyncio
@@ -19,6 +22,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Available intent types
 INTENT_TYPES = ["overview", "structure", "roadmap", "factual", "compare"]
+
+# Available search modes
+SEARCH_MODES = ["vector", "fulltext", "hybrid"]
 
 # Setup logging
 logging.basicConfig(
@@ -53,7 +59,7 @@ def load_test_queries(intent_filter=None):
 def parse_args():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(
-        description="Run naive pipeline evaluation with optional intent filtering"
+        description="Run naive pipeline evaluation with optional intent filtering and search mode"
     )
     
     intent_group = parser.add_mutually_exclusive_group()
@@ -66,10 +72,19 @@ def parse_args():
             help=f"Run only {intent} intent queries"
         )
     
+    # Add search mode argument
+    parser.add_argument(
+        "--search-mode",
+        type=str,
+        choices=SEARCH_MODES,
+        default=None,
+        help="Search mode: vector (kNN), fulltext (BM25), hybrid (RRF). Default is vector."
+    )
+    
     return parser.parse_args()
 
 
-async def run_naive_evaluation(intent_filter=None):
+async def run_naive_evaluation(intent_filter=None, search_mode=None):
     """Run all queries through naive pipeline and save results"""
     
     from app.query.naive_pipeline import run_naive_query
@@ -89,6 +104,7 @@ async def run_naive_evaluation(intent_filter=None):
     logger.info("RUNNING NAIVE PIPELINE EVALUATION")
     if intent_filter:
         logger.info("Intent filter: %s", intent_filter)
+    logger.info("Search mode: %s", search_mode or "default (vector)")
     logger.info("Total queries: %d", len(test_queries))
     logger.info("=" * 80)
     
@@ -106,7 +122,8 @@ async def run_naive_evaluation(intent_filter=None):
                 query=query,
                 major=major,
                 top_k=10,
-                include_sources=True
+                include_sources=True,
+                search_mode=search_mode
             )
             
             # Build contexts from sources
@@ -164,16 +181,16 @@ async def run_naive_evaluation(intent_filter=None):
     
     # Save results
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    if intent_filter:
-        output_path = output_dir / f"naive_evaluation_{intent_filter}_{timestamp}.json"
-    else:
-        output_path = output_dir / f"naive_evaluation_{timestamp}.json"
+    mode_suffix = f"_{search_mode}" if search_mode else ""
+    intent_suffix = f"_{intent_filter}" if intent_filter else ""
+    output_path = output_dir / f"naive_evaluation{intent_suffix}{mode_suffix}_{timestamp}.json"
     
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({
             "pipeline": "naive",
             "timestamp": datetime.now().isoformat(),
             "intent_filter": intent_filter,
+            "search_mode": search_mode or "vector",
             "total_queries": len(test_queries),
             "results": results
         }, f, ensure_ascii=False, indent=2)
@@ -188,4 +205,7 @@ async def run_naive_evaluation(intent_filter=None):
 
 if __name__ == "__main__":
     args = parse_args()
-    asyncio.run(run_naive_evaluation(intent_filter=args.intent_filter))
+    asyncio.run(run_naive_evaluation(
+        intent_filter=args.intent_filter,
+        search_mode=args.search_mode
+    ))

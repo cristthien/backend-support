@@ -1,0 +1,142 @@
+[
+    {
+        "original": "Tốt nghiệp ngành TTNT cần bao nhiêu tín chỉ?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Ngành Trí Tuệ Nhân Tạo yêu cầu tối thiểu bao nhiêu tín chỉ để tốt nghiệp?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Khóa luận tốt nghiệp ngành Trí Tuệ Nhân Tạo có bao nhiêu tín chỉ?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Ngành Trí Tuệ Nhân Tạo yêu cầu bao nhiêu tín chỉ ngoại ngữ?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Ngành CNTT yêu cầu tổng cộng bao nhiêu tín chỉ để tốt nghiệp?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Tự chọn chuyên ngành ngành Trí Tuệ Nhân Tạo yêu cầu tối thiểu bao nhiêu tín chỉ?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Môn Hoạch định nguồn lực doanh nghiệp học bao nhiêu tín chỉ?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Môn tiên quyết của Dữ Liệu Lớn là gì?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "T có thể học 3 môn thay thế để tốt nghiệp đối với công nghệ thông tin được không",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Môn Dữ liệu lớn có cần học môn tiên quyết nào không?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Ngành CNTT học những gì?",
+        "expected_intent": "overview"
+    },
+    {
+        "original": "Môn Hoạch Định Nguồn Lực Doanh Nghiệp học gì?",
+        "expected_intent": "overview"
+    },
+    {
+        "original": "Ngành Khoa Học Máy Tính gồm những mảng chính nào?",
+        "expected_intent": "overview"
+    },
+    {
+        "original": "Ngành Thương Mại Điện tử học như nào vậy?",
+        "expected_intent": "overview"
+    },
+    {
+        "original": "Chuẩn TOEIC để tốt nghiệp chương trình chính quy là bao nhiêu?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Quy định miễn học môn tiếng Anh như thế nào?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Điều kiện nhận học bổng khuyến khích học tập là gì?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Các loại học bổng ngoài ngân sách gồm những gì?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Quy trình xét học bổng ngoài ngân sách như thế nào?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Sinh viên chương trình tiên tiến có học bổng gì?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Bố cục làm đồ án tốt nghiệp như nào nhỉ?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Làm sao để chuyển ngành trong trường?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Bảo lưu thì làm như thế nào?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Làm sao để đăng ký môn học trên hệ thống?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Cách tính điểm môn Phân tích thiết kế HTTT?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Rubric đánh giá môn Hệ quản trị CSDL như thế nào?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Chuẩn đầu ra G1 của môn Dữ Liệu Lớn là gì?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Ngành CNTT có thể làm nghề gì sau khi ra trường?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Khối kiến thức đại cương ngành TTNT gồm những gì?",
+        "expected_intent": "structure"
+    },
+    {
+        "original": "Học kỳ 1 ngành TTNT học những môn gì?",
+        "expected_intent": "roadmap"
+    },
+    {
+        "original": "Học kỳ 6 ngành CNTT học những môn gì?",
+        "expected_intent": "roadmap"
+    },
+    {
+        "original": "kì mấy t làm đồ án tốt nghiệp đối với ngành Trí Tuệ Nhân Tạo?",
+        "expected_intent": "factual"
+    },
+    {
+        "original": "Môn cơ sở dữ liệu phân tán khác gì với môn dữ liệu lớn?",
+        "expected_intent": "compare"
+    },
+    {
+        "original": "Môn cơ sơ dữ liệu có gì khác với hệ quản trị cơ sở dữ liệu?",
+        "expected_intent": "compare"
+    },
+    {
+        "original": "Ngành Kĩ thuật phần mềm khác gì với ngành công nghệ thông tin v",
+        "expected_intent": "compare"
+    }
+]

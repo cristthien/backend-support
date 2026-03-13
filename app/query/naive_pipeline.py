@@ -8,7 +8,7 @@ import logging
 from typing import Optional, List, Dict
 
 from app.models.query import QueryResponse, QueryMetadata, SourceInfo
-from app.clients.elasticsearch import es_client
+from app.clients.elasticsearch import es_client, SearchMode
 from app.clients.ollama import ollama_client
 from app.query.generation_engine import generation_engine
 
@@ -88,7 +88,8 @@ async def run_naive_query(
     query: str,
     major: Optional[str] = None,
     top_k: int = 10,
-    include_sources: bool = True
+    include_sources: bool = True,
+    search_mode: Optional[str] = None
 ) -> QueryResponse:
     """
     Execute Naive RAG query pipeline
@@ -102,6 +103,7 @@ async def run_naive_query(
         major: Optional major filter
         top_k: Number of chunks to retrieve
         include_sources: Whether to include source info
+        search_mode: Search mode ("vector", "fulltext", "hybrid") - uses config default if None
         
     Returns:
         QueryResponse with answer, sources, and metadata
@@ -109,8 +111,8 @@ async def run_naive_query(
     start_time = time.time()
     
     logger.info(
-        "Naive Pipeline START: query='%s' | major=%s | top_k=%d",
-        query, major, top_k
+        "Naive Pipeline START: query='%s' | major=%s | top_k=%d | search_mode=%s",
+        query, major, top_k, search_mode or "default"
     )
     
     # ===== STEP 1: Generate Embedding =====
@@ -119,11 +121,23 @@ async def run_naive_query(
     
     # ===== STEP 2: Search Chunks =====
     logger.info("STEP 2: Searching chunks")
-    chunks = await es_client.search_chunks(
-        query_embedding=query_embedding,
-        major=major,
-        top_k=top_k
-    )
+    
+    # Use unified search if search_mode specified, otherwise use vector search
+    if search_mode:
+        mode_enum = SearchMode(search_mode)
+        chunks = await es_client.search_chunks_unified(
+            query=query,
+            query_embedding=query_embedding,
+            major=major,
+            top_k=top_k,
+            search_mode=mode_enum
+        )
+    else:
+        chunks = await es_client.search_chunks(
+            query_embedding=query_embedding,
+            major=major,
+            top_k=top_k
+        )
     
     # Handle no results
     if not chunks:

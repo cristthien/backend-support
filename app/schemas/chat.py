@@ -1,9 +1,6 @@
-"""
-Chat Pydantic schemas
-"""
 from pydantic import BaseModel
 from datetime import datetime
-from typing import List, Optional
+from typing import List, Optional, Literal
 
 
 class ChatSessionCreate(BaseModel):
@@ -24,8 +21,14 @@ class ChatSessionResponse(BaseModel):
 
 
 class ChatMessageCreate(BaseModel):
-    """Schema for creating a chat message"""
-    role: str  # "user" or "assistant"
+    """Schema for creating a chat message with RAG options"""
+    chat_id: Optional[int] = None  # null → create new chat
+    major: Optional[str] = None
+    top_k: Optional[int] = 15
+    enable_reranking: Optional[bool] = None
+    search_mode: Optional[Literal["vector", "fulltext", "hybrid"]] = "vector"
+    pipeline_mode: Optional[Literal["naive", "intent"]] = "intent"
+    role: Literal["user"]
     content: str
 
 

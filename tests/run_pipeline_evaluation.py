@@ -1,6 +1,10 @@
 """
 Run standard RAG pipeline (pipeline.py) on test queries and save results for evaluation
 
+NOTE: Standard pipeline uses retrieval_engine which does not yet support search_mode.
+      For search mode testing, use run_ragas_evaluation.py (intent-based pipeline)
+      or run_naive_evaluation.py.
+
 Usage:
     python tests/run_pipeline_evaluation.py               # Run all queries
     python tests/run_pipeline_evaluation.py --overview    # Run only overview intent queries

@@ -8,7 +8,7 @@ import json
 from typing import Optional, List, Dict, Tuple
 from enum import Enum
 
-from app.clients.elasticsearch import es_client
+from app.clients.elasticsearch import es_client, SearchMode
 from app.clients.ollama import ollama_client
 from app.clients.cohere_reranker import cohere_reranker
 from app.query.intent_based_prompt_engine import (
@@ -17,6 +17,7 @@ from app.query.intent_based_prompt_engine import (
 )
 from app.retrieval_engine.intent_detection import detect_intent, QueryIntent
 from app.retrieval_engine.refine_query import refine_query
+from app.core.config import settings
 
 logger = logging.getLogger(__name__)
 
@@ -34,6 +35,31 @@ class IntentBasedRetrievalEngine:
     
     def __init__(self):
         self.query_expander = SchemaAwareExpander()
+        self._search_mode = None  # Will use config default if None
+    
+    def _get_search_mode(self) -> SearchMode:
+        """Get current search mode, defaulting to config setting"""
+        if self._search_mode is None:
+            return SearchMode(settings.search_mode)
+        return self._search_mode
+    
+    async def _search_chunks(
+        self,
+        query: str,
+        query_embedding: List[float],
+        major: Optional[str] = None,
+        top_k: int = 10
+    ) -> List[Dict]:
+        """
+        Internal wrapper for chunk search using current search mode
+        """
+        return await es_client.search_chunks_unified(
+            query=query,
+            query_embedding=query_embedding,
+            major=major,
+            top_k=top_k,
+            search_mode=self._get_search_mode()
+        )
     
     # ==================== PREPROCESS ====================
     
@@ -138,7 +164,8 @@ class IntentBasedRetrievalEngine:
         all_sections = []
         for sub_query in sub_queries:
             query_embedding = await ollama_client.generate_embedding(sub_query)
-            chunks = await es_client.search_chunks(
+            chunks = await self._search_chunks(
+                query=sub_query,
                 query_embedding=query_embedding,
                 major=major,
                 top_k=15
@@ -222,7 +249,8 @@ class IntentBasedRetrievalEngine:
         logger.info("Strategy: STRUCTURE (section expanded)")
         
         # Search chunks
-        chunks = await es_client.search_chunks(
+        chunks = await self._search_chunks(
+            query=refined_query,
             query_embedding=query_embedding,
             major=major,
             top_k=15
@@ -270,7 +298,7 @@ class IntentBasedRetrievalEngine:
         # Retrieve for entity 1
         expanded_entity1 = await self.query_expander.expand(entity1, QueryIntent.COMPARE)
         emb1 = await ollama_client.generate_embedding(expanded_entity1)
-        chunks1 = await es_client.search_chunks(query_embedding=emb1, major=major, top_k=10)
+        chunks1 = await self._search_chunks(query=expanded_entity1, query_embedding=emb1, major=major, top_k=10)
         chunks1 = await cohere_reranker.rerank_chunks(entity1, chunks1, top_n=5)
         ids1 = list(dict.fromkeys(c.get("section_id") for c in chunks1 if c.get("section_id")))
         sections1 = await es_client.get_sections_by_ids(ids1[:4])
@@ -278,7 +306,7 @@ class IntentBasedRetrievalEngine:
         # Retrieve for entity 2
         expanded_entity2 = await self.query_expander.expand(entity2, QueryIntent.COMPARE)
         emb2 = await ollama_client.generate_embedding(expanded_entity2)
-        chunks2 = await es_client.search_chunks(query_embedding=emb2, major=major, top_k=10)
+        chunks2 = await self._search_chunks(query=expanded_entity2, query_embedding=emb2, major=major, top_k=10)
         chunks2 = await cohere_reranker.rerank_chunks(entity2, chunks2, top_n=5)
         ids2 = list(dict.fromkeys(c.get("section_id") for c in chunks2 if c.get("section_id")))
         sections2 = await es_client.get_sections_by_ids(ids2[:4])
@@ -313,7 +341,8 @@ class IntentBasedRetrievalEngine:
         """
         logger.info("Strategy: FACTUAL (chunk rerank)")
         
-        chunks = await es_client.search_chunks(
+        chunks = await self._search_chunks(
+            query=refined_query,
             query_embedding=query_embedding,
             major=major,
             top_k=20
@@ -364,7 +393,8 @@ class IntentBasedRetrievalEngine:
         expanded_query = await self.query_expander.expand(query= refined_query, intent=QueryIntent.ROADMAP)
         logger.info("Expanded query: %s", expanded_query)
         query_embedding = await ollama_client.generate_embedding(expanded_query)
-        chunks = await es_client.search_chunks(
+        chunks = await self._search_chunks(
+            query=expanded_query,
             query_embedding=query_embedding,
             major=major,
             top_k=10
@@ -396,7 +426,8 @@ class IntentBasedRetrievalEngine:
         
         for exp_query in expansion_queries[:3]: 
             emb = await ollama_client.generate_embedding(exp_query)
-            add_chunks = await es_client.search_chunks(
+            add_chunks = await self._search_chunks(
+                query=exp_query,
                 query_embedding=emb,
                 major=major,
                 top_k=3
@@ -583,14 +614,27 @@ class IntentBasedRetrievalEngine:
         self,
         query: str,
         major: Optional[str] = None,
-        enable_reranking: bool = True
+        enable_reranking: bool = True,
+        search_mode: Optional[str] = None
     ) -> Tuple[List[Dict], QueryIntent]:
         """
         Full retrieval pipeline: preprocess → core → postprocess
         
+        Args:
+            query: User query text
+            major: Optional major filter
+            enable_reranking: Whether to enable reranking
+            search_mode: Search mode ("vector", "fulltext", "hybrid") - uses config default if None
+            
         Returns:
             Tuple of (sections, detected_intent)
         """
+        # Set search mode for this retrieval
+        if search_mode is not None:
+            self._search_mode = SearchMode(search_mode)
+        else:
+            self._search_mode = None  # Use config default
+        
         # Preprocess
         intent, refined_query = await self.preprocess(query, major)
         
@@ -621,11 +665,18 @@ class IntentBasedRetrievalEngine:
         self,
         query: str,
         major: Optional[str] = None,
-        enable_reranking: bool = True
+        enable_reranking: bool = True,
+        search_mode: Optional[str] = None
     ) -> Tuple[List[Dict], Dict]:
         """
         Run retrieval pipeline (compatible with existing code)
         
+        Args:
+            query: User query text
+            major: Optional major filter
+            enable_reranking: Whether to enable reranking
+            search_mode: Search mode ("vector", "fulltext", "hybrid") - uses config default if None
+            
         Returns:
             Tuple of (sections, metadata_dict)
         """
@@ -633,13 +684,15 @@ class IntentBasedRetrievalEngine:
         start_time = time.time()
         
         # Execute pipeline
-        sections, intent = await self.retrieve(query, major, enable_reranking)
+        sections, intent = await self.retrieve(query, major, enable_reranking, search_mode)
         
         # Build metadata
         retrieval_time = (time.time() - start_time) * 1000
+        actual_search_mode = self._get_search_mode().value
         metadata = {
             "intent": intent.value,
             "strategy": f"{intent.value}_strategy",
+            "search_mode": actual_search_mode,
             "retrieval_time_ms": retrieval_time,
             "num_sections": len(sections),
             "major": major

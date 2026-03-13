@@ -47,6 +47,15 @@ class Settings(BaseSettings):
     # Query Expansion Configuration
     enable_query_expansion: bool = True
     
+    # Search Mode Configuration
+    search_mode: str = "vector"  # "vector", "fulltext", "hybrid"
+    hybrid_vector_weight: float = 0.7
+    hybrid_text_weight: float = 0.3
+    
+    # History Context Configuration
+    enable_history_context: bool = True
+    history_context_window: int = 5  # Number of messages to use for context
+    
     # PostgreSQL Configuration
     postgres_host: str = "localhost"
     postgres_port: int = 5432

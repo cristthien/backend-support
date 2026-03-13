@@ -2,7 +2,7 @@
 Pydantic models for query request/response
 """
 from pydantic import BaseModel, Field
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict, Any, Literal
 
 
 class QueryRequest(BaseModel):
@@ -12,6 +12,8 @@ class QueryRequest(BaseModel):
     top_k: int = Field(15, description="Number of chunks to retrieve", ge=1, le=50)
     include_sources: bool = Field(True, description="Whether to include source sections in response")
     enable_reranking: Optional[bool] = Field(None, description="Enable Cohere reranking (None = use config default)")
+    search_mode: Optional[Literal["vector", "fulltext", "hybrid"]] = Field(None, description="Search mode: vector, fulltext, or hybrid")
+    pipeline_mode: Optional[Literal["naive", "intent"]] = Field("intent", description="Pipeline mode: naive or intent")
 
 
 class SourceInfo(BaseModel):

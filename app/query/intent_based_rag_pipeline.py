@@ -36,7 +36,8 @@ class IntentBasedRAGPipeline:
         major: Optional[str] = None,
         top_k: int = 10,
         enable_reranking: bool = None,
-        enable_query_expansion: bool = None
+        enable_query_expansion: bool = None,
+        search_mode: str = None
     ) -> Dict:
         """
         Execute complete RAG pipeline with intent-based optimization
@@ -47,6 +48,7 @@ class IntentBasedRAGPipeline:
             top_k: Number of results to retrieve
             enable_reranking: Override global reranking setting
             enable_query_expansion: Override global expansion setting
+            search_mode: Search mode ("vector", "fulltext", "hybrid") - uses config default if None
             
         Returns:
             Dict with keys:
@@ -66,7 +68,7 @@ class IntentBasedRAGPipeline:
         logger.info("INTENT-BASED RAG PIPELINE")
         logger.info("="*80)
         logger.info(f"Query: '{query}'")
-        logger.info(f"Config: major={major}, top_k={top_k}, rerank={enable_reranking}, expand={enable_query_expansion}")
+        logger.info(f"Config: major={major}, top_k={top_k}, rerank={enable_reranking}, expand={enable_query_expansion}, search_mode={search_mode}")
         
         # ===== PHASE 1: RETRIEVAL =====
         logger.info("\n[PHASE 1] RETRIEVAL")
@@ -76,7 +78,8 @@ class IntentBasedRAGPipeline:
         sections, retrieval_metadata = await intent_engine.run(
             query=query,
             major=major,
-            enable_reranking=enable_reranking
+            enable_reranking=enable_reranking,
+            search_mode=search_mode
         )
         retrieval_time = (time.time() - retrieval_start) * 1000
         
@@ -174,16 +177,25 @@ class IntentBasedRAGPipeline:
         major: Optional[str] = None,
         top_k: int = 10,
         enable_reranking: bool = None,
-        enable_query_expansion: bool = None
+        enable_query_expansion: bool = None,
+        search_mode: str = None
     ):
         """
         Execute pipeline with streaming generation
+        
+        Args:
+            query: User query text
+            major: Optional major filter
+            top_k: Number of results to retrieve
+            enable_reranking: Override global reranking setting
+            enable_query_expansion: Override global expansion setting
+            search_mode: Search mode ("vector", "fulltext", "hybrid") - uses config default if None
         
         Returns:
             AsyncGenerator that yields:
                 - {"type": "metadata", "data": {...}}
                 - {"type": "sources", "data": [...]}
-                - {"type": "answer_chunk", "data": "text"}
+                - {"type": "answer_chunk", "data": "ragtext"}
                 - {"type": "done"}
         """
         start_time = time.time()
@@ -198,7 +210,8 @@ class IntentBasedRAGPipeline:
         sections, retrieval_metadata = await intent_engine.run(
             query=query,
             major=major,
-            enable_reranking=enable_reranking
+            enable_reranking=enable_reranking,
+            search_mode=search_mode
         )
         
         # Yield metadata

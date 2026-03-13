@@ -1,7 +1,7 @@
 """
 Chat CRUD routes - Simplified with lazy creation and Intent-Based RAG
 """
-from typing import Optional
+from typing import Optional, Literal
 from fastapi import APIRouter, Depends, HTTPException, status, Query
 from fastapi.responses import StreamingResponse
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -18,9 +18,16 @@ from app.models.user import User
 from app.models.chat import MessageRole
 from app.repositories import chat_repository
 from app.core.security import get_current_active_user
+from app.core.config import settings
 from app.clients.ollama import ollama_client
 from app.clients.elasticsearch import es_client
 from app.query.intent_based_rag_pipeline import rag_pipeline
+from app.query.naive_pipeline import run_naive_query
+from app.services.history_contextualizer import history_contextualizer, ChatMessage
+
+# Type aliases for search and pipeline modes
+SearchModeType = Literal["vector", "fulltext", "hybrid"]
+PipelineModeType = Literal["naive", "intent"]
 
 router = APIRouter(prefix="/api/chats", tags=["Chats"])
 logger = logging.getLogger(__name__)
@@ -116,25 +123,30 @@ async def delete_chat_session(
 @router.post("/chat", response_model=ChatResponse, status_code=status.HTTP_201_CREATED)
 async def chat_with_rag(
     message: ChatMessageCreate,
-    chat_id: Optional[int] = Query(None, description="Chat session ID. If not provided, creates new session."),
-    major: Optional[str] = Query(None, description="Filter by major"),
-    top_k: int = Query(15, ge=1, le=50),
-    enable_reranking: Optional[bool] = None,
     current_user: User = Depends(get_current_active_user),
     db: AsyncSession = Depends(get_db)
 ):
     """
-    Chat with Intent-Based RAG assistant (regular response)
+    Chat with RAG assistant (regular response)
     
-    - If `chat_id` is provided: continues existing chat session
-    - If `chat_id` is NOT provided: creates new session with auto-generated title
+    Request body fields:
+    - `chat_id`: Chat session ID. If not provided, creates new session.
+    - `major`: Optional major filter
+    - `top_k`: Number of results (default: 15)
+    - `enable_reranking`: Enable/disable reranking
+    - `search_mode`: "vector", "fulltext", or "hybrid"
+    - `pipeline_mode`: "naive" or "intent" (default: intent)
+    - `role`: Must be "user"
+    - `content`: Message content
     
-    Uses Intent-Based RAG pipeline:
-    1. Intent Detection (CHUNK_LEVEL / SECTION_LEVEL / HIERARCHICAL)
-    2. Schema-aware Query Expansion
-    3. Smart Retrieval (strategy based on intent)
-    4. Reranking (optional)
-    5. Intent-aware Answer Generation
+    Pipeline modes:
+    - **intent**: Intent-Based RAG with smart retrieval strategies
+    - **naive**: Simple RAG (no query expansion, no reranking, no section expansion)
+    
+    Search modes:
+    - **vector**: Dense vector search (kNN)
+    - **fulltext**: BM25 text search
+    - **hybrid**: Combined vector + fulltext with RRF
     
     Returns:
         - chat_id: Chat session ID
@@ -143,18 +155,20 @@ async def chat_with_rag(
         - sources: List of source sections/chunks
         - metadata: Pipeline metadata including intent, timing, etc.
     """
-    # Validate role
-    if message.role != "user":
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Only 'user' messages can be sent to this endpoint"
-        )
+    # Extract parameters from body
+    chat_id = message.chat_id
+    major = message.major
+    top_k = message.top_k or 15
+    enable_reranking = message.enable_reranking
+    search_mode = message.search_mode or "vector"
+    pipeline_mode = message.pipeline_mode or "intent"
     
     # Ensure ES connection
     if not es_client.client:
         await es_client.connect()
     
-    # Get or create chat session
+    # Get or create chat session + load history for context
+    chat_history = []
     if chat_id:
         # Existing chat - verify ownership
         chat = await chat_repository.get_chat_by_id(db, chat_id, current_user.id)
@@ -163,6 +177,13 @@ async def chat_with_rag(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail="Chat session not found"
             )
+        # Load chat history for context
+        if settings.enable_history_context:
+            db_messages = await chat_repository.get_chat_messages(db, chat_id)
+            chat_history = [
+                ChatMessage(role=msg.role, content=msg.content)
+                for msg in db_messages
+            ]
     else:
         # New chat - create with auto-generated title
         title = await generate_chat_title(message.content)
@@ -171,7 +192,7 @@ async def chat_with_rag(
             user_id=current_user.id,
             title=title
         )
-        logger.info(f"Created new chat session {chat.id} with title: {title}")
+        logger.info("Created new chat session %d with title: %s", chat.id, title)
     
     # Save user message
     await chat_repository.add_message(
@@ -181,17 +202,57 @@ async def chat_with_rag(
         content=message.content
     )
     
-    # Run Intent-Based RAG query
-    try:
-        result = await rag_pipeline.run(
+    # Contextualize query using history (resolve references like "nó", "cái đó")
+    if chat_history and settings.enable_history_context:
+        contextualized_query = await history_contextualizer.contextualize(
             query=message.content,
-            major=major,
-            top_k=top_k,
-            enable_reranking=enable_reranking,
-            enable_query_expansion=True
+            history=chat_history,
+            max_history=settings.history_context_window
         )
+    else:
+        contextualized_query = message.content
+    
+    # Run RAG query based on pipeline_mode
+    try:
+        if pipeline_mode == "naive":
+            response = await run_naive_query(
+                query=contextualized_query,
+                major=major,
+                top_k=top_k,
+                include_sources=True,
+                search_mode=search_mode
+            )
+            result = {
+                "answer": response.answer,
+                "sources": [
+                    {
+                        "section_id": src.section_id,
+                        "title": src.title,
+                        "hierarchy_path": src.hierarchy_path,
+                        "text_preview": src.text_preview,
+                        "score": src.score
+                    }
+                    for src in response.sources
+                ],
+                "metadata": {
+                    "pipeline": "naive",
+                    "search_mode": search_mode or "vector",
+                    "major": response.metadata.major_used,
+                    "chunks_retrieved": response.metadata.chunks_retrieved,
+                    "sections_retrieved": response.metadata.sections_retrieved,
+                    "total_time_ms": response.metadata.total_time_ms
+                }
+            }
+        else:
+            result = await rag_pipeline.run(
+                query=contextualized_query,
+                major=major,
+                top_k=top_k,
+                enable_reranking=enable_reranking,
+                enable_query_expansion=True,
+                search_mode=search_mode
+            )
         
-        # Format sources for database storage (include content to avoid re-querying ES)
         db_sources = [
             {
                 "id": src.get("section_id"),
@@ -211,8 +272,7 @@ async def chat_with_rag(
             role=MessageRole.ASSISTANT,
             content=result["answer"],
             sources=db_sources if db_sources else None
-        )
-        
+        ) 
         return ChatResponse(
             chat_id=chat.id,
             message_id=assistant_message.id,
@@ -232,18 +292,27 @@ async def chat_with_rag(
 @router.post("/chat/stream")
 async def chat_with_rag_stream(
     message: ChatMessageCreate,
-    chat_id: Optional[int] = Query(None, description="Chat session ID. If not provided, creates new session."),
-    major: Optional[str] = Query(None, description="Filter by major"),
-    top_k: int = Query(15, ge=1, le=50),
-    enable_reranking: Optional[bool] = None,
     current_user: User = Depends(get_current_active_user),
     db: AsyncSession = Depends(get_db)
 ):
     """
     Chat with Intent-Based RAG assistant (streaming response)
     
-    - If `chat_id` is provided: continues existing chat session
-    - If `chat_id` is NOT provided: creates new session with auto-generated title
+    Request body fields:
+    - `chat_id`: Chat session ID. If not provided, creates new session.
+    - `major`: Optional major filter
+    - `top_k`: Number of results (default: 15)
+    - `enable_reranking`: Enable/disable reranking
+    - `search_mode`: "vector", "fulltext", or "hybrid"
+    - `role`: Must be "user"
+    - `content`: Message content
+    
+    Note: Streaming only supports intent pipeline (pipeline_mode is ignored).
+    
+    Search modes:
+    - **vector**: Dense vector search (kNN)
+    - **fulltext**: BM25 text search
+    - **hybrid**: Combined vector + fulltext with RRF
     
     Returns Server-Sent Events (SSE) stream:
     - {"type": "chat_info", "data": {"chat_id": 123}}
@@ -252,18 +321,20 @@ async def chat_with_rag_stream(
     - {"type": "answer_chunk", "data": "text"}
     - {"type": "done", "data": {"message_id": 456}}
     """
-    # Validate role
-    if message.role != "user":
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Only 'user' messages can be sent to this endpoint"
-        )
+    # Extract parameters from body
+    chat_id = message.chat_id
+    major = message.major
+    top_k = message.top_k or 15
+    enable_reranking = message.enable_reranking
+    search_mode = message.search_mode or "vector"
+    logger.info("Chat streaming with RAG: chat_id=%s, search_mode=%s", chat_id, search_mode)
     
     # Ensure ES connection
     if not es_client.client:
         await es_client.connect()
     
-    # Get or create chat session
+    # Get or create chat session + load history for context
+    chat_history = []
     if chat_id:
         chat = await chat_repository.get_chat_by_id(db, chat_id, current_user.id)
         if not chat:
@@ -271,6 +342,13 @@ async def chat_with_rag_stream(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail="Chat session not found"
             )
+        # Load chat history for context
+        if settings.enable_history_context:
+            db_messages = await chat_repository.get_chat_messages(db, chat_id)
+            chat_history = [
+                ChatMessage(role=msg.role, content=msg.content)
+                for msg in db_messages
+            ]
     else:
         title = await generate_chat_title(message.content)
         chat = await chat_repository.create_chat_session(
@@ -278,7 +356,7 @@ async def chat_with_rag_stream(
             user_id=current_user.id,
             title=title
         )
-        logger.info(f"Created new chat session {chat.id} with title: {title}")
+        logger.info("Created new chat session %d with title: %s", chat.id, title)
     
     # Save user message
     await chat_repository.add_message(
@@ -287,6 +365,16 @@ async def chat_with_rag_stream(
         role=MessageRole.USER,
         content=message.content
     )
+    
+    # Contextualize query using history
+    if chat_history and settings.enable_history_context:
+        contextualized_query = await history_contextualizer.contextualize(
+            query=message.content,
+            history=chat_history,
+            max_history=settings.history_context_window
+        )
+    else:
+        contextualized_query = message.content
     
     # Stream generator
     async def stream_generator():
@@ -297,11 +385,12 @@ async def chat_with_rag_stream(
             yield f"data: {json.dumps({'type': 'chat_info', 'data': {'chat_id': chat.id}}, ensure_ascii=False)}\n\n"
             
             async for chunk in rag_pipeline.run_with_streaming(
-                query=message.content,
+                query=contextualized_query,
                 major=major,
                 top_k=top_k,
                 enable_reranking=enable_reranking,
-                enable_query_expansion=True
+                enable_query_expansion=True,
+                search_mode=search_mode
             ):
                 # Forward pipeline chunks
                 yield f"data: {json.dumps(chunk, ensure_ascii=False)}\n\n"
